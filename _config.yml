@@ -1,0 +1,31 @@
+name: ChinPen
+description: CoreDump 4.0
+
+destination: ./_publish
+plugins:     ./_plugins
+layouts:     ./_layouts
+
+timezone:    Singapore/Singapore
+encoding:    UTF-8
+
+# Owner/author information
+owner:
+  name:          Chinmay Pendharkar
+  avatar:         chinpen.jpg
+  email:          chinpen@chinpen.net
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: ntt
+  facebook: chinpen
+  github: notthetup
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: About
+    url: /about/
+
+permalink: /:title
+markdown: redcarpet
+url: http://chinpen.net/blog
+
+exclude: ['readme.md']
