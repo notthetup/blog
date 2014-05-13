@@ -29,4 +29,4 @@ links:
 permalink: /:title
 markdown: redcarpet
 
-exclude: ['readme.md', 'archives']
+exclude: ["readme.md", "archives", "Gruntfile.js", "package.json", "node_modules", "less"]
