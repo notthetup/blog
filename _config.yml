@@ -1,5 +1,7 @@
-name: ChinPen
-description: CoreDump 4.0
+title: ChinPen
+description: "Technology, Audio and other Geekery"
+logo:           site-logo.png
+url:              http://localhost:4000
 
 destination: ./_publish
 plugins:     ./_plugins
@@ -10,7 +12,7 @@ encoding:    UTF-8
 
 # Owner/author information
 owner:
-  name:          Chinmay Pendharkar
+  name:          Chinmay
   avatar:         chinpen.jpg
   email:          chinpen@chinpen.net
   # Social networking links used in footer. Update and remove as you like.
@@ -26,6 +28,5 @@ links:
 
 permalink: /:title
 markdown: redcarpet
-url: http://chinpen.net/blog
 
-exclude: ['readme.md']
+exclude: ['readme.md', 'archives']
