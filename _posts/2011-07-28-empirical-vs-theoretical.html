@@ -1,0 +1,40 @@
+---
+layout: post
+title: Empirical vs Theoretical
+categories:
+- Acoustics
+- Audio
+- Tech
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_done_all: '1'
+  _wp_jd_bitly: http://bit.ly/13q13bf
+  _wp_jd_target: http://chinpen.net/blog/2011/07/empirical-vs-theoretical/
+  _wpt_failed: 'a:5:{s:6:"author";b:0;s:8:"sentence";s:57:"Blog Post: Empirical vs
+    Theoretical http://bit.ly/13q13bf";s:5:"error";s:71:"401 Unauthorized: Authentication
+    credentials were missing or incorrect.";s:4:"code";i:401;s:9:"timestamp";i:1361506554;}'
+  posterous_e07c933365b41a57f2dc15ad8e4bcf14_post_id: '60004021'
+  posterous_e07c933365b41a57f2dc15ad8e4bcf14_permalink: http://researchingacoustics.posterous.com/empirical-vs-theoratical
+  _wp-svbtle-kudos: '21'
+author:
+  login: chinpen
+  email: chinpen@chinpen.net
+  display_name: chinpen
+  first_name: Chin
+  last_name: Pen
+---
+
+<p>When it comes to look and natural phenomenon and trying to understand it, there're always two ways of going at it. You can either start form the basic principles and work you way up to the context of the phenomenon being studied, or you can start with phenomenon, measure it in multiple ways and try to make sense of it by looking for some patterns.</p>
+<p>The first way is of course known as the Theoretical approach and the second as the Empirical approach. Both approaches have their own benefits and limitations. And real life, most models of natural phenomenon are made using a combine of the two approaches.</p>
+<p>So let's take the example which I'm working with, on estimating the loss of <a href="http://en.wikipedia.org/wiki/Sound_pressure">sound pressure level(SPL)</a> because of a certain <a href="http://en.wikipedia.org/wiki/Helmholtz_resonance">resonator</a> placed in the path between a source and a receiver of sound. Sound simple enough.</p>
+<p>The theoretical approach requires one to make a model of how the resonator interacts with the environment around it, and integrate that into the model of outdoor noise propagation. Both the model of the resonator and the propagation model are based on mathematical theories and can be worked out from the basics. For examples, the propagation model is based on the solution of the <a href="http://en.wikipedia.org/wiki/Wave_equation">wave equation</a> in a unbounded medium.</p>
+<p>The theoretical approach is great as it ensures it is based on laws and concepts which have been verified. Hence a verified theoretical model can then be used to estimate real life scenarios with significant confidence. Furthermore, a theoretical model can also be extended and used in other environment by substituting the appropriate parameters or sub-models (for example in our case the same model can be used to estimate the effect of a pipe instead of a resonator).</p>
+<p>The limitation theoretical lie in the complexity of the underlying mechanism of the phenomenon. If those underlying mechanism are not properly understood, and or incorrectly estimated, the theory will not hold up and the model will not be robust enough. The challenge in many research fields is to actually know if the underlying mechanism of the phenomenon is completely understood and modeled appropriately or not. In a situation where it's hard to understand or know such details, a empirical approach can help.</p>
+<p>The empirical approach on the other hand, involves creating the setup of the source, resonator and receiver in a controlled environment and measuring the loss of SPL at various positions. The data recovered from these set of experiments would allow us to see the patterns and estimate some kind of equations or relations between the various parameters.</p>
+<p>The benefit of such an approach is that it doesn't require much detailed look into the actual physics or mathematics of the involved phenomenon. Which does mean that quite a few 'hard to calculate' phenomenon can be modeled this way. It is also beneficial in the cases where complicated phenomenon have to be simplified to be used in other models. For example, in the model of the resonator, <a href="http://en.wikipedia.org/wiki/Drag_(physics)">viscous losses</a> of the air flowing in the resonator have to be modeled. Instead of using a complete theoretical fluid dynamics model to estimate the viscous losses, an empirical model can be calculated from the measurements leading to a much simpler and faster estimation of the losses.</p>
+<p>Therein lies the limitation of this method. Empirical models are very hard to extend beyond the measured setup. Simplification and approximations tend to fail when the context of the phenomenon is changed. For examples, the empirical model for viscous losses will have to change when used to model the resonator in an environment with a different air temperature. Of course, the natural progression in that case is to take a bunch of measurements at various temperatures and find a trend and work that into the empirical mode. But that road just leads to more and more complicated models, and finally something that's even more unwieldy than the theoretical model.</p>
+<p>So finally, a good model sticks with the theory where ever it needs to but uses empirical data when it can simplify the life of the user. :)</p>
+<p>&nbsp;</p>

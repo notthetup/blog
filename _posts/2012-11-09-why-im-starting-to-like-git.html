@@ -1,0 +1,48 @@
+---
+layout: post
+title: Why I'm starting to like git.
+categories:
+- Dev
+- Tech
+tags:
+- clearcase
+- cvs
+- developement
+- git
+- svn
+- vcs
+- version control
+status: publish
+type: post
+published: true
+meta:
+  _oembed_0c7e229464b7f6a519efcb0df1e65375: <iframe width="500" height="281" src="http://www.youtube.com/embed/Foz9yvMkvlA?feature=oembed"
+    frameborder="0" allowfullscreen></iframe>
+  _wp-svbtle-kudos: '44'
+  _edit_last: '1'
+  _jd_tweet_this: 'yes'
+  _thumbnail_id: '1155'
+  _wp_jd_target: http://chinpen.net/blog/2012/11/why-im-starting-to-like-git/
+  _wp_jd_bitly: http://bit.ly/SyoTNd
+  _jd_wp_twitter: 'a:1:{i:0;s:61:"Blog Post: Why I''m starting to like git. http://bit.ly/SyoTNd";}'
+  _wpt_failed: 'a:5:{s:6:"author";s:0:"";s:8:"sentence";s:61:"Blog Post: Why I''m
+    starting to like git. http://bit.ly/SyoTNd";s:5:"error";s:71:"This tweet is identical
+    to another Tweet recently sent to this account.";s:4:"code";s:3:"403";s:9:"timestamp";s:10:"1352433438";}'
+author:
+  login: chinpen
+  email: chinpen@chinpen.net
+  display_name: chinpen
+  first_name: Chin
+  last_name: Pen
+---
+<p>Versioning systems is probably the thing that's argued about next most often after editors when it comes to developers. I remember the <a href="http://en.wikipedia.org/wiki/Concurrent_Versions_System">CVS</a> vs <a href="http://en.wikipedia.org/wiki/Apache_Subversion">SVN</a> <a href="http://stackoverflow.com/questions/245290/subversion-vs-cvs">arguments</a> when I first started to know about versioning systems. As always the inertia makes it hard for people to move unless there is a feature which really makes their life easier.</p>
+<p>Sad to say, I never learnt about CVS or SVN while in school. My first versioning system was <a href="http://www-01.ibm.com/software/awdtools/clearcase/">Clearcase</a> (oh! the horror). But it was a large corporation. Everyone was using clearcase, and there was definitely loads of support (tutorials, scripts, and people) to pick up and get good at clearcase. We did <a href="http://techpubs.sgi.com/library/dynaweb_docs/0620/SGI_Developer/books/ClrC_CG/sgi_html/ch01.html">crazy configuration management with clearcase</a>. Massive merges which took hours, and script which automated all sorts of build, version and release processes. The horror faded away to efficiency (alias were my best friends) and effectivity. It was a <a href="http://stackoverflow.com/questions/645008/what-are-the-basic-clearcase-concepts-every-developer-should-know/645771#645771">heavy duty industrial strength system</a> which was able to bend and work as per your will. It has it's quirks, but nothing a little bash script couldn't solve. And my favorite part was the nice version trees it could make and show. It was great for a noob like me.</p>
+<p><a href="http://svn.haxx.se/dev/archive-2006-07/0171.shtml" rel="attachment wp-att-1161"><img src="http://chinpen.net/blog/wp-content/uploads/2012/11/clearcase_tree-1024x495.png" alt="" title="clearcase_tree" width="512" height="245" class="alignnone size-large wp-image-1161" /></a></p>
+<p>A part of my second job was to upgrade the web server, which incidentally also hosted the local code repository. That's when I first looked at <a href="http://git-scm.com/">git</a>. Being new and shiny, I wondered if it was a viable upgrade to the current SVN system that was being used. But it was shot down by engineers too used to SVN and not wanting to move.</p>
+<p>After that my need for heavy duty versioning died. Most code was personal projects which rarely had multiple versions. I relied on <a href="https://www.dropbox.com/help/11/en">Dropbox for basic versioning</a> ("oops I accidentally deleted a file I wanted") but that was that.</p>
+<p><a href="http://chinpen.net/blog/2012/11/why-im-starting-to-like-git/subversion/" rel="attachment wp-att-1151"><img src="http://chinpen.net/blog/wp-content/uploads/2012/11/Subversion-300x41.png" alt="" title="Subversion" width="300" height="41" class="alignnone size-medium wp-image-1151" /></a></p>
+<p>At my current job, we used SVN. It was the first time I had to do heavy branching with SVN (multiple platform support). And that's what made me get annoyed. The whole dumb copy idea of branching was so confusing. To add to that the <a href="http://tortoisesvn.net/">SVN client on both Windows</a> and <a href="http://subclipse.tigris.org/">OSX</a> were next to horrible. It was hard to understand what was going on and why there were errors in merges. Error messages were cryptic and most importantly there was no community to rely on for help.</p>
+<p><a href="http://chinpen.net/blog/2012/11/why-im-starting-to-like-git/git-logo-2color/" rel="attachment wp-att-1155"><img src="http://chinpen.net/blog/wp-content/uploads/2012/11/Git-Logo-2Color-300x125.png" alt="" title="Git-Logo-2Color" width="300" height="125" class="alignnone size-medium wp-image-1155" /></a></p>
+<p>When I found out that our online code repository supported git, I immediately moved everything to git. Boy was that a great idea! Coming from clearcase, git has a very small initial learning curve. Some concepts are a little hard to grasp. In clearcase setup I used, <a href="http://publib.boulder.ibm.com/infocenter/cchelp/v7r1m2/index.jsp?topic=/com.ibm.rational.clearcase.cc_admin.doc/topics/r_access_view_dynamic.htm">all files were read-only till you checked them out</a>. While in git, your files are always "checked out". The whole <a href="http://betterexplained.com/articles/aha-moments-when-learning-git/">staging thing in git</a> is also a little confusing at first. But what really helped was the millions (and I'm not kidding) of git videos, tutorials and stackoverflow answers there are. From the smallest thing to the weirdest operation, there's someone to help you out in whatever you're trying to do. And THAT was my golden ticket. The <a href="http://stackoverflow.com/questions/tagged/git">community around git</a> really make git a great versioning system for me. If I'm stuck I can find commands/scripts/tricks just by asking around. This also applies to tools used for git (although I'm sticking to command line on OSX). On OSX there's a plethora (<a href="http://www.gitboxapp.com">GitBox</a>, <a href="http://www.git-tower.com">Tower</a>, <strike><a href="http://mac.github.com/">Github</a></strike>, <a href="http://sourcetreeapp.com">SourceTree</a>) of beautiful looking tools if you don't like CLI. On Windows <a href="http://code.google.com/p/gitextensions/">GitExtensions</a> is a very intuitive tool with a nice tree showing your repo. And then there's <a href="https://github.com/notthetup">github</a>..</p>
+<p>http://www.youtube.com/watch?v=Foz9yvMkvlA</p>
+<p>Yup so tl;dr.. My reasons for moving to git is the community around it and the availability of great tools.</p>

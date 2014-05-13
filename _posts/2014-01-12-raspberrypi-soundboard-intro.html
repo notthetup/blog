@@ -1,0 +1,49 @@
+---
+layout: post
+title: RaspberryPi Soundboard - Intro
+categories:
+- Cool Stuff
+- Dev
+- Gadgets
+tags: []
+status: publish
+type: post
+published: true
+meta:
+  _wpas_skip_5867696: '1'
+  _wpas_done_all: '1'
+  _edit_last: '1'
+  _wp-svbtle-kudos: '3'
+author:
+  login: chinpen
+  email: chinpen@chinpen.net
+  display_name: chinpen
+  first_name: Chin
+  last_name: Pen
+---
+<p>One of the additional elements in our <a href="http://chinpen.net/blog/2013/11/streaming-audio/">WeBuild Live podcast set-up</a> is a <a href="http://en.wikipedia.org/wiki/Soundboard_(computer_program)">Soundboard</a>, which lets me trigger sound effects during the show. That board also controls the intro and outro music. Since this needs to be heard in the Live broadcast as well, and post processed, I had to give it its own channel in Mumble. To make life easy, I used an spare Macbook I had lying around, and loaded up Mumble, <a href="http://cycling74.com/soundflower-landing-page/">Soundflower </a>(useful for piping audio between applications) and found <a href="http://soundplant.org/">SoundPlant</a> (caveat: Soundplant interface looks old, but is pretty useful for what it does).</p>
+<p>The current set-up works, but I wanted to make it leaner. So after a couple of days of research, I have the rough plans for a RaspberryPi based Soundboard.</p>
+<p>The set-up I'm envisioning is as follows.</p>
+<p><strong>Hardware</strong></p>
+<ul>
+<li>RaspberryPi Model B (to be run headless)</li>
+<li>Generic USB WiFi Adapter</li>
+<li>USB Numpad (to trigger the sounds)</li>
+</ul>
+<p><strong>Software</strong></p>
+<ul>
+<li>Raspbian</li>
+<li>Mumble Client running through VNC</li>
+<li>PulseAudio (piping audio)</li>
+<li>aplay (simple audio player)</li>
+<li>Custom Python scripts to manage and trigger the audio files.</li>
+</ul>
+<p>It looks simple enough and<a href="http://de.mcbf.net/david/guide-for-music-in-mumble-using-a-linux-server/"> I found a few articles </a>on the Interwebs <a href="http://log.or.cz/?p=303">talking about similar ideas</a>, but there could be some gotchas.</p>
+<p><strong>Possible Problem Area</strong></p>
+<ul>
+<li>Latency. The audio has to be heard very quickly after the Numpad keys are pressed.</li>
+<li>Capturing Numpad Keys robustly.</li>
+<li>Mumble is a UI based program, it doesn't have much scripting support.</li>
+<li>Mechanism to show status of Mumble connections etc.</li>
+</ul>
+<p>I will post updates as I keep working on this project.</p>
