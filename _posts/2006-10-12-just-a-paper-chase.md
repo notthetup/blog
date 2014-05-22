@@ -18,9 +18,9 @@ Nevermind the fact that they would be**bored to death** at your job, and that yo
 
 I think this is also related to the 3rd reason, since many times parents' actions are affected by the society.
 
-**_Society_**. Again, I would say a more prominent **Asian** thing. Society sees certain professions as 'better' than other. I see this everywhere, to a certain extent in my parents as well. I always get annoyed when people ask whether a budding suitor for a girl is either, a doctor, a lawyer or an engineer?? Just watch some old _marathi/hindi _movies and you will know what I mean. **Surprisingly**, this happens in reality all too often...
+**_Society_**. Again, I would say a more prominent **Asian** thing. Society sees certain professions as 'better' than other. I see this everywhere, to a certain extent in my parents as well. I always get annoyed when people ask whether a budding suitor for a girl is either, a doctor, a lawyer or an engineer?? Just watch some old _marathi/hindi _movies and you will know what I mean. **Surprisingly**, this happens in reality all too often.
 
-I don't know why the society has this idea, but its surely not logical. You can see so many professionals who are doing well and yet are not in any of these 'better' areas of work. Furthermore, they are a really enjoying themselves..
+I don't know why the society has this idea, but its surely not logical. You can see so many professionals who are doing well and yet are not in any of these 'better' areas of work. Furthermore, they are a really enjoying themselves.
 
 **So are you really interested in what you are studying??**
 

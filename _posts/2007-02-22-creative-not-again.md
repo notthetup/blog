@@ -1,8 +1,7 @@
 ---
 title: Creative!! Not again!
-categories: 
+categories:
  - Audio
- - Gadgets
 ---
 
 I am going to sound like a Creative hater, but this HAS to be said. While enough has been said about the [software issues in Creative software][0], I want to rant about the hardware, the Creative Zen Vision:M

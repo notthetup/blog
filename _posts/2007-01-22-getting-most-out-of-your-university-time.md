@@ -1,6 +1,6 @@
 ---
-title: Getting most out of your University time...
-categories: 
+title: Getting most out of your University time.
+categories:
  - NUS
 ---
 
@@ -26,7 +26,7 @@ Students should challenge anything that they do not believe in or agree. This is
 
 I believe, students should not accept anything given to them blindly. While this is rampant at secondary school level, university should make students think and come up with their own conclusions. The aim is to create graduates, not mindless sheep who can only follow the leader.
 
-Once, you start challenging things, you realized how many redundant things you are doing. Do you really want to do this? What will you get from doing this? Is it really that important? Can you spend this time doing something more creative, which would help you achieve your personal goals or aims? 
+Once, you start challenging things, you realized how many redundant things you are doing. Do you really want to do this? What will you get from doing this? Is it really that important? Can you spend this time doing something more creative, which would help you achieve your personal goals or aims?
 
 _**Communicate**_
 
@@ -34,9 +34,9 @@ This is one of the most basic, but most important issue I see in local universit
 
 Students need to communicate well in order to get the most from their university education. They need to tell the lecturers what they understand, what they don't. They need communicate with their peers to exchange ideas and discuss course work. They need to communicate with people around university to generate new relationships to grow and learn. But, we don't. We prefer to stick in our own cozy cocoons and never dare to explore.
 
-I have seen so many students, which great ideas or contents for their presentation, but just lack the communication aspect of it. Their presentation fell flat. Isn't it sad, that while they knew what they wanted to say, and it did make sense, but they just couldn't get their point across. 
+I have seen so many students, which great ideas or contents for their presentation, but just lack the communication aspect of it. Their presentation fell flat. Isn't it sad, that while they knew what they wanted to say, and it did make sense, but they just couldn't get their point across.
 
-_  
+_
 While these three points are not the mantra for getting into dean's list every semester, I found them very useful in achieving a fulfilling experience during the final year. I did take many risks by challenging the norms, going beyond my comfort zone in many instances, and trying out different things. In the end, I had lots of fun, learned many things, made many new friends, and still managed to graduate at the end... _
 
 

@@ -1,7 +1,6 @@
 ---
 title: iPhone Mania
-categories: 
- - Gadgets
+categories:
  - Tech
 ---
 
@@ -24,7 +23,7 @@ I was unable to testing calling and sms, though, I cant see how iPhone can do ei
 
 Then my colleague asked me today, if I had converted after finally touching the iPhone. Well, NO. Finally, I still feel that, from a utilitarian perspective, I see no use for most of the things it can do. On the other hand, all these effects and cool graphics are actually killing my battery. The price is also a killer. It's just too expensive for something that really is a Jack of All the trades. Even as a "Wide Screen iPod" it has not enough memory for my purpose.
 
-So all in all, iPhone,**still not my type of gadget**...
+So all in all, iPhone,**still not my type of gadget**.
 
 
 [0]: http://tomato75.blogspot.com/2007/07/iphone-gathering-geek-terminal.html

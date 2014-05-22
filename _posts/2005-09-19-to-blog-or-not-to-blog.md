@@ -1,7 +1,5 @@
 ---
 title: To Blog or Not to Blog???
-categories: 
- - Random
 ---
 
 I have been contemplating about blogging for a few months. Its kinda fun, but it needs discipline. The thing that I lack the most. I mean I even had a 'cool' website once,back in secondary school days. Don't know what happened to it. Cant even seem to find it. All I remember was that it was hosted on Geocities, and the address has a "/CapeCanaveral/" inside!!!

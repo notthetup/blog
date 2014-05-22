@@ -1,7 +1,5 @@
 ---
 title: If I dig a very deep hole, where I end up??
-categories:
- - Random
 ---
 
 I always wondered this.

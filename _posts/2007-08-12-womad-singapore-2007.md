@@ -1,6 +1,6 @@
 ---
 title: Womad Singapore 2007.
-categories: 
+categories:
  - Music
 ---
 
@@ -34,14 +34,14 @@ Once again, to help people with slower connections or without flash support, I h
 
 However, you will have to go back to the [website][2] for other stuff like details about the artists and other information.
 
-The prices have gone up this year. It's S$58 at the gate, but if you are a student, you can get student's discount at $35\. I still feel it's totally worth it for the amount and quality of entertainment one can get at Womad.
+The prices have gone up this year. It's S$58 at the gate, but if you are a student, you can get student's discount at $35. I still feel it's totally worth it for the amount and quality of entertainment one can get at Womad.
 
 As I wrote in [my review last year][3], the Atmosphere, Music and Spirit come togather to create a hell of an event.
 
 So who else is going???
 
 
-[0]: http://nttup.wordpress.com/2006/08/11/womad-singapore-2006/
+[0]: http://www.chinpen.net/blog/womad-singapore-2006/
 [1]: ../images/2007/08/womad.pdf "Womad"
 [2]: http://www.womadsingapore.com/home.htm
-[3]: http://nttup.wordpress.com/2006/08/30/womad-a-review/
+[3]: http://www.chinpen.net/blog/womad-a-review/

@@ -1,11 +1,10 @@
 ---
 title: And the Penguins will rule the world!!
-categories: 
- - Cool Stuff
+categories:
  - Tech
 ---
 
-Personally, I see this to be the future.. **Penguins will rule the world!**
+Personally, I see this to be the future. **Penguins will rule the world!**
 
 ![Tux!](http://www.home.unix-ag.org/simon/penguin/penguin.png)
 

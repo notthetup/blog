@@ -1,10 +1,10 @@
 ---
 title: Is it another bubble??
-categories: 
- - Web
+categories:
+ - Tech
 ---
 
-.. the question which is on everyone's mind these days...
+The question which is on everyone's mind these days.
 
 I liked [Denise Howell's][0] take on it..
 
@@ -12,9 +12,8 @@ _"Forget about things like the fact Google's at $741 and Apple's at $191\. Were 
 
 And of course who can not resist Billy Joel??
 
-\[youtube=http://www.youtube.com/watch?v=fi4fzvQ6I-o\]
+<iframe width="420" height="315" src=http://www.youtube.com/watch?v=fi4fzvQ6I-o\  frameborder="0" allowfullscreen></iframe>
 
 In my defense, they told me to blog about it..
-
 
 [0]: http://feeds.feedburner.com/~r/zdnet/Howell/~3/180933354/
