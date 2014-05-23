@@ -1,5 +1,5 @@
 ---
-title: An afternoon at library@esplanade.
+title: An afternoon at library@esplanade
 categories:
  - Music
 ---
@@ -20,7 +20,7 @@ The view of the Marina Bay and Singapore skyline is **stunning **as always. And 
 
 The library is dedicated to the Arts. There are many book, CDs, DVD about various types of arts. And the library is classified by Music, Dance, Theatre, Film, et al.
 
-Being surrounded by all these works of artistic academia, I always get motivated to explore my own artistic side (just realized that I do have one!!). Start a new creative project.. take up something different and new.
+Being surrounded by all these works of artistic academia, I always get motivated to explore my own artistic side (just realized that I do have one!). Start a new creative project.. take up something different and new.
 
 I love the place.. And I will be hanging out there as much as I can.
 

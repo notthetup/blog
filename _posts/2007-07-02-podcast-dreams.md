@@ -1,5 +1,5 @@
 ---
-title: Podcast Dreams.
+title: Podcast Dreams
 categories:
  - Tech
 ---

@@ -1,6 +1,6 @@
 ---
 title: Audio Spotlight
-categories: 
+categories:
  - Audio
  - NUS
 ---
@@ -15,7 +15,7 @@ The idea is to be able to direct the propagation of sound, instead of letting it
 
 The idea behind is very simple, but difficult to explain. Audible sound **modulated** with an ultrasound carrier tends to demodulate itself in a certain pattern, as it propagates through the air. As to why this happens, I think it has something to do with the non-linearity in the relationship between _pressure_ and _particle velocity_. So one can use this to 'encode' the audible sound so that the demodulation can yield itself back.
 
-The uses of this are infinite. There are some listed on the [website][5]. Personally, I wait for the time when they can have one on every seat in the bus so that I can turn **TVMobile** **off**!! At least for myself...:p
+The uses of this are infinite. There are some listed on the [website][5]. Personally, I wait for the time when they can have one on every seat in the bus so that I can turn **TVMobile** **off**! At least for myself...:p
 
 
 [0]: http://www.media.mit.edu/people/bv

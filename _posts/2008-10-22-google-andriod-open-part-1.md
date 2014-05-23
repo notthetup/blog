@@ -1,5 +1,5 @@
 ---
-title: "Google Andriod : Open?? - Part 1"
+title: "Google Andriod : Open? - Part 1"
 categories:
  - Tech
 ---

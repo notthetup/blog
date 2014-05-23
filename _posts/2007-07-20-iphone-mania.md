@@ -4,16 +4,16 @@ categories:
  - Tech
 ---
 
-On Tuesday, I got to play with the iPhone. Thanks to [Paddy from Bak2u][0]!!
+On Tuesday, I got to play with the iPhone. Thanks to [Paddy from Bak2u][0]!
 
 My  impression of the iPhone has been a rollercoaster.
 
 * The initial hype [had me completely excited][1].
 * After some thought, I realized that it was [not really that great, technologically.][2]
-* The pre-Release hype and the videos that Apple release got me excited again!!
+* The pre-Release hype and the videos that Apple release got me excited again!
 * The post release reviews of the iPhone, and especially the keypad, made me dislike it.
 
-Finally when I saw it on Tuesday, I was completely excited. It was smaller and thinner than I expected. And most importantly, **it worked just fine! ** I tried surfing CNN, ping.sg and my own blog. I even left [a comment on my own blog][3]!! Hahahaah
+Finally when I saw it on Tuesday, I was completely excited. It was smaller and thinner than I expected. And most importantly, **it worked just fine! ** I tried surfing CNN, ping.sg and my own blog. I even left [a comment on my own blog][3]! Hahahaah
 
 All the sites looked really sweet. The text was crisp clear and navigating was a breeze. Though,  long pages tended to be annoying to scroll through. The map feature seems really promising and the keyboard did not give any problems.
 

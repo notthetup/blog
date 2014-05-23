@@ -10,6 +10,8 @@ layouts:     ./_layouts
 timezone:    Singapore/Singapore
 encoding:    UTF-8
 
+disqus_shortname: chinpen
+
 # Owner/author information
 owner:
   name:          Chinmay
@@ -25,10 +27,13 @@ owner:
 links:
   - title: About
     url: /about/
+  - title: All Articles
+    url: /articles/
 
 permalink: /:title
 
 exclude: ["readme.md", "archives", "Gruntfile.js", "package.json", "node_modules", "less"]
+
 
 defaults:
   -
@@ -36,3 +41,8 @@ defaults:
       path: "" # empty string for all files
     values:
       layout: "post"
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      comments: "true"

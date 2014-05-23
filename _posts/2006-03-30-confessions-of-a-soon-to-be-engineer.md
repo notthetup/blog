@@ -1,5 +1,5 @@
 ---
-title: Confessions of a 'soon to be' engineer..
+title: Confessions of a soon to be engineer
 categories:
  - NUS
 ---

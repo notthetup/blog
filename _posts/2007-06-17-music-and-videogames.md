@@ -1,5 +1,5 @@
 ---
-title: Music and Video Games.
+title: Music and Video Games
 categories:
  - Music
 ---

@@ -1,14 +1,14 @@
 ---
-title: FYP Blues and Greens.
+title: FYP Blues and Greens
 categories:
  - NUS
 ---
 
-Just finished the graded part of my FYP today. What a ride!! Its rightfully 12MCs. Trust me!
+Just finished the graded part of my FYP today. What a ride! Its rightfully 12MCs. Trust me!
 
 First, let me thank **sweska**, **jazz** and TheWeed for actually coming down to my presentation. Especially **TheWeed**, I know u were really sleep deprived. **appreciate it **!
 
-For those who missed it an image of my GUI!!
+For those who missed it an image of my GUI!
 
 ![FYPGUI.jpg](../images/2006/04/FYPGUI.jpg)
 

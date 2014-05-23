@@ -1,6 +1,6 @@
 ---
-title: USB device Charging de-mystified.
-categories: 
+title: USB device Charging de-mystified
+categories:
  - Tech
 ---
 
@@ -23,17 +23,17 @@ There are 3 classes of USB hosts and 3 classes of USB devices/functions defined 
 So the 3 USB Host Classes are..
 
 > **Root port hubs:** These are directly attached to the USB Host Controller. Systems that obtain operating power externally, either AC or DC, must supply at least five unit loads to each port
-> 
+>
 > **Bus-powered hubs:** Draw all of their power for any internal functions and downstream facing ports from VBUS on the hub's upstream facing port. Bus-powered hubs may only draw up to one unit load upon power-up and five unit loads after configuration.
-> 
+>
 > **Self-powered hubs:** Power for the internal functions and downstream facing ports does not come from VBUS. However, the USB interface of the hub may draw up to one unit load from VBUS on its upstream facing port to allow the interface to function when the remainder of the hub is powered down.
 
 And the 3 USB Device Classes are..
 
 > **Low-power bus-powered functions:** All power to these devices comes from VBUS. They may draw no more than one unit load at any time.
-> 
+>
 > **High-power bus-powered functions:** All power to these devices comes from VBUS. They must draw no more than one unit load upon power-up and may draw up to five unit loads after being configured.
-> 
+>
 > **Self-powered functions:** May draw up to one unit load from VBUS to allow the USB interface to function when the remainder of the function is powered down. All other power comes from an external (to the USB) source.
 
 So basically, there are hosts that can supply up to 500mA and devices which can sync up to 500mA. However, all **hosts and devices** will default to supplying and sinking (respectively) 100mA. And to switch to the high power mode, the device software ([USB Stack][5]) has to request the host to start providing 500mA. This request has to be done through the **Default Configuration Pipe of the connection, using "SetConfiguration" USB Device Request.** In this configuration, the value of maximum current, in mA, can be set. However, these requests go over the D+ and D- USB pins, since all **data** goes over those pins. And so, these pins have to be connected to allow the Device to request 500mA.

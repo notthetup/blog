@@ -1,5 +1,5 @@
 ---
-title: My Obsession with Sound.
+title: My Obsession with Sound
 categories:
  - Audio
 ---

@@ -1,10 +1,10 @@
 ---
-title: Womad Singapore 2007.
+title: Womad Singapore 2007
 categories:
  - Music
 ---
 
-It's [THAT][0] time of the year again, and I am excited!!!
+It's [THAT][0] time of the year again, and I am excited!!
 
 So Womad 2007 is happening on the 24-26th August at Fort Canning Park.
 

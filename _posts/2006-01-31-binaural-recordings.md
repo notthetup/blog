@@ -1,5 +1,5 @@
 ---
-title: Binaural recordings.
+title: Binaural recordings
 categories:
  - Audio
 ---
@@ -8,7 +8,7 @@ I knew about binaural recordings for a long time. Never knew the tech behind the
 
 The idea is that, when you do a stereophonic encoding, you tend to miss out certain information with respect to the position of your ears and the sources. It somewhat regenerated when you listen in a when you recreate a stereophonic field, but not totally.
 
-With binaural recording, that information is captured. The most important part of that is the HRTF, head realated transfer function. It basically models the dimensions and relative position of your ears and head. With that information, you can easily regenerate the stereophonic sound image to a greater accuracy. The best part is the way it is captured. Using microphones attached inside the ear of a 'dummy head'. You can even do it with two microphone attached to your head!!
+With binaural recording, that information is captured. The most important part of that is the HRTF, head realated transfer function. It basically models the dimensions and relative position of your ears and head. With that information, you can easily regenerate the stereophonic sound image to a greater accuracy. The best part is the way it is captured. Using microphones attached inside the ear of a 'dummy head'. You can even do it with two microphone attached to your head!
 
 However, this does mean that such recordings sound better only when heard using headphones, since they are captured at your ear.
 

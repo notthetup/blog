@@ -1,5 +1,5 @@
 ---
-title: Nature knows no Borders.
+title: Nature knows no Borders
 categories:
  - Travel
 ---

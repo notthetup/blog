@@ -1,5 +1,5 @@
 ---
-title: Work vs School.
+title: Work vs School
 categories:
  - NUS
  - Tech

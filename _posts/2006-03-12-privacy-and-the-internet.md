@@ -1,12 +1,12 @@
 ---
-title: Privacy and the Internet.
+title: Privacy and the Internet
 categories:
  - Tech
 ---
 
 Recently there has been a lot of 'hoohaa' about Internet. The_myspace.com saga_, the whole _Tammy thingy_ in Singapore. People blaming technology for being evil, or allowing evil people to do more evil things. Probably spawn more evil people. OK enough **evil**, back to my point..
 
-My point is that it is not the technology, it is you.. Yes **YOU**!! Its the people that don't realised the full meaning of what they are doing when use **technology** to do stuff. My personal favourite is people who "_socially construct_" about privacy on the internet! Let me exemplify using blogs.
+My point is that it is not the technology, it is you.. Yes **YOU**! Its the people that don't realised the full meaning of what they are doing when use **technology** to do stuff. My personal favourite is people who "_socially construct_" about privacy on the internet! Let me exemplify using blogs.
 
 Blogs were basically the virtual extensions of dairies. But, they are open to the public. The idea is for the anyone to be able to see them. Now, some people decided to lock their blogs, so that not everyone can access them. Personally, I feel its an anti-thesis to the principle of blogging, but I do understand the need of such things (_As pointed out by a friend recently._) However, **how much do you think you can keep things private on the internet**??
 

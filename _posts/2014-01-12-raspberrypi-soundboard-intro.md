@@ -1,9 +1,8 @@
 ---
-title: RaspberryPi Soundboard - Intro
-categories: 
- - Cool Stuff
- - Dev
- - Gadgets
+title: "RaspberryPi Soundboard - Intro"
+categories:
+ - Tech
+ - Audio
 ---
 
 One of the additional elements in our [WeBuild Live podcast set-up][0] is a [Soundboard][1], which lets me trigger sound effects during the show. That board also controls the intro and outro music. Since this needs to be heard in the Live broadcast as well, and post processed, I had to give it its own channel in Mumble. To make life easy, I used an spare Macbook I had lying around, and loaded up Mumble, [Soundflower ][2](useful for piping audio between applications) and found [SoundPlant][3] (caveat: Soundplant interface looks old, but is pretty useful for what it does).

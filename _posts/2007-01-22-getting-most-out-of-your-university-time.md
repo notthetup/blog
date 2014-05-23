@@ -1,5 +1,5 @@
 ---
-title: Getting most out of your University time.
+title: Getting most out of your University time
 categories:
  - NUS
 ---

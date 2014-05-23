@@ -1,5 +1,5 @@
 ---
-title: Womad, an Audio tour.
+title: Womad, an Audio tour
 categories:
  - Audio
 ---

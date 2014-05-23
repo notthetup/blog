@@ -12,7 +12,7 @@ This is what I've achieved.
 
 1\. I have a fully configured (WiFi, SSH, etc, etc) Pi running [Archlinux][1] + [i3wm][2] for GUI
 
-2\. I have [Mumble][3] running from the command line even when no display is connected to the Pi. "_Yay!!_"
+2\. I have [Mumble][3] running from the command line even when no display is connected to the Pi. "_Yay!_"
 
 3\. I have [Pulseaudio][4] running with all the correct settings on the Pi.
 
@@ -28,7 +28,7 @@ aplay **=\>** Pulseaudio null-stream **--\>** stream.monitor **=\>** Mumble.
 
 3\. Finally, getting Mumble to receive audio from Pulseaudio is straightforward, but to set it to receive it from a monitor of a sink seems challenging. The funny bit was I could easily do it using GUI ([pavucontrol][9]) but couldn't find the command (pacmd?? pactl??) to do that.
 
-Any ideas or suggestions would be welcome!! Please comment below!
+Any ideas or suggestions would be welcome! Please comment below!
 
 
 

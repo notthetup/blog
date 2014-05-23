@@ -1,6 +1,6 @@
 ---
-title: What's this Zii about??
-categories: 
+title: What's this Zii about?
+categories:
  - Audio
  - Tech
 ---
@@ -12,9 +12,9 @@ Creative technologies, yes yes.. our [DEAR Creative][0] announced a couple of we
 There were a few more details/speculation which floated around the internet. The first was an email update from Creative, which states..
 
 > _Drawing our inspiration from the intelligence of Mother Nature -- who through over a billion years of evolution has designed the basic building block of life: the stem cell -- we have created a stem cell-like silicon that is able to grow and multiply into different solutions and ecosystems.With an investment that spans over 10 years, over a billion dollars and over 10,000 man-years, the world is poised to experience a breakthrough that will better lives beyond our imagination.Even in the midst of these turbulent times, you will discover incredible recession-friendly business opportunities that enable you to thrive and prosper._
-> 
+>
 > _To find out more about Zii and how it can change your life, visit our booth (booth \#30651) at CES 2009, or go to Zii.com from 8 January 2009 for updates._
-> 
+>
 > __
 
 And the next was a [US Trademark Office search][2] for the term "Zii", which seemed to be registered under Creative for a very generic usage. It listed almost all the various fields which Creative has every dabbled with.

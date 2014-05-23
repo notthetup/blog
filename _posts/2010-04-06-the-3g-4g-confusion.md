@@ -1,6 +1,6 @@
 ---
-title: The 3G-4G confusion..
-categories: 
+title: The 3G-4G confusion
+categories:
  - Tech
 ---
 
@@ -10,7 +10,7 @@ What's this 3G/4G that we keep [hearing about everywhere][0], what does that mea
 
 The main reason for the confusion is the completely illogical and confusing naming convention and 'branding' (it sounds almost dirty) used by all the telcos and manufacturers.
 
-Let's go back to the basics..
+Let's go back to the basics.
 
 **1G. **When mobile telecommunication started off, it was analogue. All communication between the phone and the tower was just a analogue modulated signal of the speech. This is called 1G. The standards used during these times were, [NMT][1] \* [AMPS][2] \* [ETACS][3] etc.
 
@@ -28,9 +28,9 @@ So both the groups evolved their standards to quality for the new requirements. 
 
 **3.5G **Ofcourse, we can't stop at 3G, so there was enhancement to the standards. The 3GPP moved to HSPA(HSDPA and HSUPA), while 3GPP2 side went with EV-DO RevA. These were mainly just speed bumps. Confused?? The guys at commandN did a [nice table for everything until 3.5G][6].
 
-**3****.75G **We can't stop here either.****Even more speed 3GPP - HSPA+ ; 3GPP2 - EV-DO RevB.
+**3.75G** **We can't stop here either.****Even more speed 3GPP - HSPA+ ; 3GPP2 - EV-DO RevB.
 
-**3.9G (pre-4G) **Now this is where the fun starts, ITU has come up with requirements for 4G. However, the two main standards (WiMAX and LTE) gunning for this can't make it as of their current versions. But since everyone wants them to be commercialized and available, they decided to release the current versions.
+**3.9G (pre-4G)** Now this is where the fun starts, ITU has come up with requirements for 4G. However, the two main standards (WiMAX and LTE) gunning for this can't make it as of their current versions. But since everyone wants them to be commercialized and available, they decided to release the current versions.
 
 [WiMAX][7] is an IEEE standard. The current version [IEEE 802.16e-2005][8] can't be officially called 3G, but it's just one step before the next version [IEEE 802.16m][9] which should be called 4G.
 

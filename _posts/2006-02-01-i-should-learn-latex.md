@@ -1,5 +1,5 @@
 ---
-title: I should learn LaTeX.
+title: I should learn LaTeX
 categories:
  - Tech
 ---
@@ -10,4 +10,4 @@ However, todays episode is the last straw. I dont want to deal with unopenable f
 
 **LaTeX** seems to be the way to go. Though it's difficult to learn it seems very flexible. It also seems to have some kind of style sheets. I dont know how and what. That is what I should find out now. And you can make pdf projector slides as well with LaTeX and stuff like that. That mean I can say "good bye" to M$ Office. I will only need it to open things, never to create anything.
 
-Haha. Freedom at last. Just need to explore and read. A LOT!!!
+Haha. Freedom at last. Just need to explore and read. A LOT!!

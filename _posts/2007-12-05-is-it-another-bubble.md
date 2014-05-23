@@ -1,5 +1,5 @@
 ---
-title: Is it another bubble??
+title: Is it another bubble?
 categories:
  - Tech
 ---
@@ -12,7 +12,7 @@ _"Forget about things like the fact Google's at $741 and Apple's at $191\. Were 
 
 And of course who can not resist Billy Joel??
 
-<iframe width="420" height="315" src=http://www.youtube.com/watch?v=fi4fzvQ6I-o\  frameborder="0" allowfullscreen></iframe>
+<iframe id="ytplayer" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/YuAJHaXKgFk?&origin=http://chinpen.net/blog" frameborder="0" ></iframe>
 
 In my defense, they told me to blog about it..
 

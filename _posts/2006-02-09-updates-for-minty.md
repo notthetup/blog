@@ -1,5 +1,5 @@
 ---
-title: Updates for Minty.
+title: Updates for Minty
 categories:
  - Audio
 ---

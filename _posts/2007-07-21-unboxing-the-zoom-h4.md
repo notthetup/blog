@@ -1,10 +1,10 @@
 ---
-title: Unboxing the Zoom H4!!
+title: Unboxing the Zoom H4!
 categories:
  - Audio
 ---
 
-Behold my newest Toy!!!!
+Behold my newest Toy!!
 
 This is [the Zoom H4][0]. It's a portable stereo audio recorder.
 
@@ -23,7 +23,7 @@ I had ordered it for almost a month, and it arrived last week. Took me 3 days be
 * Records directly to your computer as a USB audio interface
 * Bundled with Cubase LE, 48-Track Digital Audio Workstation software
 
-**Here are the unboxing photos!!**
+**Here are the unboxing photos!**
 
 ![IMG_0005](../images/2007/07/IMG_0005.jpeg)
 ![IMG_0006](../images/2007/07/IMG_0006.jpg)

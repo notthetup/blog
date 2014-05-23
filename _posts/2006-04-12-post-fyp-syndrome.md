@@ -1,5 +1,5 @@
 ---
-title: Post FYP Syndrome.
+title: Post FYP Syndrome
 categories:
  - NUS
 ---

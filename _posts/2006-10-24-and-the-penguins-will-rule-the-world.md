@@ -1,5 +1,5 @@
 ---
-title: And the Penguins will rule the world!!
+title: And the Penguins will rule the world!
 categories:
  - Tech
 ---
@@ -22,7 +22,7 @@ And the GUIs are getting so much more user-friendly. So many of my friends and r
 
 And the application support for Linux is amazing. You can get open source alternatives for anything and everything. Just have to find it. And you also get great community support for stuff.
 
-And the best part is,**it all FREE!!**
+And the best part is,**it all FREE!**
 
 And with [Linux jumping to mobile devices][6], I am pretty sure we'll see many many more penguins in the world. :D
 

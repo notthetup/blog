@@ -1,5 +1,5 @@
 ---
-title: Creative!! Not again!
+title: Creative! Not again!
 categories:
  - Audio
 ---

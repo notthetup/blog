@@ -1,7 +1,6 @@
 ---
 title: Tesseract + Automator = DragnDrop OCR!
-categories: 
- - Cool Stuff
+categories:
  - Tech
 ---
 

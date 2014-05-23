@@ -1,10 +1,10 @@
 ---
-title: The Wikipedia Controversy.
+title: The Wikipedia Controversy
 categories:
  - Tech
 ---
 
-Wikipedia has been in the news recently. Their[attempts to raise funds][0] were successful, with people donating anything from 80c to US$286800\. Currently, they have raised US$1.018M!!!
+Wikipedia has been in the news recently. Their[attempts to raise funds][0] were successful, with people donating anything from 80c to US$286800\. Currently, they have raised US$1.018M!!
 
 Wikipedia uses the idea of collective wisdom to create an amazing amount of content on the web. The [latest numbers][1] show around 1,585,075 articles hosted for the English wikipedia, with close to 60,000 hits a day.
 

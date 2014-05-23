@@ -1,8 +1,7 @@
 ---
-title: The allure of the web.
-categories: 
+title: The allure of the web
+categories:
  - Tech
- - Web
 ---
 
 During the interview of [Eben Upton of (Raspberry Pi fame) by Leo Laporte on Triangulation][0], Eben mentioned that he and his peers had noticed that the applicants to Cambridge University's Computer Science program were getting (for a lack of a better word) dumber, in the sense that they had no experience in programming, unlike some 10-15 years ago, when the applicants had been programming their Commodore64 already. The current day applicants only maybe new "a little bit of web programming".
@@ -22,6 +21,6 @@ And finally, what really takes the cake for the web is the inherent display and 
 I am starting to see the allure of the web, it's accessibility and it's ease of beauty. And looks like those will take this platform well into the future.
 
 
-[0]: https://www.google.com.sg/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&ved=0CDoQtwIwAQ&url=http://www.youtube.com/watch?v=1N7NIS0TC2s&ei=dunoUNnCFMfWkgXZp4HABg&usg=AFQjCNEzB0EZoQC2QEwwqq_EI9rD9MtCLg&bvm=bv.1355534169,d.bmk
+[0]: http://www.youtube.com/watch?v=1N7NIS0TC2s
 [1]: http://www.lemon64.com/manual/
 [2]: https://developers.google.com/chrome-developer-tools/

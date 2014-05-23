@@ -1,5 +1,5 @@
 ---
-title: Clearing your Cache..
+title: Clearing your Cache.
 ---
 
 This is inspired by a conversation between the Tech65 crew a couple of weeks ago.

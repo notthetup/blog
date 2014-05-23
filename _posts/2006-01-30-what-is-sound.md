@@ -1,5 +1,6 @@
 ---
-title: What is sound??
+title: What is sound?
+
 categories:
  - Audio
 ---

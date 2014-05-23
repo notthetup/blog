@@ -1,5 +1,5 @@
 ---
-title: The X-Fi uncovered.
+title: The X-Fi uncovered
 categories:
  - Audio
 ---

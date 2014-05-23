@@ -1,6 +1,6 @@
 ---
-title: It's all about the Energy..
-categories: 
+title: It's all about the Energy
+categories:
  - Acoustics
  - Audio
  - Tech

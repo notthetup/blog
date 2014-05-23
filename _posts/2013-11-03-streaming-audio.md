@@ -1,12 +1,11 @@
 ---
 title: Streaming Audio from Mumble using IceCast
-categories: 
+categories:
  - Audio
- - Dev
  - Tech
 ---
 
-For my[new (it's almost 3 months old already) podcast][0] we had an idea of streaming the recording live. Also I had decided to leave Skype for [Mumble][1]. Skype was getting too unreliable and Mumble supported[separate channel recording][2] for each connected client, which would make post processing much simpler.
+For my [new (it's almost 3 months old already) podcast][0] we had an idea of streaming the recording live. Also I had decided to leave Skype for [Mumble][1]. Skype was getting too unreliable and Mumble supported[separate channel recording][2] for each connected client, which would make post processing much simpler.
 
 So I setup a spare box (Pentium(R) Dual-Core E6300, 4GB) to run [Archlinux][3] (which turned out to be kind of a bad idea in the end). I am lucky to get a pseudo-static IP from my ISP but I got [Dynamic DNS ][4]setup using [ddclient][5] just incase.
 
@@ -14,11 +13,11 @@ So I setup a spare box (Pentium(R) Dual-Core E6300, 4GB) to run [Archlinux][3] (
 
 Next was to run a [Mumble server (Murmur)][6]. It's pretty easy to setup and usually has been downstreamed to the most distro repos. I setup a single "room" on the server and ensured the server was password protected. With that I was able to connect using the Mumble clients inside and outside my network and have a proper podcast recording at high quality. With some port forwarding on my router I had the server accessible from outside. [iptables][7] were of course necessary to keep the naughty people away.
 
-[![murmur](../images/2013/11/murmur-300x202.png)][8]
+[![murmur](../images/2013/11/murmur.png)][8]
 
 [Icecast][9] was the obvious option for the streaming bit. It's pretty easy to setup (again look in your repos) and has a ton of features to control the audio quality and other server settings. Again port forwarding was needed for the Icecast server as well.
 
-[![icecase](../images/2013/11/archbox-300x203.png)][10]
+[![icecase](../images/2013/11/archbox.png)][10]
 
 The only interesting issue here was streaming music. We wanted to stream Creative Commons Music before and after the live recording, so I set up [ices0 source client][11] to stream music from [CCMixter][12]. But thanks to [FF on OSX not supporting mp3 ][13](it's supposed to change soon), I had to also run an [ices2][11] instance streaming ogg music for everyone on FF.
 
@@ -26,7 +25,7 @@ So next, streaming the actual Mumble conversation out. How do I stream the audio
 
 The couple of hoops one has to be jump through to get this work. Firstly we need a [Mumble client][1] running on the same server as the Icecast server. Running a Mumble client requires a GUI and hence I had to install [GNOME][16] on my headless Arch install (sigh!). Using the GUI I setup the Mumble client to automatically connect to the Mumble Server. Now I could just launch the Mumble client from command line.
 
-[![mumble2](../images/2013/11/mumble2-300x225.png)][17]
+[![mumble2](../images/2013/11/mumble2.png)][17]
 
 Next was getting the DarkIce to work. I got a lot of help from [this post on doing something similar][18]. DarkIce can pipe any Pulse Audio Stream to an IceCast server. So I created a dummy(null) Pulse Audio Stream which can be set as the audio output (System : Pulse Audio & Device : Null Output) in the Mumble client and on the other end used to feed DarkIce using the ".monitor" functionality of Pulse Audio Streams. The DarkIce config in the repo has the relevant config setup.
 
@@ -46,6 +45,10 @@ I have uploaded all [my config scripts to a github repo ][21]here. Feel free to 
 
 And you can listen to radio streaming (when it's running) from the server here..
 
+<audio autobuffer autoloop loop controls>
+	<source src="http://listen.webuild.sg:8000/live">
+	<source src="http://listen.webuild.sg:8000/radio">
+</audio>
 
 
 [0]: http://live.webuild.sg

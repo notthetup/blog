@@ -1,5 +1,5 @@
 ---
-title: Just a paper chase??
+title: Just a paper chase?
 ---
 
 I was pointed to this forum by a small article in The Sunday Times.
@@ -12,7 +12,7 @@ I believe there are there are three reasons for this, **money**, **family** and 
 
 _**Money**_. Certain professions are supposed to earn a lot of money and certain areas are supposed to have better opportunities, when it comes to jobs. So people study that so that they will get a job easily and earn a lot in that job.
 
-Nevermind the fact that they would be**bored to death** at your job, and that you would not be happy for most of your working life. Furthermore, I do not believe that certain professions are better off than other. I am sure that if you are good at what u do, really good, then people are willing to pay you money to do anything. And I mean absolutely anything. Like [drawing sheep][0]!!
+Nevermind the fact that they would be**bored to death** at your job, and that you would not be happy for most of your working life. Furthermore, I do not believe that certain professions are better off than other. I am sure that if you are good at what u do, really good, then people are willing to pay you money to do anything. And I mean absolutely anything. Like [drawing sheep][0]!
 
 **_Family_**. I would say more prominent in Asia, than other places. **Parents** often force childern to study what they think is good for the children. I would not like to go into the whole, "Do parents know children better than the children themselves?". But I knew quite a few people in such situations. They might be doing well, but they are not totally satisfied.
 

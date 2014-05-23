@@ -1,10 +1,10 @@
 ---
-title: "Free Beer!. umm. it's not Free."
+title: "Free Beer!. umm. it's not Free"
 categories:
  - Tech
 ---
 
-I found [Free Beer][0]!! And for the rest of the non-alcoholic us, there is [free soda ][1](or pop, or soft drink)! But, you'll probably have to pay a lot to buy it.
+I found [Free Beer][0]! And for the rest of the non-alcoholic us, there is [free soda ][1](or pop, or soft drink)! But, you'll probably have to pay a lot to buy it.
 
 Alright, so English is one confusing language, and moreover it's very badly used. And 'free' tops the list. Latin seems somewhat better, since people use Latin words to differentiate between the various meanings of 'free'. With lot of free things floating around the web, its good to know what 'free' actually means. So, there is :
 
@@ -22,7 +22,7 @@ Like free speech, you can use the object, reproduce it, re-purpose it, and gener
 
 OK. So here the most confusing thing of all.
 
-**The [Free Beer][0], is free like Free Speech!!!!**
+**The [Free Beer][0], is free like Free Speech!!**
 
 
 [0]: http://en.wikipedia.org/wiki/Vores_Øl
