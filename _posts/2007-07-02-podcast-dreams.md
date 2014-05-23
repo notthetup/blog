@@ -16,7 +16,9 @@ Whatever it is, do give it a listen and subscribe to 65bits feed or [on itunes.]
 
 Here is our recent episode which is **NOT** about iPhone.
 
-<audio src=http://www.tech65.org/podpress_trac/web/62/0/65bits-Ep28-010707.mp3></audio>
+<audio autobuffer autoloop loop controls>
+	<source src="http://www.tech65.org/podpress_trac/web/62/0/65bits-Ep28-010707.mp3">
+</audio>
 
 I kid, I kid.
 
