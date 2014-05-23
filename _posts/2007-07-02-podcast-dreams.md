@@ -14,7 +14,7 @@ Thanks to a chance Google search and my new "Do it now" initiative, I am **a sem
 
 Whatever it is, do give it a listen and subscribe to 65bits feed or [on itunes.][3]
 
-Here is our recent episode which is **NOT **about iPhone.
+Here is our recent episode which is **NOT** about iPhone.
 
 <audio src=http://www.tech65.org/podpress_trac/web/62/0/65bits-Ep28-010707.mp3>
 
