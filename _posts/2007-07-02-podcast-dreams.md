@@ -8,7 +8,7 @@ Knowing how much I **blabber**, it will not be a surprise to many that I am dabb
 
 I always wanted to do one, since I got hooked to podcasts last year. But, as usual, I lacked time and a group of enthusiasts to do it. (hint hint).
 
-Thanks to a chance Google search and my new _"Do it now" _initiative, I am **a semi-regular host** at [65bits][1]. It's a podcast by [Tech65][2], about technology with a Singaporean perspective.
+Thanks to a chance Google search and my new "Do it now" initiative, I am **a semi-regular host** at [65bits][1]. It's a podcast by [Tech65][2], about technology with a Singaporean perspective.
 
 [![](../images/2007/07/album-art144.jpg)][0]
 
