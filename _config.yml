@@ -48,7 +48,7 @@ kramdown:
 defaults:
   -
     scope:
-      path: "" # empty string for all files
+      path: "_sites/" # empty string for all files
     values:
       layout: "post"
   -
