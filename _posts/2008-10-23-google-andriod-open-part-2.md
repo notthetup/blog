@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Google Andriod : Open? - Part 2"
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 _This is a continuation of the [Part 1 of discussion][0] on Google Android._

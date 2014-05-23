@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Why I'm starting to like git
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 Versioning systems is probably the thing that's argued about next most often after editors when it comes to developers. I remember the [CVS][0] vs [SVN][1] [arguments][2] when I first started to know about versioning systems. As always the inertia makes it hard for people to move unless there is a feature which really makes their life easier.

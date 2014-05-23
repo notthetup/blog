@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Funky Waves
-categories:
+tags:
  - Audio
 ---
 

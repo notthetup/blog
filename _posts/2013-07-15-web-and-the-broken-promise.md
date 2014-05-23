@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Web and the broken promise
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 I'll start by saying I'm a Web noob. In the sense that I tried my best to stay away from Web technologies as long as I could. The Web seemed too cliche and didn't really attract my curiosity.

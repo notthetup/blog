@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Education
-categories:
+tags:
  - NUS
 ---
 

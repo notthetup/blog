@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Work vs School
-categories:
+tags:
  - NUS
- - Tech
+ - Technology
 ---
 
 How many times have you heard,

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: I should learn LaTeX
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 After what I went through today. I say I have had enough of M$. Though I do save almost all my reports and other written articles as pdf files, I was still using M$ Word to create them. It is easy and I have been using it for years now.

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Free Beer!. umm. it's not Free"
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 I found [Free Beer][0]! And for the rest of the non-alcoholic us, there is [free soda ][1](or pop, or soft drink)! But, you'll probably have to pay a lot to buy it.

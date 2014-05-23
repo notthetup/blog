@@ -1,7 +1,7 @@
 ---
 layout: post
 title: FYP Blues and Greens
-categories:
+tags:
  - NUS
 ---
 

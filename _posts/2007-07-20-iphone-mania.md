@@ -1,8 +1,8 @@
 ---
 layout: post
 title: iPhone Mania
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 On Tuesday, I got to play with the iPhone. Thanks to [Paddy from Bak2u][0]!

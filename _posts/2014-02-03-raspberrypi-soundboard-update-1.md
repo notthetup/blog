@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "RaspberryPi Soundboard – Update #1"
-categories:
- - Dev
- - Gadgets
- - Tech
+tags:
+ - Audio
+ - Technology
 ---
 
 I spent the last couple of days working on the [RaspberryPi Soundboard][0], and I must say I'm kind of frustrated with Linux Audio. It seems much harder to get stuff working when you want to keep things simpler and not use a GUI.
@@ -23,7 +22,7 @@ The main issue I faced was piping the audio. As much as Pulseaudio is the soluti
 
 1\. It seem none of the players let you choose which "sink" in Pulseaudio should they connect to. I only saw that option in [mpd][7], but that seemed like a total overkill for what I want to do.
 
-2\. While using Pulseaudio's _sink.monitor _feature works perfectly for my[streaming server use case][8], the soundboard has a slightly different needs. Here we need the audio from the player to end up in Mumble. I am envisioning a Pulseaudio configuration along this line.
+2\. While using Pulseaudio's _sink.monitor_ feature works perfectly for my[streaming server use case][8], the soundboard has a slightly different needs. Here we need the audio from the player to end up in Mumble. I am envisioning a Pulseaudio configuration along this line.
 
 aplay **=\>** Pulseaudio null-stream **--\>** stream.monitor **=\>** Mumble.
 

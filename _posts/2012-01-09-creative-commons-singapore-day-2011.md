@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Creative Commons (Singapore) Day 2011
-categories:
+tags:
  - Audio
  - Music
 ---

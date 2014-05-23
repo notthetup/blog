@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Updates for Minty
-categories:
+tags:
  - Audio
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Trust your technolust!
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 Either I am really bored, or I am gone totally crazy. Or Both..

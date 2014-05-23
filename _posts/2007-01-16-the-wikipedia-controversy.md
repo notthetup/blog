@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The Wikipedia Controversy
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 Wikipedia has been in the news recently. Their[attempts to raise funds][0] were successful, with people donating anything from 80c to US$286800\. Currently, they have raised US$1.018M!!

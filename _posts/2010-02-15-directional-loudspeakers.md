@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Directional Loudspeakers
-categories:
+tags:
  - Audio
 ---
 

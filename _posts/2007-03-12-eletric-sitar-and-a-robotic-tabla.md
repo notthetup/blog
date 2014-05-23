@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Electric Sitar and a Robotic Tabla!
-categories:
+tags:
  - Audio
  - Music
  - NUS

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Womad, an Audio tour
-categories:
+tags:
  - Audio
 ---
 

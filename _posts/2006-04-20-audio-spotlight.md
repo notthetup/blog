@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Audio Spotlight
-categories:
+tags:
  - Audio
  - NUS
 ---

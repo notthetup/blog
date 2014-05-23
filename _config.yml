@@ -34,7 +34,8 @@ links:
 
 permalink: /:title
 
-exclude: ["readme.md", "archives", "Gruntfile.js", "package.json", "node_modules", "less"]
+exclude: ["README.md", "archives", "Gruntfile.js", "package.json", "node_modules", "less", "attachments", "cleanup", "import", "LICENSE"]
+
 markdown: kramdown
 
 kramdown:

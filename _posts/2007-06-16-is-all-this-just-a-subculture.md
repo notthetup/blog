@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Is all this just a subculture?
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 I really love technology. It has given me a whole different meaning to my life and the lives of so many people. It is almost like another culture which all of us are a slowly becoming a part of. Think about it.

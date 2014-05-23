@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The allure of the web
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 During the interview of [Eben Upton of (Raspberry Pi fame) by Leo Laporte on Triangulation][0], Eben mentioned that he and his peers had noticed that the applicants to Cambridge University's Computer Science program were getting (for a lack of a better word) dumber, in the sense that they had no experience in programming, unlike some 10-15 years ago, when the applicants had been programming their Commodore64 already. The current day applicants only maybe new "a little bit of web programming".

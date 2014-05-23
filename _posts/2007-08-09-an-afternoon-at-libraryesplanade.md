@@ -1,7 +1,7 @@
 ---
 layout: post
 title: An afternoon at library@esplanade
-categories:
+tags:
  - Music
 ---
 

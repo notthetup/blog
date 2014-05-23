@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Is it another bubble?
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 The question which is on everyone's mind these days.

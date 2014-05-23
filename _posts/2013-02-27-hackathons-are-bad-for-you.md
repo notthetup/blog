@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Hackathons are bad for you
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 I love developer communities. I love the spirit, the comradery and energy. But in the last couple of years or so, Hackthons have spread through the community like a plague. There are Hackathons around technologies, ideologies and everything in between. And I feel there is an urgent need to eradicate them.

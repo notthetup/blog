@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nature knows no Borders
-categories:
+tags:
  - Travel
 ---
 

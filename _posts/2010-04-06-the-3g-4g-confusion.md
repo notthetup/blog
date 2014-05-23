@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The 3G-4G confusion
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 I've been hearing this confusion for many days, and decided this needs to be addressed.

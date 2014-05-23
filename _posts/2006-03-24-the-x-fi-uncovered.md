@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The X-Fi uncovered
-categories:
+tags:
  - Audio
 ---
 

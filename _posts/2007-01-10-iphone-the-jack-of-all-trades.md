@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "iPhone - The Jack of all trades"
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 Yay! Bangwagon. Let me jump on it.

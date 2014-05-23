@@ -1,8 +1,8 @@
 ---
 layout: post
 title: And the Penguins will rule the world!
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 Personally, I see this to be the future. **Penguins will rule the world!**

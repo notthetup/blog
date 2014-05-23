@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unboxing the Zoom H4!
-categories:
+tags:
  - Audio
 ---
 

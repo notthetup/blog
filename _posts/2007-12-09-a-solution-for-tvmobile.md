@@ -1,9 +1,9 @@
 ---
 layout: post
 title: A solution for TVMobile
-categories:
+tags:
  - Audio
- - Tech
+ - Technology
 ---
 
 > "Find me one sbs-transit regular who acually likes TVMobile and I will pay for your dinner"

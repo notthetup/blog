@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Gingerale
-categories:
+tags:
  - Food
 ---
 

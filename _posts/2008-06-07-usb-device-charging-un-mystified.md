@@ -1,8 +1,8 @@
 ---
 layout: post
 title: USB device Charging de-mystified
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 _Warning : Super technical, geeky post ahead!_

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Education is free!
-categories:
+tags:
  - NUS
- - Tech
+ - Technology
 ---
 
 After paying**S$5000+** per year for 4 year of studies in NUS, it's hard to believe that really great education can be free! Not to say that the education in NUS was bad, but it could have been better.

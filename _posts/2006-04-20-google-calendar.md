@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Google Calendar
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 Not that it's new, but [**Google Calendar Beta** ][0]is out. Check it out. Really cool. Some nice features including the ability to share with people; Creating calendars and saving them as files; multiple viewing styles.

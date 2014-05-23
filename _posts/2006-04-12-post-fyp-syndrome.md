@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Post FYP Syndrome
-categories:
+tags:
  - NUS
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "RaspberryPi Soundboard – Update #3"
-categories:
+tags:
  - Audio
- - Dev
+ - Technology
 ---
 
 Finally found more time to spend on the [RaspberryPi Soundboard Project][0].

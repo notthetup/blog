@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Podcast Dreams
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 Knowing how much I **blabber** , it will not be a surprise to many that I am dabbling into podcasting.

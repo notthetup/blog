@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Binaural recordings
-categories:
+tags:
  - Audio
 ---
 

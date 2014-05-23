@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Google your route
-categories:
+tags:
  - Travel
 ---
 

@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "RaspberryPi Soundboard – Update #2"
-categories:
+tags:
  - Audio
- - Gadgets
- - Tech
+ - Technology
 ---
 
 Quick update here. I made 2 small changes to the [Soundboard project from last week][0].
@@ -17,7 +16,7 @@ Quick update here. I made 2 small changes to the [Soundboard project from last w
 
 So the audio routing kind of works (I'm not too happy with it, but I'll roll with it for now). Now to work on trigger the playing of the audio files using a keypad.
 
-Also I'm adding some of the scripts including the init scripts, [to this github repo][5]. A lot of the configuration I did was in _/etc/ _config files, I will add copies of those to this repo in the future..
+Also I'm adding some of the scripts including the init scripts, [to this github repo][5]. A lot of the configuration I did was in _/etc/_ config files, I will add copies of those to this repo in the future..
 
 
 [0]: http://chinpen.net/blog/2014/02/raspberrypi-soundboard-update-1/

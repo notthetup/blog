@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Music, Distribution and Piracy
-categories:
+tags:
  - Music
- - Tech
+ - Technology
 ---
 
 **Update**: The music was finally released under the Saregama label, and you can[find it here][0]..

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Music and Video Games
-categories:
+tags:
  - Music
 ---
 

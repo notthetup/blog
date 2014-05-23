@@ -1,8 +1,8 @@
 ---
 layout: post
 title: The rebirth of Apple TV.
-categories:
- - Tech
+tags:
+ - Technology
 ---
 
 During the last Apple keynote at MacWorld.. Among the many other things, Steve Jobs announced "**Apple TV take 2**"..

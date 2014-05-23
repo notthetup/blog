@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Obsession with Sound
-categories:
+tags:
  - Audio
 ---
 

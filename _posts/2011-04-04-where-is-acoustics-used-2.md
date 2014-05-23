@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Where is acoustics used?
-categories:
+tags:
  - Acoustics
  - Audio
- - Tech
+ - Technology
 ---
 
 A quick cross post from [my other blog][0] which gives a basic introduction to the field of Acoustics.

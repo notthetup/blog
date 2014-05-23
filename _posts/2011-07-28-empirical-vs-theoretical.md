@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Empirical vs Theoretical
-categories:
+tags:
  - Acoustics
  - Audio
- - Tech
+ - Technology
 ---
 
 When it comes to look and natural phenomenon and trying to understand it, there're always two ways of going at it. You can either start form the basic principles and work you way up to the context of the phenomenon being studied, or you can start with phenomenon, measure it in multiple ways and try to make sense of it by looking for some patterns.

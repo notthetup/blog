@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "RaspberryPi Soundboard - Intro"
-categories:
- - Tech
+tags:
+ - Technology
  - Audio
 ---
 
