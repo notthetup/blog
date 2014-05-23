@@ -27,17 +27,17 @@ Here's a simple example why such such law can be abused. [Revision3][9] was [DDO
 
 So here's what you can do..
 
-1\. Stop Pirating!
+1. Stop Pirating!
 
-2\. [Read up ][12]and understand [what is SOPA/PIPA][13] and what the US Congress debating on. Try to understand what [banning a website at DNS leve][14]l can mean to ANY website that YOU own.
+2. [Read up ][12]and understand [what is SOPA/PIPA][13] and what the US Congress debating on. Try to understand what [banning a website at DNS leve][14]l can mean to ANY website that YOU own.
 
-3\. [Know and understand ACTA ][15]and see what [Singapore government has agreed to do][16].
+3. [Know and understand ACTA ][15]and see what [Singapore government has agreed to do][16].
 
-4\. [Spread the word][17]. Take part in the [anti-SOPA blackout][18]. Or tell your friends why SOPA is a bad way to implement copyright regulations.
+4. [Spread the word][17]. Take part in the [anti-SOPA blackout][18]. Or tell your friends why SOPA is a bad way to implement copyright regulations.
 
-5\. Keep your eyes and ears open to how the Singapore government reacts to SOPA. If need be, we will have to contact our representatives and tell them our view on copyright issues to be raised to the appropriate level.
+5. Keep your eyes and ears open to how the Singapore government reacts to SOPA. If need be, we will have to contact our representatives and tell them our view on copyright issues to be raised to the appropriate level.
 
-6\. Think about [alternative ways][19] how copyright can be preserved and protected in other ways than straight up banning suspected copyright infringers from the internet.
+6. Think about [alternative ways][19] how copyright can be preserved and protected in other ways than straight up banning suspected copyright infringers from the internet.
 
 If you have some ideas, do comment below. I would love a discussion.
 

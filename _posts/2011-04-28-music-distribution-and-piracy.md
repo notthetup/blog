@@ -16,9 +16,9 @@ Recently, a Marathi movie about a very famous Marathi Musical Theatre personalit
 
 A few things really struck me about this movie, when I watch the [first trailer][5] (be sure to watch it in HD)..
 
-1\. It is really well done. For starters, the trailer was uploaded to Youtube in HD. That really helped to grab the mood of movie. Not only that, but NCD did mention in one of the interviews that they had used new cameras and video technology (not sure exactly what they used) to capture the beautiful NCD sets in all their glory. This can be seen in the great control over focus, bokeh and colour that can be seen in the trailer.
+1. It is really well done. For starters, the trailer was uploaded to Youtube in HD. That really helped to grab the mood of movie. Not only that, but NCD did mention in one of the interviews that they had used new cameras and video technology (not sure exactly what they used) to capture the beautiful NCD sets in all their glory. This can be seen in the great control over focus, bokeh and colour that can be seen in the trailer.
 
-2\. Even in the trailer, the music was especially well done. High bit rate in the file uploaded was noticeable and so was the significant thought on not only the orchestration but also the 'polishing' and 'mastering' of the music. Very well done indeed!
+2. Even in the trailer, the music was especially well done. High bit rate in the file uploaded was noticeable and so was the significant thought on not only the orchestration but also the 'polishing' and 'mastering' of the music. Very well done indeed!
 
 The fact that such effort was showcased in the trailer tells a lot about the understanding, the team behind the movie, has of the technology and media which they are using to capture and display the movie. And yet the movie is set in the early 1900s, but care has been taken to hide the abuse of such technology in both video and music, as we can notice from the trailer.
 

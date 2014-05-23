@@ -35,8 +35,6 @@ Afterwards there was a long discussion on the hardware itself and things one cou
 
 The next Raspberry'Pi Jam Singapore is being planned for a September/October time frame so most people would have gotten their hands on the 'Pi boards and played around with things to share more.
 
-\[gallery link="file" orderby="title"\]
-
 
 [0]: http://www.raspberrypi.org
 [1]: http://vr-zone.com/articles/rs-components-previews-raspberry-pi-in-singapore/15684.html

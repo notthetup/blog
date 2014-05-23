@@ -27,7 +27,7 @@ The OCR output was not the best. I had to massage (crop, rotate, gray-scale, etc
 
 You can download it [here][7], but you'll need Tesseract to make it work. Yay!
 
-Btw, if you're interested in Automator, check out the [videocast Macbreak ][8]Ep235-238\. And also Ep4-13 of [MacBreak Dev][9]
+Btw, if you're interested in Automator, check out the [videocast Macbreak ][8] Ep235-238. And also Ep4-13 of [MacBreak Dev][9]
 
 
 [0]: http://www.macosxautomation.com/applescript/index.html

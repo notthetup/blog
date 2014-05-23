@@ -13,9 +13,9 @@ Then came[version 0.1][2] to [version 1.0][3] each with small changes to the rec
 
 Finally I have converged to a recipe which is closer to beer brewing techniques than David's original recipe. The ingredients are more or less the same as the previous versions.  Here's how I do ginger ale.
 
-0\. Clean and dry your fermentation jars, bottles, pots really well. This is pretty important.
+0. Clean and dry your fermentation jars, bottles, pots really well. This is pretty important.
 
-1\. Grate Ginger
+1. Grate Ginger
 
 I try to use young ginger, it's a little more 'fruity' and intense (I like my gingerale intense).  The amount of ginger can be varied for how 'gingery' you want the final gingerale. I used about 4 teaspoons here.
 
@@ -33,7 +33,7 @@ I try to use young ginger, it's a little more 'fruity' and intense (I like my gi
 
 Boiling achieves a couple of things[. Tap water (atleast in Singapore) is fluorinated][6], which is not very conducive for our probiotics. So boiling should get rid of all the fluorine and other additives(_Correction based on comments below :_ Fluorides in the water are salts and hence will not evaporate by boiling. [Chlorine which is also added to tap water][7] is the one which evaporates away when boiled.) It also extracts the flavour from the ginger into the water.
 
-3\. Let the hot wort cool down by leaving the pot open. This will also enable the fluorine to evaporate off.
+3. Let the hot wort cool down by leaving the pot open. This will also enable the fluorine to evaporate off.
 
 ![IMG_20140111_164731](../images/2014/01/IMG_20140111_164731.jpg)
 
@@ -55,7 +55,7 @@ Boiling achieves a couple of things[. Tap water (atleast in Singapore) is fluori
 
 5 b. Optionally, Add some raisins to the mixture.[Grape skin are known to have natural yeast (which ferment the wine)][9], so raisins help to add a bit of kick to the gingerale. This idea came from[my friend Stephan][10] talking about how his grandma used to make gingerale with raisins. Theoretically, I think you might be able to pull it off just using raisins without yeast, but I haven't tried that yet.
 
-6\. Let the wort ferment at room temperature in a shaded place (no direct sunlight) for 3 days.
+6. Let the wort ferment at room temperature in a shaded place (no direct sunlight) for 3 days.
 
 The longer you let it ferment, more sugar will be turned into alcohol. So you can stop when you are comfortable. I keep tasting the fermenting wort daily.
 
@@ -75,11 +75,11 @@ I prefer to leave the gingerale in the fridge for a 3-4 days, and let it slowly 
 
 ![IMG_20140118_112205](../images/2014/01/IMG_20140118_112205.jpg)
 
-8\. When I have achieved your target carbonation, I add juice of a quarter lemon per bottle. This reduces the fermentation and also adds a nice flavour. You're now ready to enjoy the gingerale.
+8. When I have achieved your target carbonation, I add juice of a quarter lemon per bottle. This reduces the fermentation and also adds a nice flavour. You're now ready to enjoy the gingerale.
 
 Airtight bottles with gingerale sitting in the fridge can still  ferment and carbonate. So do check if it's not overly pressurised every few days if you're leaving the gingerale in the fridge for a long time. You can have broken glass bottles due to over-pressurisation.
 
-Try it out and let me know how it goes.. And if you find a hack or improvement be sure to leave a comment below!
+Try it out and let me know how it goes. And if you find a hack or improvement be sure to leave a comment below!
 
 
 [0]: http://en.wikipedia.org/wiki/Kefir

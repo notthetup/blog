@@ -15,21 +15,21 @@ When I started doing MATLAB once again for my Masters, I was happy to see the im
 
 So, both my projects have been designed Object Oriented. Atleast as much as I could. There are many small scripts, but the core of it is Object Oriented. Here are some advantages I found using Object Orientation in MATLAB.
 
-1\. Simple and Intuitive code. Especially for architecturing.
+1. Simple and Intuitive code. Especially for architecturing.
 
-2\. Great way to encapsulate all properties of a single entity (in my case, a resonator) in a model. This allows quick access of the properties, esp for debugging.
+2. Great way to encapsulate all properties of a single entity (in my case, a resonator) in a model. This allows quick access of the properties, esp for debugging.
 
-3\. Getter and Setter methods help to ensure data sanity.
+3. Getter and Setter methods help to ensure data sanity.
 
 Ofcourse, MATLAB was never designed to be Object Oriented, so there are a few negetives I found.
 
-1\. Access permissions are complicated and annoying to deal with.
+1. Access permissions are complicated and annoying to deal with.
 
-2\. Slower in execution (not very noticable)
+2. Slower in execution (not very noticable)
 
-3\. Referencing is not as straight forward.
+3. Referencing is not as straight forward.
 
-4\. Not great support for objects in most tools/commands.
+4. Not great support for objects in most tools/commands.
 
 Overall I am pretty happy with a quasi-Object Oriented design I am using. It gives me enough Object Orientation for me to take advantage of it and still allows me to hack our small scripts for testing out stuff.
 

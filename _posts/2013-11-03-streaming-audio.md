@@ -44,7 +44,7 @@ With everything setup, I could enable/disable radio and Mumble streaming from co
 
 I have uploaded all [my config scripts to a github repo ][21]here. Feel free to ask any questions
 
-And you can listen to radio streaming (when it's running) from the server here..
+And you can listen to radio streaming (when it's running) from the server here.
 
 <audio autobuffer autoloop loop controls>
 	<source src="http://listen.webuild.sg:8000/live">

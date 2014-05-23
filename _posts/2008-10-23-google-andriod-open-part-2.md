@@ -17,11 +17,11 @@ With hackers getting better equipped, many cellphone manufacturers started havin
 
 Furthermore, these signaling protocols have a strict real-time requirements, and thus need an OS which support Real-Time scheduling to handle this signaling. Linux inherently does not support Real-Time scheduling (There are variants of it which do, like RTLinux, etc) and so it can't be used to do the Baseband communications. And thus most cellphones will have multiple OSes running together. An Baseband OS (or a Modem) and your usual "SmartPhone OS". And these two need to talk to each other in order to work and place and receive calls, data, etc. So the "SmartPhone OS" needs to know how to talk to the "Baseband OS". This is not as easy as it seems, as many times the Baseband OS is propriety and generally Closed to prevent any tampering by the user, especially since many security mechanisms (like Subsidy Lock in the case of the iPhone) are implemented by the Baseband OS.
 
-Hence, there are two problems in getting Android running on any generic phone. 1\. Does the HW even allow some other OS image to be programmed and run on the phone? 2\. Can Android talk to the Baseband OS and use the phone side of things.
+Hence, there are two problems in getting Android running on any generic phone. 1. Does the HW even allow some other OS image to be programmed and run on the phone? 2. Can Android talk to the Baseband OS and use the phone side of things.
 
 In most phones the HW will only allow the original OS to boot, and no one knows what/how the Baseband OS works and how one can communicate with it. And this is why I feel it will be very difficult to see Android running on other phones, without the HW manufacturer themselves supporting it explicitly.
 
 So is Google Android Open? Surely! But that doesn't mean you'll see it running on an iPhone close to you anytimes soon..
 
 
-[0]: http://chinpen.net/blog/?p=332
+[0]: http://chinpen.net/blog/google-andriod-open-part-1

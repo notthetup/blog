@@ -37,7 +37,7 @@ A good nights rest and a fresh mind are critical for a good developer, that's on
 
 Next to sleep, your body needs good fuel to keep going. And NO! I don't mean coffee. As much as I love my coffee, binging on coffee, red bull or is rarely good for focus. Not to mention alcohol, which makes matters worse.
 
-It's a short-term vs long-term trade-off. Coffee (and possibly alcohol, although I am skeptical abt it), do help you feel more focused in the short-term. But both caffeine and alcohol are diuretics and only make you lose more water in the long-term. [A dehydrated body isn't much of a help when you need your brain to focus and solve problems][1]. "When was the last time you saw an isotonic drink at a Hackathon?"
+It's a short-term vs long-term trade-off. Coffee (and possibly alcohol, although I am skeptical abt it), do help you feel more focused in the short-term. But both caffeine and alcohol are diuretics and only make you lose more water in the long-term. A dehydrated body isn't much of a help when you need your brain to focus and solve problems. "When was the last time you saw an isotonic drink at a Hackathon?"
 
 ![](../images/2013/02/Junk-Food-Quote.jpg)
 
@@ -63,5 +63,4 @@ But in the end, I really feel that Hackathons are beneficial less as a place and
 
 
 [0]: http://xkcd.com/323/
-[1]: http://
 [2]: http://en.wikipedia.org/wiki/Sedentary_lifestyle#Health_effects
