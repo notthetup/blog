@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Work vs School
 categories:
  - NUS

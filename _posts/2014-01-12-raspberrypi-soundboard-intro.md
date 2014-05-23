@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "RaspberryPi Soundboard - Intro"
 categories:
  - Tech

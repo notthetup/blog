@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Google Andriod : Open? - Part 1"
 categories:
  - Tech

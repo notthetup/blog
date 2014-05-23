@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Web and the broken promise
 categories:
  - Tech

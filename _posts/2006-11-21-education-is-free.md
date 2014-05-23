@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Education is free!
 categories:
  - NUS

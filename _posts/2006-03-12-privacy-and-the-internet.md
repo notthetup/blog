@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Privacy and the Internet
 categories:
  - Tech

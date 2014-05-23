@@ -1,4 +1,5 @@
 ---
+layout: post
 title: iPhone Mania
 categories:
  - Tech

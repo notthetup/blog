@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Why I'm starting to like git
 categories:
  - Tech

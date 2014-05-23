@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Point Sources
-categories: 
+categories:
  - Acoustics
  - Audio
  - Tech

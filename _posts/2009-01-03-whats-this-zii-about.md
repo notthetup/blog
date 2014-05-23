@@ -1,4 +1,5 @@
 ---
+layout: post
 title: What's this Zii about?
 categories:
  - Audio

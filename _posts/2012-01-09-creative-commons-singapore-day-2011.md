@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Creative Commons (Singapore) Day 2011
-categories: 
+categories:
  - Audio
  - Music
 ---
@@ -24,7 +25,7 @@ Here is a list of those who presented..
 
 \[audio images/2012/01/CCDay-2011-Interviews.mp3\]
 
-Enjoy listening to these recordings and let me know what you think (except that I need a better microphone, which I do..).    
+Enjoy listening to these recordings and let me know what you think (except that I need a better microphone, which I do..).
 
 [0]: http://www.flickr.com/photos/ramblinglibrarian/2871752489/ "Creative Commons Singapore by ramblinglibrarian, on Flickr"
 [1]: http://creativecommonssingapore.wordpress.com/

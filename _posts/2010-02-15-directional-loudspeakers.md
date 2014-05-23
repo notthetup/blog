@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Directional Loudspeakers
 categories:
  - Audio

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Audio Spotlight
 categories:
  - Audio

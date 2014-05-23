@@ -1,4 +1,5 @@
 ---
+layout: post
 title: FYP Blues and Greens
 categories:
  - NUS

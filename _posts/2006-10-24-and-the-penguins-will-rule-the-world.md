@@ -1,4 +1,5 @@
 ---
+layout: post
 title: And the Penguins will rule the world!
 categories:
  - Tech

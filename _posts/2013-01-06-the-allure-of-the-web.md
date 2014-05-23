@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The allure of the web
 categories:
  - Tech

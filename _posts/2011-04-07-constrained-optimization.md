@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Constrained Optimization
-categories: 
+categories:
  - Acoustics
  - Audio
  - Tech

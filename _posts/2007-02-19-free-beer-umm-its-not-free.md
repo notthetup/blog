@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Free Beer!. umm. it's not Free"
 categories:
  - Tech

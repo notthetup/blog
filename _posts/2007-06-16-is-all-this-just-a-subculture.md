@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Is all this just a subculture?
 categories:
  - Tech

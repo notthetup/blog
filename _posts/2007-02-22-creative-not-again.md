@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Creative! Not again!
 categories:
  - Audio

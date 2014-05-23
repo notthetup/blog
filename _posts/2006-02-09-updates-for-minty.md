@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Updates for Minty
 categories:
  - Audio

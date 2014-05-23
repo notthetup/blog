@@ -1,4 +1,5 @@
 ---
+layout: post
 title: My Obsession with Sound
 categories:
  - Audio

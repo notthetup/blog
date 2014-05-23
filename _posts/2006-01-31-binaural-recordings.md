@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Binaural recordings
 categories:
  - Audio

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Tesseract + Automator = DragnDrop OCR!
 categories:
  - Tech

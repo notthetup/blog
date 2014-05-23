@@ -1,4 +1,5 @@
 ---
+layout: post
 title: A case for the iPhone
 categories:
  - Tech

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The 3G-4G confusion
 categories:
  - Tech

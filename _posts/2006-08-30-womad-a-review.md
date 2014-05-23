@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "WOMAD – A review"
 categories:
  - Music

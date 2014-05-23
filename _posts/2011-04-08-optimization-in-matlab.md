@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Optimization in MATLAB
-categories: 
+categories:
  - Acoustics
  - Audio
  - Tech

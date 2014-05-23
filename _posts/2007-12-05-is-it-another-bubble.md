@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Is it another bubble?
 categories:
  - Tech

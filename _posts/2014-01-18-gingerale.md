@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Gingerale
-categories: 
+categories:
  - Food
 ---
 

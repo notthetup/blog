@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Womad Singapore 2007
 categories:
  - Music

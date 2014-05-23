@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The Wikipedia Controversy
 categories:
  - Tech

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Viva L'Creative
 categories:
  - Audio

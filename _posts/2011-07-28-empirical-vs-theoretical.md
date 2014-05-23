@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Empirical vs Theoretical
-categories: 
+categories:
  - Acoustics
  - Audio
  - Tech

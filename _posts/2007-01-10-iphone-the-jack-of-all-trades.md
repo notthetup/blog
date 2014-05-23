@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "iPhone - The Jack of all trades"
 categories:
  - Tech

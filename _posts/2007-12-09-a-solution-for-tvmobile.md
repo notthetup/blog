@@ -1,4 +1,5 @@
 ---
+layout: post
 title: A solution for TVMobile
 categories:
  - Audio

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Google your route
 categories:
  - Travel

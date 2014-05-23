@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Podcast Dreams
 categories:
  - Tech

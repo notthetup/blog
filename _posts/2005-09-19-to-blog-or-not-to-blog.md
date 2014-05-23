@@ -1,4 +1,5 @@
 ---
+layout: post
 title: To Blog or Not to Blog?
 ---
 

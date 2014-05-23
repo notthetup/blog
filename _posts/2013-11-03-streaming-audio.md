@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Streaming Audio from Mumble using IceCast
 categories:
  - Audio

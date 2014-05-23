@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Trust your technolust!
 categories:
  - Tech

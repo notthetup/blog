@@ -1,6 +1,6 @@
 ---
+layout: post
 title: What is sound?
-
 categories:
  - Audio
 ---

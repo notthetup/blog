@@ -1,4 +1,5 @@
 ---
+layout: post
 title: From MP3 to SLS
 categories:
  - Audio

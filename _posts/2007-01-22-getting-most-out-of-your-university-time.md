@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Getting most out of your University time
 categories:
  - NUS

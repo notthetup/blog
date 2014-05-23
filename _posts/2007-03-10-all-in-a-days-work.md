@@ -1,4 +1,5 @@
 ---
+layout: post
 title: All in a day's work.
 ---
 

@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Object Orientation in MATLAB
-categories: 
+categories:
  - Acoustics
  - Audio
  - Tech
@@ -28,7 +29,7 @@ Ofcourse, MATLAB was never designed to be Object Oriented, so there are a few ne
 
 3\. Referencing is not as straight forward.
 
-4\. Not great support for objects in most tools/commands. 
+4\. Not great support for objects in most tools/commands.
 
 Overall I am pretty happy with a quasi-Object Oriented design I am using. It gives me enough Object Orientation for me to take advantage of it and still allows me to hack our small scripts for testing out stuff.
 

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Confessions of a soon to be engineer
 categories:
  - NUS

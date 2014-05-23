@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Hackathons are bad for you
 categories:
  - Tech

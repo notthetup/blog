@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The X-Fi uncovered
 categories:
  - Audio

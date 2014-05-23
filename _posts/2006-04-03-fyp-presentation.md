@@ -1,4 +1,5 @@
 ---
+layout: post
 title: FYP Presentation!
 categories:
  - NUS

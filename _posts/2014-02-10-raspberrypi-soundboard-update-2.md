@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "RaspberryPi Soundboard – Update #2"
 categories:
  - Audio

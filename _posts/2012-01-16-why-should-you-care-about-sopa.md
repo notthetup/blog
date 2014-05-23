@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Why YOU should care about SOPA?
 categories:
  - Tech

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: I should learn LaTeX
 categories:
  - Tech

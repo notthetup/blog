@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Open Sound Control
 categories:
  - Audio

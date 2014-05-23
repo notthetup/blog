@@ -1,4 +1,5 @@
 ---
+layout: post
 title: The rebirth of Apple TV.
 categories:
  - Tech

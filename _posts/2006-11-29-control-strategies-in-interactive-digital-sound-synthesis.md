@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Control Strategies in Real-Time Interactive Digital Sound Synthesis
 categories:
  - Audio

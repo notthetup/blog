@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Music, Distribution and Piracy
 categories:
  - Music
