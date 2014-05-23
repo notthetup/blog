@@ -4,7 +4,7 @@ categories:
  - Tech
 ---
 
-Knowing how much I **blabber**, it will not be a surprise to many that I am dabbling into podcasting.
+Knowing how much I **blabber** , it will not be a surprise to many that I am dabbling into podcasting.
 
 I always wanted to do one, since I got hooked to podcasts last year. But, as usual, I lacked time and a group of enthusiasts to do it. (hint hint).
 
@@ -16,7 +16,7 @@ Whatever it is, do give it a listen and subscribe to 65bits feed or [on itunes.]
 
 Here is our recent episode which is **NOT** about iPhone.
 
-<audio src=http://www.tech65.org/podpress_trac/web/62/0/65bits-Ep28-010707.mp3>
+<audio src=http://www.tech65.org/podpress_trac/web/62/0/65bits-Ep28-010707.mp3></audio>
 
 I kid, I kid.
 
