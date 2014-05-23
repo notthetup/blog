@@ -1,7 +1,7 @@
 title: ChinPen
 description: "Technology, Audio and other Geekery"
 logo:           site-logo.png
-url:              http://notthetup.github.io/blog
+url:              http://localhost:4000
 
 destination: ./_site
 plugins:     ./_plugins
