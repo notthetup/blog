@@ -6,7 +6,7 @@ tags:
  - Technology
 ---
 
-For my [new (it's almost 3 months old already) podcast][0] we had an idea of streaming the recording live. Also I had decided to leave Skype for [Mumble][1]. Skype was getting too unreliable and Mumble supported[separate channel recording][2] for each connected client, which would make post processing much simpler.
+For my [new (it's almost 3 months old already) podcast][0] we had an idea of streaming the recording live. Also I had decided to leave Skype for [Mumble][1]. Skype was getting too unreliable and Mumble supported [separate channel recording][2] for each connected client, which would make post processing much simpler.
 
 So I setup a spare box (Pentium(R) Dual-Core E6300, 4GB) to run [Archlinux][3] (which turned out to be kind of a bad idea in the end). I am lucky to get a pseudo-static IP from my ISP but I got [Dynamic DNS ][4]setup using [ddclient][5] just incase.
 
@@ -30,7 +30,7 @@ The couple of hoops one has to be jump through to get this work. Firstly we need
 
 Next was getting the DarkIce to work. I got a lot of help from [this post on doing something similar][18]. DarkIce can pipe any Pulse Audio Stream to an IceCast server. So I created a dummy(null) Pulse Audio Stream which can be set as the audio output (System : Pulse Audio & Device : Null Output) in the Mumble client and on the other end used to feed DarkIce using the ".monitor" functionality of Pulse Audio Streams. The DarkIce config in the repo has the relevant config setup.
 
-![mumble](../images/2013/11/mumble1-300x285.png)
+![mumble](../images/2013/11/mumble1.png)
 
 With that setup in DarkIce and in the Mumble Client, we had the audio from the Mumble conversation happily being streamed out over Icecast. DarkIce also supported transcoding and streaming multiple streams (mp3 and ogg) to the Icecast server (Yay!).
 

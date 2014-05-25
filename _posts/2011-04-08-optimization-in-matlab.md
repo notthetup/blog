@@ -11,7 +11,7 @@ Continuing on the Optimization problem from [the last post][0]. I remembered hav
 
 The quickest way to to learn about [this Toolbox ][1]is to use the GUI based tool. The command _optimtool _will get you the tool. The basic premise of this tool is that you create a function ([ObjectFunction][2]) which when given the variables as arguments, will yield the value being optimized (in most cases minimized). Then by calling this function with various combination of inputs, the optimzation tool will decide the optimum values of the input. This might be a very simplistic view, but that's the foundation.
 
-From here, we get more complicated. You can choose more complicated problem structures (max min problem to find the maximum output value for minumum arguments, etc), you are define linear and non-linear constraints, a multitude of algorithms to solve the problem, and so on. As always the help files and [demos][3] are[great support][4] to decide what you need and chose the correct solvers,stop conditions, etc.
+From here, we get more complicated. You can choose more complicated problem structures (max min problem to find the maximum output value for minumum arguments, etc), you are define linear and non-linear constraints, a multitude of algorithms to solve the problem, and so on. As always the help files and [demos][3] are [great support][4] to decide what you need and chose the correct solvers,stop conditions, etc.
 
 I won't say I totally understand how the tool work, especially since I am still unclear about how the solvers actually work, but the tool gives enough data for you to use it to generate some useful results.
 

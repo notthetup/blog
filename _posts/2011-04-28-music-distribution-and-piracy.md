@@ -6,7 +6,7 @@ tags:
  - Technology
 ---
 
-**Update**: The music was finally released under the Saregama label, and you can[find it here][0]..
+**Update**: The music was finally released under the Saregama label, and you can [find it here][0]..
 
 --------
 
@@ -28,7 +28,7 @@ The other thought came after reading some comments on the [Facebook page of the 
 
 For a movie with a theme, which has so much do with music, and furthermore in a market like India, **what strategy of music distribution should be adopted?**
 
-The soundtrack of this movie has 21 tracks/songs. Most based on the[songs of Balgandharva from the yesteryears][8] and they are really well produced. It truly sounds like a masterpiece in making from the trailer. Hence the super heightened expectations from the fans.
+The soundtrack of this movie has 21 tracks/songs. Most based on the [songs of Balgandharva from the yesteryears][8] and they are really well produced. It truly sounds like a masterpiece in making from the trailer. Hence the super heightened expectations from the fans.
 
 However, piracy of music is extremely common in India. I do remember growing up, copying cassette tapes was so rampant, that we didn't know that it was 'illegal'. The culture of 'sharing' music (and videos) has forced many companies adopt very unusual business models to combat this piracy. You could call me presumptuous, but one can sense that many fans who're so intent on downloading the music for this movie might not want to pay for it..
 
@@ -36,7 +36,7 @@ However, piracy of music is extremely common in India. I do remember growing up,
 
 As a fan of the production and artists involved, I definitely want them to make as much money as they can off the film. They deserve it for all the work one can see put in.. And someone who doesn't live in India, I wish I was able to download and listen to the music in high quality as soon as it's published. So where can be draw the line?
 
-We know that [DRM][9] is a [broken solution][10] for various reasons (hard to use, expensive, unsustainable, etc). The main reason why most of US and European Music Industry was able to go beyond DRM and freely distribute non-DRM music online with a new model is the support from the infrastructure and society. Fast and ever available internet makes apps like [Spotify][11], [Rdio][12] viable alternatives to piracy. Furthermore, the structure of the music industry, (mainly based on bands), makes it easy to have fans supporting single entities, and thus not pirate those bands.For eg. It's easy to say, I love[Nice Inch Nails][13] and I won't pirate their music as I want to support them.
+We know that [DRM][9] is a [broken solution][10] for various reasons (hard to use, expensive, unsustainable, etc). The main reason why most of US and European Music Industry was able to go beyond DRM and freely distribute non-DRM music online with a new model is the support from the infrastructure and society. Fast and ever available internet makes apps like [Spotify][11], [Rdio][12] viable alternatives to piracy. Furthermore, the structure of the music industry, (mainly based on bands), makes it easy to have fans supporting single entities, and thus not pirate those bands.For eg. It's easy to say, I love [Nice Inch Nails][13] and I won't pirate their music as I want to support them.
 
 But in India, 3G has just been launched. Internet has barely penetrated the market. And within the Indian movie music industry is so hard to support a single entity as they change teams with every movie. Furthermore, economics is a big factor, where a 99¢ song makes sense in the US for most people, the same cost is prohibitively expensive for many fans in India.
 

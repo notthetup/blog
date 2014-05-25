@@ -26,7 +26,7 @@ The set-up I'm envisioning is as follows.
 * aplay (simple audio player)
 * Custom Python scripts to manage and trigger the audio files.
 
-It looks simple enough and[I found a few articles ][4]on the Interwebs [talking about similar ideas][5], but there could be some gotchas.
+It looks simple enough and [I found a few articles ][4]on the Interwebs [talking about similar ideas][5], but there could be some gotchas.
 
 **Possible Problem Area**
 

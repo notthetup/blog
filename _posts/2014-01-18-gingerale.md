@@ -9,7 +9,7 @@ I've been dabbling with simple fermentation for a few years now. [Kefir (an awes
 
 I started with making gingerale based on [this recipe from David B. Fankhauser at the U.C. Clermont College][1] with mixed results.
 
-Then came[version 0.1][2] to [version 1.0][3] each with small changes to the recipe.
+Then came [version 0.1][2] to [version 1.0][3] each with small changes to the recipe.
 
 Finally I have converged to a recipe which is closer to beer brewing techniques than David's original recipe. The ingredients are more or less the same as the previous versions.  Here's how I do ginger ale.
 
@@ -31,7 +31,7 @@ I try to use young ginger, it's a little more 'fruity' and intense (I like my gi
 
 ![IMG_20140111_162538](../images/2014/01/IMG_20140111_162538.jpg)
 
-Boiling achieves a couple of things[. Tap water (atleast in Singapore) is fluorinated][6], which is not very conducive for our probiotics. So boiling should get rid of all the fluorine and other additives(_Correction based on comments below :_ Fluorides in the water are salts and hence will not evaporate by boiling. [Chlorine which is also added to tap water][7] is the one which evaporates away when boiled.) It also extracts the flavour from the ginger into the water.
+Boiling achieves a couple of things. [Tap water (atleast in Singapore) is fluorinated][6], which is not very conducive for our probiotics. So boiling should get rid of all the fluorine and other additives(_Correction based on comments below :_ Fluorides in the water are salts and hence will not evaporate by boiling. [Chlorine which is also added to tap water][7] is the one which evaporates away when boiled.) It also extracts the flavour from the ginger into the water.
 
 3. Let the hot wort cool down by leaving the pot open. This will also enable the fluorine to evaporate off.
 
@@ -53,7 +53,7 @@ Boiling achieves a couple of things[. Tap water (atleast in Singapore) is fluori
 
 ![IMG_20140111_182936](../images/2014/01/IMG_20140111_182936.jpg)
 
-5 b. Optionally, Add some raisins to the mixture.[Grape skin are known to have natural yeast (which ferment the wine)][9], so raisins help to add a bit of kick to the gingerale. This idea came from[my friend Stephan][10] talking about how his grandma used to make gingerale with raisins. Theoretically, I think you might be able to pull it off just using raisins without yeast, but I haven't tried that yet.
+5 b. Optionally, Add some raisins to the mixture. [Grape skin are known to have natural yeast (which ferment the wine)][9], so raisins help to add a bit of kick to the gingerale. This idea came from [my friend Stephan][10] talking about how his grandma used to make gingerale with raisins. Theoretically, I think you might be able to pull it off just using raisins without yeast, but I haven't tried that yet.
 
 6. Let the wort ferment at room temperature in a shaded place (no direct sunlight) for 3 days.
 

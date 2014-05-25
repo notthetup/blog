@@ -30,7 +30,7 @@ $$ x_{lb} \leq 0.2m $$
 
 $$ x_{rb} \leq 0.05m $$
 
-So, this is a clasic problem of [Constrained Optimization][0]. The basis idea being classical Constrained Optimization techniques is that you generate 'cost functions' from the constraints and then subtract these 'costs' from the the value being optimized. The[Lagrangian Multiplier][1] method is one such method which is pretty straight forward. If you are interested in understanding the underlying theory and proofs behind these methods I recommend [this ebook by Prof. Bertsekas][2].
+So, this is a clasic problem of [Constrained Optimization][0]. The basis idea being classical Constrained Optimization techniques is that you generate 'cost functions' from the constraints and then subtract these 'costs' from the the value being optimized. The [Lagrangian Multiplier][1] method is one such method which is pretty straight forward. If you are interested in understanding the underlying theory and proofs behind these methods I recommend [this ebook by Prof. Bertsekas][2].
 
 For my case, I hit two problems. Firstly, I am not sure if the Lagrangian method would work on my functions, it's gurateed to work on convex functions, but the expression for _q_ is pretty complex to analyze and know the form of. Secondly the basic Lagrangian method needs one to derivate over all the variables (both system variables and the lagrangian variables). Here it gets really messy and prone to bugs.
 

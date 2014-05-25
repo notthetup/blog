@@ -14,7 +14,7 @@ It seems that lots of lecturers are joining the web2.0 bandwagon, with podcasts!
 
 There are [134 free podcasts][1] and [more][2] from various US and UK universities, inlcuding some of the top universities.
 
-Not only podcasts, I also found the[open courseware project][3] from MIT!
+Not only podcasts, I also found the [open courseware project][3] from MIT!
 
 They have courseware for all sorts of courses from, some really interesting ones, like
 
