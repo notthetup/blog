@@ -40,7 +40,7 @@ The prices have gone up this year. It's S$58 at the gate, but if you are a stude
 
 As I wrote in [my review last year][3], the Atmosphere, Music and Spirit come togather to create a hell of an event.
 
-So who else is going???
+So who else is going?
 
 
 [0]: http://www.chinpen.net/blog/womad-singapore-2006/

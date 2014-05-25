@@ -6,7 +6,7 @@ tags:
  - Travel
 ---
 
-I was watching [CommandN][0]... and they mentioned about this...
+I was watching [CommandN][0], and they mentioned about this...
 
 TTC eyes Google for planning trips.
 --Planning a quick trip across town using public transit could one day be a matter of simply Googling the route in Toronto!

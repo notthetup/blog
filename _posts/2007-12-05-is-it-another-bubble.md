@@ -12,7 +12,7 @@ I liked [Denise Howell's][0] take on it..
 
 _"Forget about things like the fact Google's at $741 and Apple's at $191. Were you to try to rent a car at San Jose Airport tomorrow (Wednesday), you would discover that every single vehicle from every single carrier is spoken for."_
 
-And of course who can not resist Billy Joel??
+And of course who can not resist Billy Joel?
 
 <iframe id="ytplayer" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/YuAJHaXKgFk?&origin=http://chinpen.net/blog" frameborder="0" ></iframe>
 

@@ -8,7 +8,7 @@ tags:
 
 Either I am really bored, or I am gone totally crazy. Or Both..
 
-Anyway, so in the past few weeks lots of cool things happened in tech world. And what have I been doing them?? Following such things instead of studying.
+Anyway, so in the past few weeks lots of cool things happened in tech world. And what have I been doing them? Following such things instead of studying.
 
 There was CES06. There was MacWorld and other stuff that I just found out about.
 
@@ -22,7 +22,7 @@ The best part of MacWorld was the new [Apple MacBook Pros][3]. Hehe..
 
 "Intel Core Duo processor at either 1.67 or 1.83GHz, 512MB - 2GB RAM, built-in iSight, FrontRow, FireWire 400, two USB 2.0 ports, ExpressCard/34, MagSafe power, 802.11g (AirPort Extreme), Bluetooth 2.0 EDR), gigabit Ethernet, backlit keyboard, Apple remote input, 15.4-inch 1440 x 900 display, ATI Mobility Radeon X1600 with either 128 or 256MB of RAM and dual-link DVI (for 30-inchers), an 80GB or 100GB drive, and dual-layer DVD burner"
 
-And being an x86 processor.you could, people speculate, run your good old Windows on it!! That would be nice would'nt it??
+And being an x86 processor.you could, people speculate, run your good old Windows on it!! That would be nice would'nt it?
 
 But, don't hold your breadth and hold on to your WinXP cds. Due to some firmware compatibility issues, XP wont be able to work with it. Damn it. [Wait for Vista][4] they say.
 

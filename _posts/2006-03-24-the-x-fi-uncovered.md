@@ -8,7 +8,7 @@ tags:
 
 I am really excited about the **X-Fi**. I know compared to some really high end stuff out there, this is really nothing. But, its something really good that I can afford. Well maybe not now. Hopefully I can buy one from TheWeed if he wins one.
 
-Anyway, so when am I ever satisfied by just looking at or merely using some really cool peice of technology?? I wanna know how it works?? Especially if you claim things as Creative has claimed. So I was looking for some nice indepth technical reviews done by people on the X-Fi. But sadly, I found only generic stuff, nothing in much detail.
+Anyway, so when am I ever satisfied by just looking at or merely using some really cool peice of technology? I wanna know how it works? Especially if you claim things as Creative has claimed. So I was looking for some nice indepth technical reviews done by people on the X-Fi. But sadly, I found only generic stuff, nothing in much detail.
 
 Untill I found these.
 [Creative X-Fi pt 1][0]

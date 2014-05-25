@@ -32,7 +32,7 @@ Once, you start challenging things, you realized how many redundant things you a
 
 **Communicate**
 
-This is one of the most basic, but most important issue I see in local universities. Again, I do feel its a cultural thing. Students can't or those who can, don't communicate.How many times has the lecturer asked a question during the lecture, and received a silence as a reply?? How many?? And the lecturer ends up answering his/her own question. This is just sad. (This is rampant in Engineering. What about other faculties??)
+This is one of the most basic, but most important issue I see in local universities. Again, I do feel its a cultural thing. Students can't or those who can, don't communicate.How many times has the lecturer asked a question during the lecture, and received a silence as a reply? How many? And the lecturer ends up answering his/her own question. This is just sad. (This is rampant in Engineering. What about other faculties?)
 
 Students need to communicate well in order to get the most from their university education. They need to tell the lecturers what they understand, what they don't. They need communicate with their peers to exchange ideas and discuss course work. They need to communicate with people around university to generate new relationships to grow and learn. But, we don't. We prefer to stick in our own cozy cocoons and never dare to explore.
 

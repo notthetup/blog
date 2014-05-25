@@ -14,8 +14,8 @@ I had accepted the **absolute truth in logic** and believed that **nothing was h
 
 In the last few weeks, all this has been **shaken from its roots**. I realised that as much as I can think logically and rationally, I cannot get myself to **behave, and feel that way**. If I cannot get myself to _behave_ in the way I think I should behave. how can I expect others to do that. That means that the whole world can never behave logically.
 
-That's not possible. cos logic and rational are the absolute truths, arn't they??
+That's not possible. cos logic and rational are the absolute truths, arn't they?
 
 I am doomed. What I stood for lies _bare_ in front of me. **Destroyed** by the very thing that stood for it. I have nothing to stand for now. I have lost all I ever completely believed in.
 
-Would I dare to believe in anything anymore???
+Would I dare to believe in anything anymore?

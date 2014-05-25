@@ -6,13 +6,12 @@ tags:
  - NUS
 ---
 
----
-
 Update:
 
 Like I said, all are **welcome** to attend the presentation. ECE has confirmed that the lab will be open that day from **9am** onwards, and there will be few more presentations before mine. You can catch them also.
 
 As for my presentation, I have a little advice, come with an open mind, have lots of imagination, and most importantly, **ask questions**!
+
 ---
 
 The time has come. **FYP CA4** presentation is gonna be on 11th April. This is _THE_ presentation for FYP. Worth 30% of the grade!

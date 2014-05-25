@@ -28,7 +28,7 @@ And the best part is,**it all FREE!**
 
 And with [Linux jumping to mobile devices][6], I am pretty sure we'll see many many more penguins in the world. :D
 
-Now, how do I get this WiFi going ??
+Now, how do I get this WiFi going ?
 
 
 [0]: http://www.paul.sladen.org/pronunciation/

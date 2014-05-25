@@ -8,7 +8,7 @@ tags:
 
 I've been hearing this confusion for many days, and decided this needs to be addressed.
 
-What's this 3G/4G that we keep [hearing about everywhere][0], what does that mean to me??
+What's this 3G/4G that we keep [hearing about everywhere][0], what does that mean to me?
 
 The main reason for the confusion is the completely illogical and confusing naming convention and 'branding' (it sounds almost dirty) used by all the telcos and manufacturers.
 
@@ -28,7 +28,7 @@ Since they were digital, many of these standards also allowed other digital data
 
 So both the groups evolved their standards to quality for the new requirements. the 3GPP side came up with UMTS(W-CDMA). The W-CDMA here refers to the technology used, nothing to do with the CDMA standard from 2G. And the 3GPP2 side came up with CDMA2000 1xEV-DO, widely known as EV-DO.
 
-**3.5G** Ofcourse, we can't stop at 3G, so there was enhancement to the standards. The 3GPP moved to HSPA(HSDPA and HSUPA), while 3GPP2 side went with EV-DO RevA. These were mainly just speed bumps. Confused?? The guys at commandN did a [nice table for everything until 3.5G][6].
+**3.5G** Ofcourse, we can't stop at 3G, so there was enhancement to the standards. The 3GPP moved to HSPA(HSDPA and HSUPA), while 3GPP2 side went with EV-DO RevA. These were mainly just speed bumps. Confused? The guys at commandN did a [nice table for everything until 3.5G][6].
 
 **3.75G** We can't stop here either. Even more speed 3GPP - HSPA+ ; 3GPP2 - EV-DO RevB.
 
@@ -38,7 +38,7 @@ So both the groups evolved their standards to quality for the new requirements. 
 
 [LTE][10] (Long Term Evolution) is the 3GPP groups version of next generation standard. Once again it can't perform to the requirements of ITU and hence it's considered 3.9G. The next version LTE-Advanced should be called 4G.
 
-So what does it mean to you??
+So what does it mean to you?
 
 1. Anyone selling you anything which is '4G' is fooling you.. None of the 4G standards are matured and surely none have been commercialized. But, many telcos are bringing out LTE and WiMAX 802.16e and touting it to be '4G'. Or '4G-ready'. It's not true.
 

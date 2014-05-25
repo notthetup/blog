@@ -12,7 +12,7 @@ I was watching [Episode 52 of Systm][0], and [Patrick][1] was trying to hack/mod
 
 _Aside : Systm has just revived into the awesome show it started as. Patrick did one on distillation, two on iPod/iPhone hacking/modding and possibly more coming up. Do watch it if you are interested in this type of stuff._
 
-So, Patrick was able to power up and charge the iPod (a 5th Gen iPod, I believe) by connecting just the [VDC and GND pins][2] of the connector to a 5V supply (possibly a VCC pin on a USB cable) and GND respectively, the same did not work on the iPhone. **Why??**
+So, Patrick was able to power up and charge the iPod (a 5th Gen iPod, I believe) by connecting just the [VDC and GND pins][2] of the connector to a 5V supply (possibly a VCC pin on a USB cable) and GND respectively, the same did not work on the iPhone. **Why?**
 
 [![USB](../images/2008/06/img_3160_usb-logo.jpg)][3]
 

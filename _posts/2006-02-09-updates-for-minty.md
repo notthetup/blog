@@ -22,7 +22,7 @@ This is the board layout of Minty.
 
 [![](../images/2006/02/minty.jpg)][7]
 
-And this is the 3D version. Cool huh??
+And this is the 3D version. Cool huh?
 
 Now only if I had more time...
 

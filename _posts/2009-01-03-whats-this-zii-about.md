@@ -21,7 +21,7 @@ There were a few more details/speculation which floated around the internet. The
 
 And the next was a [US Trademark Office search][2] for the term "Zii", which seemed to be registered under Creative for a very generic usage. It listed almost all the various fields which Creative has every dabbled with.
 
-**So what is this Zii??**
+**So what is this Zii?**
 
 Knowing Creative's love of playing with words, especially during their "viral marketing" campaigns, I looked at the big picture, to look for more clues with regards to what they were actually doing.
 
@@ -33,7 +33,7 @@ Power savings aside (because you can individually turn off any of the 1000 cores
 
 For eg. let's say we want to watch a video, we can configure the cores to form a H.264 decoder, and suddenly the H.264 decoding becomes a very fast process, since it's being done automatically by the HW (Hardware), and not by SW (Software) as it is done in most cases today. If we can drasctically speed up such processor intestive tasks, like Multimedia rendering, and complex calculations, we will start seeing many more interesting advances in computing technology, including the efficiency which Creative has promised.
 
-But why would Creative do something like this?? Which brings me to the part of the email " _10 years, over a billion dollars and over 10,000 man-years_". 10 years is a long time. And something that Creative has been ignoring about the same amount of time is their IC Design business. Yes we've had the X-Fi, but that was just one, and it probably was designed much earlier. What else??
+But why would Creative do something like this? Which brings me to the part of the email " _10 years, over a billion dollars and over 10,000 man-years_". 10 years is a long time. And something that Creative has been ignoring about the same amount of time is their IC Design business. Yes we've had the X-Fi, but that was just one, and it probably was designed much earlier. What else?
 
 And also if Creative has really been doing this for 10 years, they must have taxed the rest of the company by drawing loads of funds and skilled manpower. Which, we have seen happening as Creative has had some financial troubles in the recent years, and also they've had a lack-luster product line-up following the X-Fi.
 

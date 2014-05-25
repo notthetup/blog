@@ -18,7 +18,7 @@ This is my culture. I tend to exist in these things most of my day and I love it
 
 On an MRT ride last week, I suddenly had this thought.
 
-**Is this just a subculture??**
+**Is this just a subculture?**
 
 Really, how big and potent is this culture? Is it possible that I delve too much in these things that I do not see the world beyond it? How much have all these things affected the general population of the world. How much has it actually changed the world? Not my world, but the world in general.
 

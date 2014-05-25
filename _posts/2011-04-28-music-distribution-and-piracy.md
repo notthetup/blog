@@ -7,9 +7,9 @@ tags:
  - Technology
 ---
 
-**Update**: The music was finally released under the Saregama label, and you can [find it here][0]..
+**Update**: The music was finally released under the Saregama label, and you can [find it here][0].
 
---------
+---
 
 Recently, a Marathi movie about a very famous Marathi Musical Theatre personality of old, was announced.. [Balgandharva][1]. The movie had many 'up and coming' names attached to it, including the famous Art Director [Nitin Chandrakant Desai][2] (NCD) of [Devdas][3] fame producing it.
 
@@ -33,7 +33,7 @@ The soundtrack of this movie has 21 tracks/songs. Most based on the [songs of Ba
 
 However, piracy of music is extremely common in India. I do remember growing up, copying cassette tapes was so rampant, that we didn't know that it was 'illegal'. The culture of 'sharing' music (and videos) has forced many companies adopt very unusual business models to combat this piracy. You could call me presumptuous, but one can sense that many fans who're so intent on downloading the music for this movie might not want to pay for it..
 
-**So how can the music of such an epic movie be distributed??**
+**So how can the music of such an epic movie be distributed?**
 
 As a fan of the production and artists involved, I definitely want them to make as much money as they can off the film. They deserve it for all the work one can see put in.. And someone who doesn't live in India, I wish I was able to download and listen to the music in high quality as soon as it's published. So where can be draw the line?
 

@@ -42,7 +42,7 @@ It's a short-term vs long-term trade-off. Coffee (and possibly alcohol, although
 
 ![](../images/2013/02/Junk-Food-Quote.jpg)
 
-Junk food isn't much of a help to that. I am not even going to touch on long-term effects of eating high carb diets. The usual Hackathon menu of pizza and candy is full of carbohydrates. While sugar highs are great for short-term focus (maybe??) you tend to feel hungry very quickly after a carb heavy meal. That only means you going around for another round of pizza/candy etc. Not really the best way to focus is it?
+Junk food isn't much of a help to that. I am not even going to touch on long-term effects of eating high carb diets. The usual Hackathon menu of pizza and candy is full of carbohydrates. While sugar highs are great for short-term focus (maybe?) you tend to feel hungry very quickly after a carb heavy meal. That only means you going around for another round of pizza/candy etc. Not really the best way to focus is it?
 
 #### Sedentary lifestyle
 

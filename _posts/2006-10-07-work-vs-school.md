@@ -9,14 +9,14 @@ tags:
 
 How many times have you heard,
 
-"_You never use what you learn in school in working life. School is just for the certificate_" ??
+"_You never use what you learn in school in working life. School is just for the certificate_" ?
 
 [![](http://static.flickr.com/7/8916354_adb5e0bf5c_m.jpg)][0]
 
 I **disagree**, and especially during the past few weeks, I understood the importance of so many things we learnt in school. Of course most of these are realated to Software stuff, because I am working in it. But I am sure it can be used everywhere.
 
 **Data Abstraction.**
-One of the holy grails of Object Orientation. It was such a pain when we learned it in CS1102. But, well designed interfaces and components allowed developement of a very very user-friendly GUI over [my FYP][1] by someone who did not understand even a little bit of my mapping engin. As long as you have interfaces to implement, who care whats on the other side?? :p
+One of the holy grails of Object Orientation. It was such a pain when we learned it in CS1102. But, well designed interfaces and components allowed developement of a very very user-friendly GUI over [my FYP][1] by someone who did not understand even a little bit of my mapping engin. As long as you have interfaces to implement, who care whats on the other side? :p
 
 **Use Cases.**
 I absloutely hated this. I never formally learnt Software Engineering, and never wished I did. But last week, I realised that use cases are very very useful in large projects. All the projects we ever did were really small. With use cases, large (or small or even _useless_) teams can work in harmony!
