@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: What's this Zii about?
 tags:
  - Audio
@@ -8,7 +9,7 @@ tags:
 
 Creative technologies, yes yes. our [DEAR Creative][0] announced a couple of weeks ago, their new initiative. It's called [Creative Zii][1]. with the subtitle "Stemcell Computing" (which they seem to have trademarked). and the tagline "Everything you know is about to change".
 
-![creative-zii-1](./images/2009/03/creative-zii-1.jpg)
+![creative-zii](../images/2009/03/creative-zii.jpg)
 
 There were a few more details/speculation which floated around the internet. The first was an email update from Creative, which states.
 

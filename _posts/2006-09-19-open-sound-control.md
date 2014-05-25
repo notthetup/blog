@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Open Sound Control
 tags:
  - Audio

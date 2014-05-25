@@ -1,5 +1,7 @@
+
 ---
 layout: post
+comments: true
 title: "Google Andriod : Open? - Part 1"
 tags:
  - Technology

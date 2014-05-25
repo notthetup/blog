@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Music, Distribution and Piracy
 tags:
  - Music
@@ -12,7 +13,7 @@ tags:
 
 Recently, a Marathi movie about a very famous Marathi Musical Theatre personality of old, was announced.. [Balgandharva][1]. The movie had many 'up and coming' names attached to it, including the famous Art Director [Nitin Chandrakant Desai][2] (NCD) of [Devdas][3] fame producing it.
 
-[![](../images/2011/04/photo_gallery_images_1.jpg)][4]
+[![](../images/2011/04/photo_gallery_images_1.png)][4]
 
 A few things really struck me about this movie, when I watch the [first trailer][5] (be sure to watch it in HD)..
 

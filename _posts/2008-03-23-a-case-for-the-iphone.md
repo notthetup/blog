@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: A case for the iPhone
 tags:
  - Technology
@@ -17,7 +18,7 @@ Moving on, podcasts might not be everyone's cup of tea (Though I would like to a
 
 So now, with the [iPhone SDK][4] released, adding these functionality to the iPhone would be a matter of making the right app. A podcast aggregator or podcatcher which lives on the iPhone and is able to download the podcasts as the come out directly to your iPhone, using Wifi or cellular data whichever is available. And an RSS aggregator which is able to work with Safari, which is a full fledged browser (albeit no flash support) to give you the complete experience of news over RSS. And furthermore, if you are able to integrate these apps even more, you could hyper link the "show notes" delivered with your podcasts, something that's already doable with enhanced podcasts, and surf them up, in the browser, while you listen to the podcasts in the background. There you go, your complete podcast experience. Place shifting along with the rest of the experience.
 
-So maybe, the iPhone could be the key to podcasts becoming bigger.**Anyone interested in developing these iPhone apps?**
+So maybe, the iPhone could be the key to podcasts becoming bigger. **Anyone interested in developing these iPhone apps?**
 
 
 [0]: http://chinpen.net/blog/iphone-mania/

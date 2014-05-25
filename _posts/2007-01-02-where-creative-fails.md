@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Where Creative fails
 tags:
  - Audio

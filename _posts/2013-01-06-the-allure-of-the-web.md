@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: The allure of the web
 tags:
  - Technology

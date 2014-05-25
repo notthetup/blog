@@ -1,11 +1,12 @@
 ---
 layout: post
+comments: true
 title: Funky Waves
 tags:
  - Audio
 ---
 
-We were trying to animate a _mode_ which we measured on a beam for one of the labs at school.. Ofcourse, [Matlab][0] it was for all the data processing and animation. We used the '[patch][1]' command to generate a surface with many elements and then moved them individually as per the measurements.
+We were trying to animate a _mode_ which we measured on a beam for one of the labs at school. Ofcourse, [Matlab][0] it was for all the data processing and animation. We used the '[patch][1]' command to generate a surface with many elements and then moved them individually as per the measurements.
 
 Now of course Matlab let's you save each plot as a bitmap and play them back as a movie, but then it's stuck in Matlab. So how do you render it to a 'standard' file? Well, there is [mpgwrite][2]. You can find it at [Matlab Central][3] which is a really cool community where you can get tonnes of Matlab help and pre-written scripts and libraries which help you do lots of things.
 

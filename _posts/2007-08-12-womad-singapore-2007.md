@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Womad Singapore 2007
 tags:
  - Music

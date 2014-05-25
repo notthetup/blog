@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Getting most out of your University time
 tags:
  - NUS

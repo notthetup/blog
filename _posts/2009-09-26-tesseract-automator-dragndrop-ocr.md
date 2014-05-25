@@ -1,11 +1,12 @@
 ---
 layout: post
+comments: true
 title: Tesseract + Automator = DragnDrop OCR!
 tags:
  - Technology
 ---
 
-Necessity is the mother of invention it is said.. And sometimes it just takes an annoying repetitive task to psuh someone to do something..
+Necessity is the mother of invention it is said.. And sometimes it just takes an annoying repetitive task to push someone to do something..
 
 I've always been interested in [Applescript][0] and [Automator][1]. These are Apple's scripting/automating/batch processing frameworks. Applescript is basically a scripting language which allows you to command many OSX apps. The amount of control you have exert over the running of the apps depends on how the app was made (if they put in the hooks for apple script or not), but most Apple apps are pretty 'scriptable'. Automator is automation for _noobs_. Instead of writing a script, you just drag and drop "actions" and create a "[workflow][2]", which lets you pass outputs of one action to another and process them. It seems pretty lame at first, but once you start making your own droplets and 'workflows' it's great fun!
 

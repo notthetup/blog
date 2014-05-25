@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: My Obsession with Sound
 tags:
  - Audio

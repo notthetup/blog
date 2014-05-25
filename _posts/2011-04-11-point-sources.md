@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Point Sources
 tags:
  - Acoustics

@@ -1,11 +1,14 @@
 ---
 layout: post
+comments: true
 title: "Google Andriod : Open? - Part 2"
 tags:
  - Technology
 ---
 
 _This is a continuation of the [Part 1 of discussion][0] on Google Android._
+
+[![Android](http://www.openhandsetalliance.com/images/android_bigger.jpg)][0]
 
 So will we be able see Android on the iPhone, the Nokia N95, or even the Motorola RAZR cellphones? Herein lies the biggest misconception about Open OSs.
 
@@ -21,7 +24,7 @@ Hence, there are two problems in getting Android running on any generic phone. 1
 
 In most phones the HW will only allow the original OS to boot, and no one knows what/how the Baseband OS works and how one can communicate with it. And this is why I feel it will be very difficult to see Android running on other phones, without the HW manufacturer themselves supporting it explicitly.
 
-So is Google Android Open? Surely! But that doesn't mean you'll see it running on an iPhone close to you anytimes soon..
+So is Google Android Open? Surely! But that doesn't mean you'll see it running on an iPhone close to you anytimes soon.
 
 
 [0]: http://chinpen.net/blog/google-andriod-open-part-1

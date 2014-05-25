@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Google your route
 tags:
  - Travel
@@ -18,7 +19,7 @@ Plus it allows you to state what time you want to reach the place and can tell y
 
 And it will estimate and add changeover delays according which platform your train arrives and which platform the next train is supposed to leave!! That is cool..
 
-How I wish they had something like that for Singapore. I'd be addicted to it forever. I can't even remember when the**A1s** leave PGP and when the **A2s**.
+How I wish they had something like that for Singapore. I'd be addicted to it forever. I can't even remember when the **A1s** leave PGP and when the **A2s**.
 
 
 [0]: http://commandN.tv

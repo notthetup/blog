@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Why YOU should care about SOPA?
 tags:
  - Technology

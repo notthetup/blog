@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: USB device Charging de-mystified
 tags:
  - Technology
@@ -11,7 +12,7 @@ I was watching [Episode 52 of Systm][0], and [Patrick][1] was trying to hack/mod
 
 _Aside : Systm has just revived into the awesome show it started as. Patrick did one on distillation, two on iPod/iPhone hacking/modding and possibly more coming up. Do watch it if you are interested in this type of stuff._
 
-So, Patrick was able to power up and charge the iPod (a 5th Gen iPod, I believe) by connecting just the [VDC and GND pins][2] of the connector to a 5V supply (possibly a VCC pin on a USB cable) and GND respectively, the same did not work on the iPhone.**Why??**
+So, Patrick was able to power up and charge the iPod (a 5th Gen iPod, I believe) by connecting just the [VDC and GND pins][2] of the connector to a 5V supply (possibly a VCC pin on a USB cable) and GND respectively, the same did not work on the iPhone. **Why??**
 
 [![USB](../images/2008/06/img_3160_usb-logo.jpg)][3]
 
@@ -39,13 +40,13 @@ And the 3 USB Device Classes are..
 
 So basically, there are hosts that can supply up to 500mA and devices which can sync up to 500mA. However, all **hosts and devices** will default to supplying and sinking (respectively) 100mA. And to switch to the high power mode, the device software ([USB Stack][5]) has to request the host to start providing 500mA. This request has to be done through the **Default Configuration Pipe of the connection, using "SetConfiguration" USB Device Request.** In this configuration, the value of maximum current, in mA, can be set. However, these requests go over the D+ and D- USB pins, since all **data** goes over those pins. And so, these pins have to be connected to allow the Device to request 500mA.
 
-Now that explains why many times our devices just can't charge over those USB Wall-Chargers, because they request and expect 500mA charging configuration, but since the USB Wall-Chargers are not "hosts", and don't have any micro-Controller or any USB Stack running, they cannot reply to these requests. For that matter, most of them, just like Patrick's charger, don't even have D+ and D- pins at all. And**since the device can't get 500mA, it can decide it can't charge and stops**.
+Now that explains why many times our devices just can't charge over those USB Wall-Chargers, because they request and expect 500mA charging configuration, but since the USB Wall-Chargers are not "hosts", and don't have any micro-Controller or any USB Stack running, they cannot reply to these requests. For that matter, most of them, just like Patrick's charger, don't even have D+ and D- pins at all. And **since the device can't get 500mA, it can decide it can't charge and stops**.
 
-So now, finally the question is, why can an iPod charge on 100mA (I have tried it using a USB Wall-Charger, it works), but the**iPhone** can't.
+So now, finally the question is, why can an iPod charge on 100mA (I have tried it using a USB Wall-Charger, it works), but the **iPhone** can't.
 
 The answer is simple, iPhone has a GSM radio for the cellular telecommunications. And GSM radios draw huge amounts of currents when they broadcast the data in bursts. So during these bursts, they may sink in the range of 70mA. So if you have a flat battery, and **a charger providing only 100mA, and a radio sinking 70mA, only ~30mA is left for the other components** including the touch screen and the backlight. Running on low current might cause many issues, especially on displays and touch sensors. So Apple must have decided to only charge the iPhone, (and in the case of low battery, allow it to boot-up), if 500mA configuration has been successful.
 
-_There you go, some interworking of USB and Charging on devices.. Drop me an email, or comment on this post, if you have any questions or queries about these things, and I will try my best to answer them.._
+_There you go, some interworking of USB and Charging on devices. Drop me an email, or comment on this post, if you have any questions or queries about these things, and I will try my best to answer them._
 
 
 [0]: http://revision3.com/systm/ipodcables

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Post FYP Syndrome
 tags:
  - NUS

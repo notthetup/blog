@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: The 3G-4G confusion
 tags:
  - Technology
@@ -27,9 +28,9 @@ Since they were digital, many of these standards also allowed other digital data
 
 So both the groups evolved their standards to quality for the new requirements. the 3GPP side came up with UMTS(W-CDMA). The W-CDMA here refers to the technology used, nothing to do with the CDMA standard from 2G. And the 3GPP2 side came up with CDMA2000 1xEV-DO, widely known as EV-DO.
 
-**3.5G **Ofcourse, we can't stop at 3G, so there was enhancement to the standards. The 3GPP moved to HSPA(HSDPA and HSUPA), while 3GPP2 side went with EV-DO RevA. These were mainly just speed bumps. Confused?? The guys at commandN did a [nice table for everything until 3.5G][6].
+**3.5G** Ofcourse, we can't stop at 3G, so there was enhancement to the standards. The 3GPP moved to HSPA(HSDPA and HSUPA), while 3GPP2 side went with EV-DO RevA. These were mainly just speed bumps. Confused?? The guys at commandN did a [nice table for everything until 3.5G][6].
 
-**3.75G** **We can't stop here either.****Even more speed 3GPP - HSPA+ ; 3GPP2 - EV-DO RevB.
+**3.75G** We can't stop here either. Even more speed 3GPP - HSPA+ ; 3GPP2 - EV-DO RevB.
 
 **3.9G (pre-4G)** Now this is where the fun starts, ITU has come up with requirements for 4G. However, the two main standards (WiMAX and LTE) gunning for this can't make it as of their current versions. But since everyone wants them to be commercialized and available, they decided to release the current versions.
 
@@ -39,11 +40,11 @@ So both the groups evolved their standards to quality for the new requirements. 
 
 So what does it mean to you??
 
-1\. Anyone selling you anything which is '4G' is fooling you.. None of the 4G standards are matured and surely none have been commercialized. But, many telcos are bringing out LTE and WiMAX 802.16e and touting it to be '4G'. Or '4G-ready'. It's not true.
+1. Anyone selling you anything which is '4G' is fooling you.. None of the 4G standards are matured and surely none have been commercialized. But, many telcos are bringing out LTE and WiMAX 802.16e and touting it to be '4G'. Or '4G-ready'. It's not true.
 
-2\. You will have to change hardware. Yes. None of these technologies are interoperable. Just like GSM/CDMA, the phones and modes supporting these standards will be completely different (might even have very different mechanisms of authentications, for eg, SIM card). And most of the devices you have now that can do 3.5G/3.75G won't be able to support 3.9G, but the reverse might be possible.
+2. You will have to change hardware. Yes. None of these technologies are interoperable. Just like GSM/CDMA, the phones and modes supporting these standards will be completely different (might even have very different mechanisms of authentications, for eg, SIM card). And most of the devices you have now that can do 3.5G/3.75G won't be able to support 3.9G, but the reverse might be possible.
 
-3\. Faster mobile telephony coming soon. Yup! This is a given, going forward we'll surely be seeing more and more devices supporting these new standards. Be careful what you buy. While most will support the fastest networks available currently, you don't want to be left behind when the next changes comes.
+3. Faster mobile telephony coming soon. Yup! This is a given, going forward we'll surely be seeing more and more devices supporting these new standards. Be careful what you buy. While most will support the fastest networks available currently, you don't want to be left behind when the next changes comes.
 
 P.S. To learn more about these standards, wikipedia any of these names.
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Unboxing the Zoom H4!
 tags:
  - Audio
@@ -11,7 +12,7 @@ This is [the Zoom H4][0]. It's a portable stereo audio recorder.
 
 I had ordered it for almost a month, and it arrived last week. Took me 3 days before I could un-box it. So here is goes.
 
-**_Zoom H4 Handy Recorder._**
+**Zoom H4 Handy Recorder.**
 
 * Records 24-bit/96 kHz digital audio as well as MP3 format with bitrates up to 320kbps
 * Two studio quality X/Y pattern condenser microphones for true stereo recording

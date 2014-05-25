@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Why I'm starting to like git
 tags:
  - Technology

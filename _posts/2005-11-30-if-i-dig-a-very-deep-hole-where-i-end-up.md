@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: If I dig a very deep hole, where I end up?
 ---
 

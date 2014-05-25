@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Web and the broken promise
 tags:
  - Technology

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Music and Video Games
 tags:
  - Music

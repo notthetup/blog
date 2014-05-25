@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Control Strategies in Real-Time Interactive Digital Sound Synthesis
 tags:
  - Audio

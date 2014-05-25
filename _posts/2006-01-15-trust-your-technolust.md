@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Trust your technolust!
 tags:
  - Technology
@@ -25,7 +26,7 @@ And being an x86 processor.you could, people speculate, run your good old Window
 
 But, don't hold your breadth and hold on to your WinXP cds. Due to some firmware compatibility issues, XP wont be able to work with it. Damn it. [Wait for Vista][4] they say.
 
-Maybe I will. Then I can have a**triple boot machine**! Use the best of each OS.
+Maybe I will. Then I can have a **triple boot machine**! Use the best of each OS.
 
 I cant wait for that.
 

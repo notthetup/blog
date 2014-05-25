@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Hackathons are bad for you
 tags:
  - Technology

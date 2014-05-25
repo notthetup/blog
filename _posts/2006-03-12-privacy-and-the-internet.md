@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Privacy and the Internet
 tags:
  - Technology

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: It's all about the Energy
 tags:
  - Acoustics

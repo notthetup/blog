@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: iPhone Mania
 tags:
  - Technology
@@ -14,7 +15,7 @@ My  impression of the iPhone has been a rollercoaster.
 * The pre-Release hype and the videos that Apple release got me excited again!
 * The post release reviews of the iPhone, and especially the keypad, made me dislike it.
 
-Finally when I saw it on Tuesday, I was completely excited. It was smaller and thinner than I expected. And most importantly, **it worked just fine! ** I tried surfing CNN, ping.sg and my own blog. I even left [a comment on my own blog][3]! Hahahaah
+Finally when I saw it on Tuesday, I was completely excited. It was smaller and thinner than I expected. And most importantly, **it worked just fine!** I tried surfing CNN, ping.sg and my own blog. I even left a comment on my own blog! Hahahaah!
 
 All the sites looked really sweet. The text was crisp clear and navigating was a breeze. Though,  long pages tended to be annoying to scroll through. The map feature seems really promising and the keyboard did not give any problems.
 
@@ -24,10 +25,9 @@ I was unable to testing calling and sms, though, I cant see how iPhone can do ei
 
 Then my colleague asked me today, if I had converted after finally touching the iPhone. Well, NO. Finally, I still feel that, from a utilitarian perspective, I see no use for most of the things it can do. On the other hand, all these effects and cool graphics are actually killing my battery. The price is also a killer. It's just too expensive for something that really is a Jack of All the trades. Even as a "Wide Screen iPod" it has not enough memory for my purpose.
 
-So all in all, iPhone,**still not my type of gadget**.
+So all in all, iPhone **still not my type of gadget**.
 
 
 [0]: http://tomato75.blogspot.com/2007/07/iphone-gathering-geek-terminal.html
-[1]: http://nttup.wordpress.com/2007/01/10/macworld/
-[2]: http://nttup.wordpress.com/2007/01/10/iphone-the-jack-of-all-trades/
-[3]: http://nttup.wordpress.com/2007/07/14/pizza-pizza/#comment-4725
+[1]: http://chinpen.net/blog/macworld/
+[2]: http://chinpen.net/blog/iphone-the-jack-of-all-trades/

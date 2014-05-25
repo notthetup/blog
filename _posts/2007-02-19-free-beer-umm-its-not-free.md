@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Free Beer!. umm. it's not Free"
 tags:
  - Technology

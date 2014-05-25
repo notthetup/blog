@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Raspberry Jam in Singapore
 tags:
  - Technology

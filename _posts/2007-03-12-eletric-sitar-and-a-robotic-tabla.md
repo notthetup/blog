@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Electric Sitar and a Robotic Tabla!
 tags:
  - Audio
@@ -7,7 +8,7 @@ tags:
  - NUS
 ---
 
-Let's start form the basics. [_Sitar_][0] and [_Tabla_][1] are both Indian musical instruments, widely used in Indian Classical Music. So what has **Electronics**and **Robotics** has got to do with it?
+Let's start form the basics. [_Sitar_][0] and [_Tabla_][1] are both Indian musical instruments, widely used in Indian Classical Music. So what has **Electronics** and **Robotics** has got to do with it?
 
 Everything!
 
@@ -29,5 +30,5 @@ Now, I should really get back to working on my [OSC implementation][6].
 [2]: http://www.nus.edu.sg/cfa/artsfest/techno.html
 [3]: http://www.cs.princeton.edu/sound/people/ajay/
 [4]: http://www.apple.com/ilife/garageband/
-[5]: http://nttup.wordpress.com/2006/11/29/control-strategies-in-interactive-digital-sound-synthesis/
-[6]: http://nttup.wordpress.com/2006/09/19/open-sound-control/
+[5]: http://chinpen.net/blog/control-strategies-in-interactive-digital-sound-synthesis/
+[6]: http://chinpen.net/blog/open-sound-control/

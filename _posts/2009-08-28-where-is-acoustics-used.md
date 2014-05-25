@@ -1,9 +1,10 @@
 ---
 layout: post
+comments: true
 title: Where is acoustics used?
 ---
 
-![Where is acoustics used?](..images/2009/08/wheelof.scaled1000.jpg)
+![Where is acoustics used?](..images/2009/08/wheelof.scaled1000.gif)
 
 via [ta.chalmers.se][0]
 

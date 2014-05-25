@@ -1,5 +1,7 @@
+
 ---
 layout: post
+comments: true
 title: FoxTrot + Bored Geeks = Hilariousness
 ---
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: To Blog or Not to Blog?
 ---
 

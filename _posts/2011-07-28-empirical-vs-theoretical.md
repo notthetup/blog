@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Empirical vs Theoretical
 tags:
  - Acoustics

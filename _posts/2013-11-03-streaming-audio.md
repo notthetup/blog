@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Streaming Audio from Mumble using IceCast
 tags:
  - Audio

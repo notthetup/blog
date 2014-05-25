@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Work vs School
 tags:
  - NUS
@@ -32,7 +33,7 @@ The most painful."_Leave 4 spaces instead of tabs. The parenthesis should be bel
 **Version control.**
 Never actually learned it in school. Had to use [SVN][3] for my FYP. Found it annoying. (Actually still do :p ). But with huge projects like at work, I have realised that Version control is indispensible. Althought management of such systems gets really **painful**. A properly setup system can be almost transparent!
 
-I believe there is a**lot to learn** in school. But we don't! Instead we waste our time **chasing grades**.
+I believe there is a **lot to learn** in school. But we don't! Instead we waste our time **chasing grades**.
 
 Learn people, learn the real stuff!
 

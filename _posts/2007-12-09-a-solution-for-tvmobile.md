@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: A solution for TVMobile
 tags:
  - Audio
@@ -7,8 +8,7 @@ tags:
 ---
 
 > "Find me one sbs-transit regular who acually likes TVMobile and I will pay for your dinner"
->
-> - A close friend.
+- A close friend.
 
 While I have not gotten my free dinner yet, I agree that TVMobile is freaking annoying. While I am not the easiest to satisfy, with respect to entertainment, among all the people, I can't see how anyone can enjoy watching lame TV shows, on minisucle screen, 10 feet away, with audio which breaks left and right, all of that while looking at such an angle that is sure to give you neck-aches.
 

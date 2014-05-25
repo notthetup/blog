@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Is all this just a subculture?
 tags:
  - Technology
@@ -15,7 +16,7 @@ PCs, Internet, Blogs,  Mobile devices, Portable Media players, Software, Open So
 
 This is my culture. I tend to exist in these things most of my day and I love it. These and other related things give me all the necessary motivation and meaning to continue to exist and continue to do things which I love.Technology also gives so much power to the users. Vast amount of knowledge, and ability retrieve it almost instantaneously. It's so crazy, that many times I get drunk in its power, and ability to do things.
 
-On an MRT ride last week, I suddenly had this thought...
+On an MRT ride last week, I suddenly had this thought.
 
 **Is this just a subculture??**
 

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: I should learn LaTeX
 tags:
  - Technology

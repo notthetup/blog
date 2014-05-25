@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Confessions of a soon to be engineer
 tags:
  - NUS
@@ -11,7 +12,7 @@ I have always been a very **logical**, very **rational** person. Never understoo
 
 I had accepted the **absolute truth in logic** and believed that **nothing was higher, powerful and absolute than rational**. I believed that my logical thought would allow me to solve any given problem. though I may need resources. a lot of them, but there was always a solution that could be reached..
 
-In the last few weeks, all this has been **shaken from its roots**. I realised that as much as I can think logically and rationally, I cannot get myself to**behave, and feel that way**. If I cannot get myself to _behave_ in the way I think I should behave. how can I expect others to do that. That means that the whole world can never behave logically.
+In the last few weeks, all this has been **shaken from its roots**. I realised that as much as I can think logically and rationally, I cannot get myself to **behave, and feel that way**. If I cannot get myself to _behave_ in the way I think I should behave. how can I expect others to do that. That means that the whole world can never behave logically.
 
 That's not possible. cos logic and rational are the absolute truths, arn't they??
 

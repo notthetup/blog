@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Nature knows no Borders
 tags:
  - Travel

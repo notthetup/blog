@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: The Wikipedia Controversy
 tags:
  - Technology

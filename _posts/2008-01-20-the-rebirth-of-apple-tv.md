@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: The rebirth of Apple TV.
 tags:
  - Technology

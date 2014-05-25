@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: FYP Presentation!
 tags:
  - NUS
@@ -14,7 +15,7 @@ Like I said, all are **welcome** to attend the presentation. ECE has confirmed t
 As for my presentation, I have a little advice, come with an open mind, have lots of imagination, and most importantly, **ask questions**!
 ---
 
-The time has come._**FYP CA4**_ presentation is gonna be on 11th April. This is _THE_ presentation for FYP. Worth 30% of the grade!
+The time has come. **FYP CA4** presentation is gonna be on 11th April. This is _THE_ presentation for FYP. Worth 30% of the grade!
 
 Here are the details.
 

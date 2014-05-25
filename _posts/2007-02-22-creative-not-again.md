@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Creative! Not again!
 tags:
  - Audio
@@ -15,7 +16,7 @@ This is very bad marketting strategy. While I do agree that it does make the cus
 
 And Creative already rips off people for the "custom" interface for the dock, which does not have any active or passive components. So its just how the connections are routed. And it costs $35 too.
 
-_**I will surely think twice before getting another Creative product.**_
+**I will surely think twice before getting another Creative product.**
 
 
 [0]: http://nttup.wordpress.com/2007/01/02/where-creative-fails/

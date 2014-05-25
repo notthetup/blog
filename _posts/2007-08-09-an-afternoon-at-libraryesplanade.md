@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: An afternoon at library@esplanade
 tags:
  - Music
@@ -17,7 +18,7 @@ And, as I found out, this place is really amazing.
 
 (AND I really need to get a camera.)
 
-The view of the Marina Bay and Singapore skyline is **stunning **as always. And it's an inspiring sight when you take your eyes out of your book and look out of the window.
+The view of the Marina Bay and Singapore skyline is **stunning** as always. And it's an inspiring sight when you take your eyes out of your book and look out of the window.
 
 The library is dedicated to the Arts. There are many book, CDs, DVD about various types of arts. And the library is classified by Music, Dance, Theatre, Film, et al.
 

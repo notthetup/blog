@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: And the Penguins will rule the world!
 tags:
  - Technology

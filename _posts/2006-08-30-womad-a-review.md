@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "WOMAD – A review"
 tags:
  - Music
