@@ -28,7 +28,7 @@ But, don't hold your breadth and hold on to your WinXP cds. Due to some firmware
 
 Maybe I will. Then I can have a **triple boot machine**! Use the best of each OS.
 
-I cant wait for that.
+I can't wait for that.
 
 So much for updates from the techworld. So [Trust your Technolust][5]!
 
