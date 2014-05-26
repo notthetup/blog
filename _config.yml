@@ -30,14 +30,17 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About
-    url: /about/
+  - title: Home
+    url: /
   - title: Blog
     url: /blog/
+  - title: About
+    url: /about/
+
 
 permalink: /:title
 
-exclude: ["README.md", "archives", "Gruntfile.js", "package.json", "node_modules", "less", "attachments", "cleanup", "import", "LICENSE", "CNAME",]
+exclude: ["README.md", "archives", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "CNAME",]
 
 markdown: kramdown
 
