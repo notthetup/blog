@@ -14,15 +14,15 @@ The main reason for the confusion is the completely illogical and confusing nami
 
 Let's go back to the basics.
 
-**1G. **When mobile telecommunication started off, it was analogue. All communication between the phone and the tower was just a analogue modulated signal of the speech. This is called 1G. The standards used during these times were, [NMT][1] \* [AMPS][2] \* [ETACS][3] etc.
+**1G.** When mobile telecommunication started off, it was analogue. All communication between the phone and the tower was just a analogue modulated signal of the speech. This is called 1G. The standards used during these times were, [NMT][1] \* [AMPS][2] \* [ETACS][3] etc.
 
 **2G.** With the digital age, this communication also became digital. The voice was digitized and transmitted to the tower as a stream of '1's and '0's .The main advantages of the 2G systems were that they were encrypted ([kinda][4]) so you couldn't listen to other people's conversations by just catching their signals using an antenna. The digital systems were more efficient (allowed more people to talk at the same time), and they were extensible (we'll come back to this). Some of the famous 2G standards are GSM, CDMA(IS-95), iDEN. GSM was a part of a standards group called 3GPP and CDMA was part of something called 3GPP2 (Yes, I know it's not exactly this, but this makes it easier.)
 
 Since they were digital, many of these standards also allowed other digital data to be sent over these mechanism. That's how they started to send SMS over these networks. That was 2G.
 
-**2.5G. **A 'half-step' towards the next generation wireless telecommunication standards was the more generalized data-network (not restricted to SMS, etc). This brought GPRS (on 3GPP side) and CDMA2000 1xRTT(on 3GPP2 side), which are both data standards for 2G based networks.
+**2.5G.** A 'half-step' towards the next generation wireless telecommunication standards was the more generalized data-network (not restricted to SMS, etc). This brought GPRS (on 3GPP side) and CDMA2000 1xRTT(on 3GPP2 side), which are both data standards for 2G based networks.
 
-**2.75G. **The 3GPP side decide to improve the data standards on their side of the ground by introducing EDGE (Enhanced Data rates for GSM Evolution). This improved the data rates and speeds of the existing GPRS networks.
+**2.75G.** The 3GPP side decide to improve the data standards on their side of the ground by introducing EDGE (Enhanced Data rates for GSM Evolution). This improved the data rates and speeds of the existing GPRS networks.
 
 **3G.** This was the 3rd iteration of the mobile telecommunication standards. Now this is where it get's messy. To have any standard qualify to be '3G', it had to pass some regulations set by the [ITU][5] (International Telecommunication Union). But that's ofcourse not how the telco advertise it.
 

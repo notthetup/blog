@@ -41,7 +41,7 @@ We know that [DRM][9] is a [broken solution][10] for various reasons (hard to us
 
 But in India, 3G has just been launched. Internet has barely penetrated the market. And within the Indian movie music industry is so hard to support a single entity as they change teams with every movie. Furthermore, economics is a big factor, where a 99¢ song makes sense in the US for most people, the same cost is prohibitively expensive for many fans in India.
 
-I don't have an answer for this. But I do hope that there is one, and we will all be able to enjoy, encourage and support the music (and movies) that we love in the future. But for now, I have $20, right here in an envelope , to drop on a downloadable version of this soundtrack the second it comes out.. Come get it!
+I don't have an answer for this. But I do hope that there is one, and we will all be able to enjoy, encourage and support the music (and movies) that we love in the future. But for now, I have $20, right here in an envelope, to drop on a downloadable version of this soundtrack the second it comes out.Come get it!
 
 
 

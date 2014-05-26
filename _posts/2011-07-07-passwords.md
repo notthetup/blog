@@ -8,7 +8,7 @@ tags:
 
 With the recent spate of attacks by [LulzSec][0] and [Anonymous][1] and the subsequent password leaks, keeping your passwords safe and secure has become an extremely important part of doing anything online. Passwords are used to protect any and all information you put online, and hence are extremely important to ensure that only you are allowed to access and change that information. Of course we know this! And now we also know, that [we can't trust big players like Sony][2] and [even some national agencies][3] to do just that. Whatever the reasons might be, it seems mighty easy to allow access to your password database (and [sometimes even storing plain-text passwords there][4]). So, finally, the responsibility of keeping our passwords safe lies on us. But sadly, the lazy bums that we are, almost everyone I know has at least one vulnerability in their password generation and management schemes.. Luckily for us (and thanks to the geeks) there are many simple ideas and tricks one can use to make your password much safer and secure. Here are a few.
 
-[![Secure Passwords?](../images/2011/07/226873460_c8eabd2911.jpeg)][5]
+[![Secure Passwords?](../images/2011/07/226873460_c8eabd2911.jpg)][5]
 
 **1.  Stop reusing the same password on multiple websites.**
 

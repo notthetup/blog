@@ -20,7 +20,7 @@ So the audio routing kind of works (I'm not too happy with it, but I'll roll wit
 Also I'm adding some of the scripts including the init scripts, [to this github repo][5]. A lot of the configuration I did was in _/etc/_ config files, I will add copies of those to this repo in the future..
 
 
-[0]: http://chinpen.net/blog/2014/02/raspberrypi-soundboard-update-1/
+[0]: http://chinpen.net/blog/raspberrypi-soundboard-update-1/
 [1]: https://wiki.archlinux.org/index.php/xorg
 [2]: http://en.wikipedia.org/wiki/Twm
 [3]: http://www.alsa-project.org/main/index.php/Main_Page
