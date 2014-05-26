@@ -32,12 +32,12 @@ owner:
 links:
   - title: About
     url: /about/
-  - title: All Articles
-    url: /articles/
+  - title: Blog
+    url: /blog/
 
 permalink: /:title
 
-exclude: ["README.md", "archives", "Gruntfile.js", "package.json", "node_modules", "less", "attachments", "cleanup", "import", "LICENSE"]
+exclude: ["README.md", "archives", "Gruntfile.js", "package.json", "node_modules", "less", "attachments", "cleanup", "import", "LICENSE", "CNAME",]
 
 markdown: kramdown
 
