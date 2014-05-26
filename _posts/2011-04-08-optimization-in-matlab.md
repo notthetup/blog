@@ -29,7 +29,7 @@ Finally, I don't think my system really needs such complicated optimization 'fir
 
 
 
-[0]:  http://chinpen.net/blog/constrained-optimization/
+[0]:  http://chinpen.net/constrained-optimization/
 [1]: http://www.mathworks.com/products/optimization/
 [2]: http://www.mathworks.com/help/optim/write-objective-function.html
 [3]: http://www.mathworks.com/products/optimization/demos.html

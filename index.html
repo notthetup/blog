@@ -1,16 +1,38 @@
 ---
-layout: page
-title: Latest Articles
-
-description: "Technology, Audio and other Geekery"
-image:
-  feature: about_feature.jpg
+layout: home
+title: Chinmay | geek, podcaster, acoustician.
 comments: false
-tags: [technology, audio, acoustics, podcasting, blog, thoughts]
 ---
+  <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an old browser :( Why not <a href="http://browsehappy.com/">upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience more fun in the world of web!</p>
+    <![endif]-->
 
-<ul class="post-list">
-{% for post in site.posts limit:10 %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span></a></article></li>
-{% endfor %}
-</ul>
+    <div id="container">
+      <h1>chinmay</h1>
+      <h2> geek . podcaster . acoustician</h2>
+      <div id="pic"><img src="images/pic.jpg"></div>
+
+      <div id="socialpanel">
+        <ul id="social">
+          <li><a href="mailto:chinpen@chinpen.net"><span>email</span></a></li>
+          <li><a href="http://chinpen.net/blog/"><span>blog</span></a></li>
+          <li><a href="http://facebook.com/chinpen"><span>facebook</span></a></li>
+          <li><a href="http://twitter.com/ntt"><span>twitter</span></a></li>
+          <li><a href="http://github.com/notthetup"><span>github</span></a></li>
+          <li><a href="http://stackoverflow.com/users/577563/ntt"><span>questions</span></a></li>
+          <li><a href="http://www.flickr.com/photos/nttup/"><span>flickr</span></a></li>
+          <li><a href="https://plus.google.com/106054119289667595115/plusones"><span>shared</span></a></li>
+          <li><a href="https://speakerdeck.com/u/notthetup"><span>slides</span></a></li>
+        </ul>
+      </div>
+
+      <div id="info">
+        <ul id="activities">
+          <li>about</li>
+          <li><a href="http://live.webuild.sg/">podcasts</a></li>
+          <li>academics</li>
+          <li>projects</li>
+        </ul>
+      </div>
+ </body>
+

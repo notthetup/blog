@@ -39,6 +39,6 @@ Learn people, learn the real stuff!
 
 
 [0]: http://www.flickr.com/photos/davekellam/8916354/
-[1]: http://chinpen.net/blog/fyp-blues-and-greens/
+[1]: http://chinpen.net/fyp-blues-and-greens/
 [2]: http://java.sun.com/j2se/javadoc/
 [3]: http://subversion.tigris.org/

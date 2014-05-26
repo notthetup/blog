@@ -19,22 +19,26 @@ owner:
   name:          Chinmay
   avatar:         chinpen.jpg
   email:          chinpen@chinpen.net
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: ntt
-  facebook: chinpen
-  github: notthetup
+  twitter:        ntt
+  facebook:   chinpen
+  github:       notthetup
+
+
+  # Analytics and webmaster tools stuff goes here
+  google_analytics: UA-12204519-1
 
 # Links to include in top navigation
 # For external links add external: true
 links:
   - title: About
     url: /about/
-  - title: All Articles
-    url: /articles/
+  - title: Blog
+    url: /blog/
 
 permalink: /:title
 
-exclude: ["readme.md", "archives", "Gruntfile.js", "package.json", "node_modules", "less"]
+exclude: ["README.md", "archives", "Gruntfile.js", "package.json", "node_modules", "less", "attachments", "cleanup", "import", "LICENSE", "CNAME",]
+
 markdown: kramdown
 
 kramdown:

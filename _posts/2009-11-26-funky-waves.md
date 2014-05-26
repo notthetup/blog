@@ -33,7 +33,7 @@ Now, that's all cool, but mpgwrite uses a [Matlab executable][4](.mex) to do all
 
 And Voila! It compiled. So I continued to export the matlab animation and made an mpeg out of it.. Check it out.
 
-<iframe id="ytplayer" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/R1hfdUpSXaU?&origin=http://chinpen.net/blog"  frameborder="0"/></iframe>
+<iframe id="ytplayer" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/R1hfdUpSXaU?&origin=http://chinpen.net"  frameborder="0"/></iframe>
 
 For those who are interested. This is a mixed mode with some part torsional and some part bending wave.
 

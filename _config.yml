@@ -1,7 +1,7 @@
 title: ChinPen
 description: "Technology, Audio and other Geekery"
 logo:           site-logo.png
-url:              http://chinpen.net/blog
+url:              http://chinpen.net
 
 destination: ./_site
 plugins:     ./_plugins
@@ -22,6 +22,10 @@ owner:
   twitter:        ntt
   facebook:   chinpen
   github:       notthetup
+
+
+  # Analytics and webmaster tools stuff goes here
+  google_analytics: UA-12204519-1
 
 # Links to include in top navigation
 # For external links add external: true

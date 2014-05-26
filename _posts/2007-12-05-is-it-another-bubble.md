@@ -14,7 +14,7 @@ _"Forget about things like the fact Google's at $741 and Apple's at $191. Were y
 
 And of course who can not resist Billy Joel?
 
-<iframe id="ytplayer" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/YuAJHaXKgFk?&origin=http://chinpen.net/blog" frameborder="0" ></iframe>
+<iframe id="ytplayer" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/YuAJHaXKgFk?&origin=http://chinpen.net" frameborder="0" ></iframe>
 
 In my defense, they told me to blog about it..
 

@@ -19,5 +19,5 @@ And Creative already rips off people for the "custom" interface for the dock, wh
 **I will surely think twice before getting another Creative product.**
 
 
-[0]: http://chinpen.net/blog/where-creative-fails/
+[0]: http://chinpen.net/where-creative-fails/
 [1]: http://www.anythingbutipod.com/archives/2006/04/zen-vision-m-video-cable-other-4pole-35mm-pinouts.php
