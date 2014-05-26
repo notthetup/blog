@@ -1,7 +1,7 @@
 title: ChinPen
 description: "Technology, Audio and other Geekery"
 logo:           site-logo.png
-url:              http://notthetup.github.io/blog
+url:              http://chinpen.net/blog
 
 destination: ./_site
 plugins:     ./_plugins
@@ -19,10 +19,9 @@ owner:
   name:          Chinmay
   avatar:         chinpen.jpg
   email:          chinpen@chinpen.net
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: ntt
-  facebook: chinpen
-  github: notthetup
+  twitter:        ntt
+  facebook:   chinpen
+  github:       notthetup
 
 # Links to include in top navigation
 # For external links add external: true

@@ -8,7 +8,7 @@ image:
 
 I'm Chinmay Pendharkar a developer from Singapore. I work with Audio Technologies.
 
-I write about things  Audio Technolopies, Acoustics, Web Technologies, Security, Embedded Systems and Hardware, and other related topics.
+I write about things  Audio Technologies, Acoustics, Web Technologies, Security, Embedded Systems and Hardware, and other related topics.
 
 I do write sometimes about Music, and Food as well.
 
