@@ -23,7 +23,7 @@ Here's a small clip from the original recording...
 	<source src="../audio/2014/06/orig.wav" type="audio/wav">
 </audio>
 
-_All the recordings here are normalized to 0dBFS for the entire recording_
+_All the recordings here are 44.1/16 WAV files, normalized to 0dBFS for the entire recording_
 
 A quick look at the spectrum in [Audacity](http://audacity.sourceforge.net/) showed a ton of noise at low frequencies (less than 100Hz range)
 
