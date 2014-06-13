@@ -1,10 +1,10 @@
 ---
-title: Reducing background noise.
+layout: post
 comments: true
-categories:
+title: Reducing background noise
+tags:
 - Audio
-- Tech
-
+- Technology
 ---
 
 ### the recording
@@ -25,7 +25,7 @@ Here's a small clip from the original recording...
 
 _All the recordings here are normalized to 0dBFS for the entire recording_
 
-A quick look at the spectrum in [Audacity](http://audacity.sourceforge.net/) showed a ton of noise at low frequencies (less than 100Hz range) 
+A quick look at the spectrum in [Audacity](http://audacity.sourceforge.net/) showed a ton of noise at low frequencies (less than 100Hz range)
 
 ### filtering the noise
 
@@ -64,7 +64,7 @@ Next, I found a [highly recommended Nyquist plugin Compressor](http://theaudacit
 
 While I was looking around for other Compressor plugins to try, I saw a post from Daniel of [The Audacity to Podcast](http://theaudacitytopodcast.com/) on [compressor showdown](http://theaudacitytopodcast.com/tap065-audacity-compressor-showdown/). In his set of Compressors he had also added the venerable [Levelator](http://en.wikipedia.org/wiki/Levelator).
 
-Levelator is an awesome piece of software by [Doug Kaye](http://www.dougkaye.com/)and Bruce and Malcolm Sharpe, which levels the loud and soft parts of your audio file to make it sound level. It's deigned to be used for voices (The Conversation Networks podcasts), and does a awesome job of levelling multiple voices which might be recorded at slightly different levels. 
+Levelator is an awesome piece of software by [Doug Kaye](http://www.dougkaye.com/)and Bruce and Malcolm Sharpe, which levels the loud and soft parts of your audio file to make it sound level. It's deigned to be used for voices (The Conversation Networks podcasts), and does a awesome job of levelling multiple voices which might be recorded at slightly different levels.
 
 ![image](../images/2014/06/levelator.png)
 
@@ -76,7 +76,7 @@ Having used and loved The Levalator before, I decided to give it a try. I was bl
 
 ![image](../images/2014/06/spectrum.png)
 
-Here's a comparison of the spectrums. Look the difference between the bright bits between the `Filtered` and `Levelatored`. Levelator was able to find the perfect setting to boost the voices and yet keep the noise floor pretty low. 
+Here's a comparison of the spectrums. Look the difference between the bright bits between the `Filtered` and `Levelatored`. Levelator was able to find the perfect setting to boost the voices and yet keep the noise floor pretty low.
 
 Take a listen...
 
