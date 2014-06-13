@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Constrained Optimization
 hasjax: true
-categories:
+tag:
  - Acoustics
  - Audio
  - Tech

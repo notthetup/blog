@@ -1,7 +1,7 @@
 ---
+layout: post
 title: Bird Sound Synthesis.
-categories:
+tags:
  - Audio
  - Tech
- published:false
 ---

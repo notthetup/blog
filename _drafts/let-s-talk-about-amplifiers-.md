@@ -1,8 +1,9 @@
 ---
 layout: post
 comments: true
-title: Auralizr
+title: "Let's talk about Amplifiers"
 tags:
  - Audio
  - Tech
 ---
+
