@@ -6,7 +6,7 @@ tags:
  - Food
 ---
 
-I've been dabbling with simple fermentation for a few years now. [Kefir (an awesome probiotic)][0], and our dear yeast and do wonders to sugars.
+I've been dabbling with simple fermentation for a few years now. [Kefir (an awesome probiotic)][0], and yeast and do wonders to sugar in it's various forms.
 
 I started with making gingerale based on [this recipe from David B. Fankhauser at the U.C. Clermont College][1] with mixed results.
 
