@@ -43,7 +43,7 @@ As I wrote in [my review last year][3], the Atmosphere, Music and Spirit come to
 So who else is going?
 
 
-[0]: http://www.chinpen.net/womad-singapore-2006/
+[0]: http://www.chinpen.net/blog/womad-singapore-2006/
 [1]: ../images/2007/08/womad.pdf "Womad"
 [2]: http://www.womadsingapore.com/home.htm
-[3]: http://www.chinpen.net/womad-a-review/
+[3]: http://www.chinpen.net/blog/womad-a-review/

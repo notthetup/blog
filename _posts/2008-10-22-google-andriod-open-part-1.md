@@ -38,4 +38,4 @@ _Check out [Part 2 of this article ][9]for the rest of the discussion on Google 
 [6]: http://code.google.com/android/reference/packages.html
 [7]: http://www.talkandroid.com/134-android-nokia-n810-install/
 [8]: http://revision3.com/tekzilla/android/
-[9]: http://chinpen.net/google-andriod-open-part-2/
+[9]: http://chinpen.net/blog/google-andriod-open-part-2/
