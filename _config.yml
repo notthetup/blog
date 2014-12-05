@@ -1,7 +1,7 @@
 title: ChinPen
 description: "Technology, Audio and other Geekery"
 logo:         site-logo.png
-url:          http://chinpen.net
+url:          http://chinpen.net/blog
 
 destination: ./_site
 plugins:     ./_plugins
