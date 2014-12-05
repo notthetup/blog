@@ -21,7 +21,7 @@ Anyway, so as a part of my FYP I extended the Java implementation of the OSC pro
 Anyway, so I am still working on **JavaOSC**, though not alone. I have teamed up with the [original creator of JavaOSC][5] and [other amazing people][6] in the community, to continue this project. You can find out more about it at the [sourceforge site][7]. It's free, in both ways, so feel free to use it, or even better to **'abuse**' it. ;)
 
 
-[0]: http://chinpen.net/blogfyp-blues-and-greens/
+[0]: http://chinpen.net/blog/fyp-blues-and-greens/
 [1]: http://cnmat.berkeley.edu/OpenSoundControl/
 [2]: http://en.wikipedia.org/wiki/OpenSound_Control
 [3]: http://www.illposed.com/software/javaosc.html

@@ -9,7 +9,7 @@ tags:
 
 ### the recording
 
-We recently did a special podcast recording with [Matt Mullenweg](http://ma.tt) of WordPress fame, on [We Build Live (WBL)](http://live.webuild.sg/). WBL is an interview podcast, [which is recorded live](http://chinpen.net/blogstreaming-audio/), where we talk to awesome developer, makers, designers.
+We recently did a special podcast recording with [Matt Mullenweg](http://ma.tt) of WordPress fame, on [We Build Live (WBL)](http://live.webuild.sg/). WBL is an interview podcast, [which is recorded live](http://chinpen.net/blog/streaming-audio/), where we talk to awesome developer, makers, designers.
 
 Unforunately, because of the circumstances, we had to record the podcast in a noisy restaurent. The microphone we used was a [Blue Snowball](http://bluemic.com/snowball/), which is a pretty good mic.
 

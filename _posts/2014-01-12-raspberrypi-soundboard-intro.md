@@ -39,7 +39,7 @@ It looks simple enough and [I found a few articles ][4]on the Interwebs [talking
 I will post updates as I keep working on this project.
 
 
-[0]: http://chinpen.net/blogstreaming-audio/
+[0]: http://chinpen.net/blog/streaming-audio/
 [1]: http://en.wikipedia.org/wiki/Soundboard_(computer_program)
 [2]: http://cycling74.com/soundflower-landing-page/
 [3]: http://soundplant.org/
