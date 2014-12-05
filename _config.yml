@@ -16,12 +16,12 @@ disqus_shortname: chinpen
 
 # Owner/author information
 owner:
-  name:         Chinmay
-  avatar:        chinpen.jpg
-  email:         chinpen@chinpen.net
-  twitter:        ntt
+  name:       Chinmay
+  avatar:     chinpen.jpg
+  email:      chinpen@chinpen.net
+  twitter:    ntt
   facebook:   chinpen
-  github:       notthetup
+  github:     notthetup
 
 
 # Analytics and webmaster tools stuff goes here
