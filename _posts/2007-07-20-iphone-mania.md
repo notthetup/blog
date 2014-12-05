@@ -29,5 +29,5 @@ So all in all, iPhone **still not my type of gadget**.
 
 
 [0]: http://tomato75.blogspot.com/2007/07/iphone-gathering-geek-terminal.html
-[1]: http://chinpen.net/macworld/
-[2]: http://chinpen.net/iphone-the-jack-of-all-trades/
+[1]: http://chinpen.net/blogmacworld/
+[2]: http://chinpen.net/blogiphone-the-jack-of-all-trades/

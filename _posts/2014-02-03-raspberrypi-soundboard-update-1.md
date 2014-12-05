@@ -33,7 +33,7 @@ Any ideas or suggestions would be welcome! Please comment below!
 
 
 
-[0]: http://chinpen.net/raspberrypi-soundboard-intro/
+[0]: http://chinpen.net/blograspberrypi-soundboard-intro/
 [1]: http://archlinuxarm.org/packages
 [2]: http://i3wm.org/docs/userguide.html
 [3]: http://mumble.sourceforge.net
@@ -41,5 +41,5 @@ Any ideas or suggestions would be welcome! Please comment below!
 [5]: http://alsa.opensrc.org/Aplay
 [6]: http://sox.sourceforge.net/sox.html
 [7]: http://mpd.wikia.com
-[8]: http://chinpen.net/streaming-audio/
+[8]: http://chinpen.net/blogstreaming-audio/
 [9]: http://freedesktop.org/software/pulseaudio/pavucontrol/

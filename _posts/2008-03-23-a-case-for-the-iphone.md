@@ -21,7 +21,7 @@ So now, with the [iPhone SDK][4] released, adding these functionality to the iPh
 So maybe, the iPhone could be the key to podcasts becoming bigger. **Anyone interested in developing these iPhone apps?**
 
 
-[0]: http://chinpen.net/iphone-mania/
+[0]: http://chinpen.net/blogiphone-mania/
 [1]: http://tech65.org
 [2]: http://twit.tv/134
 [3]: http://en.wikipedia.org/wiki/RSS_(file_format)
