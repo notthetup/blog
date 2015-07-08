@@ -37,6 +37,7 @@ SOFTWARE.
 
         var hallIR, stairwellIR;
         var currentlyPlaying = null;
+        var bufferStarted = false;
 
         var convolver = audioContext.createConvolver();
         var bufferNode = audioContext.createBufferSource();
@@ -90,8 +91,9 @@ SOFTWARE.
                 currentlyPlaying = null;
             }
 
-            if (bufferNode.playbackState == 0){
+            if (!bufferStarted){
                 bufferNode.start();
+                bufferStarted = true;
             }
 
             if (currentlyPlaying == null){
