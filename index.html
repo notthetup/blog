@@ -14,8 +14,9 @@ comments: false
 
 <script type="text/javascript">
 	// Famous hackathon post
-	if (window.location.search === "?p=3641"){
-		window.location.replace("http://chinpen.net/blog/hackathons-are-bad-for-you/");
+	if (window.location.search === "?p=3641" ||
+			window.location.pathname === '/hackathons-are-bad-for-you'){
+		window.location.replace(window.location.origin + "/blog/hackathons-are-bad-for-you/");
 	}
 
 </script>
