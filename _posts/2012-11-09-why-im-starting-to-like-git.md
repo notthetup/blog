@@ -16,15 +16,15 @@ A part of my second job was to upgrade the web server, which incidentally also h
 
 After that my need for heavy duty versioning died. Most code was personal projects which rarely had multiple versions. I relied on [Dropbox for basic versioning][8] ("oops I accidentally deleted a file I wanted") but that was that.
 
-[![](images//2012/11/Subversion.png)]
+![](images//2012/11/Subversion.png)
 
 At my current job, we used SVN. It was the first time I had to do heavy branching with SVN (multiple platform support). And that's what made me get annoyed. The whole dumb copy idea of branching was so confusing. To add to that the [SVN client on both Windows][10] and [OSX][11] were next to horrible. It was hard to understand what was going on and why there were errors in merges. Error messages were cryptic and most importantly there was no community to rely on for help.
 
-[![](images//2012/11/Git-Logo-2Color.png)]
+![](images//2012/11/Git-Logo-2Color.png)
 
 When I found out that our online code repository supported git, I immediately moved everything to git. Boy was that a great idea! Coming from clearcase, git has a very small initial learning curve. Some concepts are a little hard to grasp. In clearcase setup I used, [all files were read-only till you checked them out][13]. While in git, your files are always "checked out". The whole [staging thing in git][14] is also a little confusing at first. But what really helped was the millions (and I'm not kidding) of git videos, tutorials and stackoverflow answers there are. From the smallest thing to the weirdest operation, there's someone to help you out in whatever you're trying to do. And THAT was my golden ticket. The [community around git][15] really make git a great versioning system for me. If I'm stuck I can find commands/scripts/tricks just by asking around. This also applies to tools used for git (although I'm sticking to command line on OSX). On OSX there's a plethora ([GitBox][16], [Tower][17], [Github][18], [SourceTree][19]) of beautiful looking tools if you don't like CLI. On Windows [GitExtensions][20] is a very intuitive tool with a nice tree showing your repo. And then there's [github][21]..
 
-<iframe id="ytplayer" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/Foz9yvMkvlA?&origin=http://chinpen.net"  frameborder="0"></iframe>
+<iframe id="ytplayer" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/Foz9yvMkvlA?&origin=http://chinmay.audio"  frameborder="0"></iframe>
 
 tl;dr: My reasons for moving to git is the community around it and the availability of great tools.
 
