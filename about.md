@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about/
-title: About ChinPen
+title: About Chinmay
 image:
   feature: about_feature.jpg
 ---
