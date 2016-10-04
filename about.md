@@ -12,5 +12,4 @@ I write about all things Audio Technologies, Acoustics, Web Technologies, Secur
 
 I also write about Music and Food.
 
-Find out [more about me and my projects](http://chinpen.net/).
-
+Find out [more about me and my projects](http://chinmay.audio/).

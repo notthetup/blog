@@ -27,4 +27,4 @@ In most phones the HW will only allow the original OS to boot, and no one knows 
 So is Google Android Open? Surely! But that doesn't mean you'll see it running on an iPhone close to you anytimes soon.
 
 
-[0]: http://chinpen.net/blog/google-andriod-open-part-1/
+[0]: google-andriod-open-part-1/

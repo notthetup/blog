@@ -30,5 +30,5 @@ Now, I should really get back to working on my [OSC implementation][6].
 [2]: http://www.nus.edu.sg/cfa/artsfest/techno.html
 [3]: http://www.cs.princeton.edu/sound/people/ajay/
 [4]: http://www.apple.com/ilife/garageband/
-[5]: http://chinpen.net/blog/control-strategies-in-interactive-digital-sound-synthesis/
-[6]: http://chinpen.net/blog/open-sound-control/
+[5]: control-strategies-in-interactive-digital-sound-synthesis/
+[6]: open-sound-control/
