@@ -30,6 +30,7 @@ google_analytics: UA-12204519-1
 # For external links add external: true
 links:
   - title: Home
+    external: true
     url: http://chinmay.audio
   - title: Blog
     url: /
