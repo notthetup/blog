@@ -40,7 +40,7 @@ Next to sleep, your body needs good fuel to keep going. And NO! I don't mean cof
 
 It's a short-term vs long-term trade-off. Coffee (and possibly alcohol, although I am skeptical abt it), do help you feel more focused in the short-term. But both caffeine and alcohol are diuretics and only make you lose more water in the long-term. A dehydrated body isn't much of a help when you need your brain to focus and solve problems. "When was the last time you saw an isotonic drink at a Hackathon?"
 
-![](../images/2013/02/Junk-Food-Quote.jpg)
+![](images//2013/02/Junk-Food-Quote.jpg)
 
 Junk food isn't much of a help to that. I am not even going to touch on long-term effects of eating high carb diets. The usual Hackathon menu of pizza and candy is full of carbohydrates. While sugar highs are great for short-term focus (maybe?) you tend to feel hungry very quickly after a carb heavy meal. That only means you going around for another round of pizza/candy etc. Not really the best way to focus is it?
 

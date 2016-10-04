@@ -22,4 +22,4 @@ _I am not sure about publication rights for this. But since the content was crea
 Call me crazy, mad or whatever you wish, I don't care! Today, I am Happy!!
 
 
-[0]: ../images/2010/04/FinalThesis.pdf "Thesis"
+[0]: images//2010/04/FinalThesis.pdf "Thesis"

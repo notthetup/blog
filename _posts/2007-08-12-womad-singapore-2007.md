@@ -44,6 +44,6 @@ So who else is going?
 
 
 [0]: http://www.chinpen.net/blog/womad-singapore-2006/
-[1]: ../images/2007/08/womad.pdf "Womad"
+[1]: images//2007/08/womad.pdf "Womad"
 [2]: http://www.womadsingapore.com/home.htm
 [3]: http://www.chinpen.net/blog/womad-a-review/
