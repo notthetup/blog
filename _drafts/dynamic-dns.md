@@ -12,6 +12,8 @@ One of the question I always get is how I manage to access the server from outsi
 
 I first started to experiment by logging the IP address assigned to the edge router by the ISP every 5 minutes. It was a simple `curl` script on a `cron` job that checked an online public IP service like [ipify](https://www.ipify.org/) or [OpenDNS](https://diagnostic.opendns.com/myip) and logged it to a file.
 
+`{ date ; echo " - "; curl 'https://api.ipify.org?format=text'\;} | tr "\n" " "`
+
 With this I was able to see that my ISP didn't change the IP addresses assigned to me for months. That means this DIY Dynamic DNS system would work without too much down time.
 
 ## Updating DNS records
