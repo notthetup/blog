@@ -17,7 +17,7 @@ This is what I've achieved.
 
 3. I have [Pulseaudio][4] running with all the correct settings on the Pi.
 
-![RaspberryPi](images//2014/02/IMG_20140203_212926.jpg)
+![RaspberryPi](images/2014/02/IMG_20140203_212926.jpg)
 
 The main issue I faced was piping the audio. As much as Pulseaudio is the solution to mix and pipe audio around, letting me pipe audio coming from a player (say [aplay][5] or [sox][6])  into another application is really difficult. I faced a couple of main issues.
 

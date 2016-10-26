@@ -20,7 +20,7 @@ And I also found Eagle3D. [Eagle ][4]is a really great circuit CAD tool that I h
 
 This is the board layout of Minty.
 
-[![](images//2006/02/minty.jpg)][7]
+[![](images/2006/02/minty.jpg)][7]
 
 And this is the 3D version. Cool huh?
 
@@ -34,4 +34,4 @@ Now only if I had more time...
 [4]: http://www.cadsoft.de/
 [5]: http://www.matwei.de/doku.php?id=en:eagle3d:eagle3d
 [6]: http://www.povray.org/
-[7]: images//2006/02/minty.jpeg
+[7]: images/2006/02/minty.jpeg

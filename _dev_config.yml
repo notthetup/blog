@@ -2,9 +2,9 @@ title: "Technology, Audio and other Geekery"
 logo:         site-logo.png
 url:          http://localhost:4000
 
-destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
+destination:     ./_site
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
 
 safe: true
 
@@ -49,7 +49,7 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: false
+  enable_coderay: false
 
 defaults:
   -

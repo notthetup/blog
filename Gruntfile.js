@@ -22,6 +22,9 @@ module.exports = function(grunt) {
         files: {
           'assets/css/main.min.css': [
             'assets/less/main.less'
+          ],
+          'assets/css/style.min.css': [
+            'assets/css/style.css'
           ]
         }
       }

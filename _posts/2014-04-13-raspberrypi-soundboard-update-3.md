@@ -15,7 +15,7 @@ Jack is perfect for [such 'piping'][3], but I figured out the hard way that ther
 
 Thankfully I found out about ALSA's [snd\_aloop module][5]. This creates [a 'virtual card' with 2 device][6]s. If you play audio into one, it comes out of the other. Exactly what I needed, and Mumble does query all the ALSA devices, so I can easily find my 'Loopback' device.
 
-![mumble](images//2014/04/IMG_20140413_220131.jpg)
+![mumble](images/2014/04/IMG_20140413_220131.jpg)
 
 Next was playing the audio. Using simple '[aplay][7]', I could test if my setup was working. But to have better control over the audio (fade-in, fade-out), I would need a more programmatic approach.
 

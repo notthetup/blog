@@ -13,7 +13,7 @@ Quick update here. I made 2 small changes to the [Soundboard project from last w
 
 2\. I played around with Mumble to discover that [ALSA][3] could support the [Pulseaudio main sink's monitor input][4] as an audio input. This basically pipes all audio ("What-U-Hear") from Pulseaudio into Mumble. Not exactly what I wanted, but close enough. Especially since I don't plan to run anything else on this Pi.
 
-![alsa](images//2014/02/alsa.jpg)
+![alsa](images/2014/02/alsa.jpg)
 
 So the audio routing kind of works (I'm not too happy with it, but I'll roll with it for now). Now to work on trigger the playing of the audio files using a keypad.
 

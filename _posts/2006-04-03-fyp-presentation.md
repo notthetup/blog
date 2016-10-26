@@ -24,4 +24,4 @@ Time: 10:30am**
 
 [Here is an abstract ][0]of what my project was about. Take a look and see if it interests you. And come down to hear more about the project! **Its open to all and all are invited**!
 
-[0]: images//2010/04/Abstract.pdf
+[0]: images/2010/04/Abstract.pdf

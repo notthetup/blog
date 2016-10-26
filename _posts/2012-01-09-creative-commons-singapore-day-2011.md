@@ -13,7 +13,7 @@ So I'm back in Singapore. And when I found out that there was Creative Commons D
 
 ## Presentations
 
-<audio autobuffer autoloop loop controls src="images//2012/01/CCDay-2011-Presentations.mp3" > </audio>
+<audio autobuffer autoloop loop controls src="images/2012/01/CCDay-2011-Presentations.mp3" > </audio>
 
 Here is a list of those who presented..
 
@@ -24,7 +24,7 @@ Here is a list of those who presented..
 
 ### Interviews
 
-<audio autobuffer autoloop loop controls src="images//2012/01/CCDay-2011-Interviews.mp3"> </audio>
+<audio autobuffer autoloop loop controls src="images/2012/01/CCDay-2011-Interviews.mp3"> </audio>
 
 Enjoy listening to these recordings and let me know what you think (except that I need a better microphone, which I do..).
 

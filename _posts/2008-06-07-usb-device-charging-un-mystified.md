@@ -14,7 +14,7 @@ _Aside : Systm has just revived into the awesome show it started as. Patrick did
 
 So, Patrick was able to power up and charge the iPod (a 5th Gen iPod, I believe) by connecting just the [VDC and GND pins][2] of the connector to a 5V supply (possibly a VCC pin on a USB cable) and GND respectively, the same did not work on the iPhone. **Why?**
 
-[![USB](images//2008/06/img_3160_usb-logo.jpg)][3]
+[![USB](images/2008/06/img_3160_usb-logo.jpg)][3]
 
 For this we need to look at [USB's electrical specs][4], especially the power sinking and supplying parts.
 
@@ -52,6 +52,6 @@ _There you go, some interworking of USB and Charging on devices. Drop me an emai
 [0]: http://revision3.com/systm/ipodcables
 [1]: http://twitter.com/patricknorton
 [2]: http://pinouts.ru/PortableDevices/ipod_pinout.shtml
-[3]: images//2008/06/img_3160_usb-logo.jpg
+[3]: images/2008/06/img_3160_usb-logo.jpg
 [4]: http://www.usb.org/developers/docs/
 [5]: http://www.freebsd.org/doc/en/books/arch-handbook/usb.html

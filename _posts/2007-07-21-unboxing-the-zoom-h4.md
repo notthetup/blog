@@ -27,21 +27,21 @@ I had ordered it for almost a month, and it arrived last week. Took me 3 days be
 
 **Here are the unboxing photos!**
 
-![IMG_0005](images//2007/07/IMG_0005.jpeg)
-![IMG_0006](images//2007/07/IMG_0006.jpg)
-![IMG_0007](images//2007/07/IMG_0007.jpg)
-![IMG_0008](images//2007/07/IMG_0008.jpg)
-![IMG_0010](images//2007/07/IMG_00010.jpg)
-![IMG_0011](images//2007/07/IMG_00011.jpg)
-![IMG_0012](images//2007/07/IMG_00012.jpg)
-![IMG_0013](images//2007/07/IMG_00013.jpg)
-![IMG_0014](images//2007/07/IMG_00014.jpg)
-![IMG_0015](images//2007/07/IMG_00015.jpg)
-![IMG_0016](images//2007/07/IMG_00016.jpg)
-![IMG_0017](images//2007/07/IMG_00017.jpg)
-![IMG_0018](images//2007/07/IMG_00018.jpg)
-![IMG_0020](images//2007/07/IMG_00020.jpg)
-![IMG_0021](images//2007/07/IMG_00021.jpg)
+![IMG_0005](images/2007/07/IMG_0005.jpeg)
+![IMG_0006](images/2007/07/IMG_0006.jpg)
+![IMG_0007](images/2007/07/IMG_0007.jpg)
+![IMG_0008](images/2007/07/IMG_0008.jpg)
+![IMG_0010](images/2007/07/IMG_00010.jpg)
+![IMG_0011](images/2007/07/IMG_00011.jpg)
+![IMG_0012](images/2007/07/IMG_00012.jpg)
+![IMG_0013](images/2007/07/IMG_00013.jpg)
+![IMG_0014](images/2007/07/IMG_00014.jpg)
+![IMG_0015](images/2007/07/IMG_00015.jpg)
+![IMG_0016](images/2007/07/IMG_00016.jpg)
+![IMG_0017](images/2007/07/IMG_00017.jpg)
+![IMG_0018](images/2007/07/IMG_00018.jpg)
+![IMG_0020](images/2007/07/IMG_00020.jpg)
+![IMG_0021](images/2007/07/IMG_00021.jpg)
 
 
 [0]: http://www.zoom.co.jp/english/products/h4/
