@@ -28,15 +28,15 @@ Sun Nov 22 11:00:06 SGT 2015  -  210.23.20.192
 
 ## Updating DNS records
 
-There are online service like [DynDNS](https://dyn.com/dns/) but I found them too clunky to use. But I did figure that CloudFlare (whom I use for DNS anyway) also support [updating DNS records over an API call](https://api.cloudflare.com/#dns-records-for-a-zone-update-dns-record).
+There are online service like [DynDNS](https://dyn.com/dns/) but I found them too clunky to use. But I did figure that Cloudflare (whom I use for DNS anyway) also support [updating DNS records over an API call](https://api.cloudflare.com/#dns-records-for-a-zone-update-dns-record).
 
-So the basic idea would be to fetch the IP address assigned to the edge router by the ISP and send it to CloudFlare periodically. I found that [ddclient](https://sourceforge.net/p/ddclient/wiki/Home/) is a Perl script written to do exactly this. It runs as a daemon, periodically fetches the local IP address, check if it is the same one as previously sent to the DNS server otherwise updates the DNS server.
+So the basic idea would be to fetch the IP address assigned to the edge router by the ISP and send it to Cloudflare periodically. I found that [ddclient](https://sourceforge.net/p/ddclient/wiki/Home/) is a Perl script written to do exactly this. It runs as a daemon, periodically fetches the local IP address, check if it is the same one as previously sent to the DNS server otherwise updates the DNS server.
 
 You can install `ddclient` with your favorite package manager. For eg. on Ubuntu/Debian :
 
 `sudo apt-get install ddclient`
 
-Newer version of `ddclient` work directly with CloudFlare, but older versions need a small patch. This [post from Jens Segers explains it ](https://jenssegers.com/84/dynamic-dns-for-cloudflare-with-ddclient) well.
+Newer version of `ddclient` work directly with Cloudflare, but older versions need a small patch. This [post from Jens Segers explains it ](https://jenssegers.com/84/dynamic-dns-for-cloudflare-with-ddclient) well.
 
 `ddclient` has a config file `ddclient.conf` usually located in `/etc` that allows you to configure it
 
@@ -58,7 +58,7 @@ password=password                                         \
 dynamic.chinpen.net
 ```
 
-On the CloudFlare side, I created an A record, which pointed the desired URL (dynamic.chinpen.net) to the the local IP address. This record would then get automatically updated by `ddclient` when it sees the local IP address changing.
+On the Cloudflare side, I created an A record, which pointed the desired URL (dynamic.chinpen.net) to the the local IP address. This record would then get automatically updated by `ddclient` when it sees the local IP address changing.
 
 ![](images/2016/10/dns.jpg)
 
