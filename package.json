@@ -21,5 +21,8 @@
     "grunt-recess": "~1.0.1",
     "grunt-contrib-imagemin": "~0.9.4",
     "grunt-svgmin": "~2.0.1"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.10"
   }
 }
