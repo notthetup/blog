@@ -1,6 +1,6 @@
 title: Technology, Audio and other Geekery
 logo:         site-logo.png
-url:          https://chinmay.audio/blog
+url:          https://chinpen.net/blog
 
 destination:     ./_site
 plugins_dir:     ./_plugins
@@ -31,7 +31,7 @@ google_analytics: UA-12204519-1
 links:
   - title: Home
     external: true
-    url: http://chinmay.audio
+    url: http://chinpen.net
   - title: Blog
     url: /
   - title: About
