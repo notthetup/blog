@@ -1,0 +1,159 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Technology, Audio and other Geekery</title>
+<meta name="description" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://chinpen.net/blog/img/site-logo.png">
+<meta name="twitter:title" content="Technology, Audio and other Geekery">
+<meta name="twitter:description" content="">
+<meta name="twitter:creator" content="@ntt">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Technology, Audio and other Geekery">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://chinpen.net/blog/constrained-optimization.html">
+<meta property="og:site_name" content="Technology, Audio and other Geekery">
+
+
+
+
+
+<link rel="canonical" href="https://chinpen.net/blog/constrained-optimization.html">
+<link href="https://chinpen.net/blog/feed.xml" type="application/atom+xml" rel="alternate" title="Technology, Audio and other Geekery Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/styles/index.css">
+<!-- Webfonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<meta http-equiv="cleartype" content="on">
+
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.ico">
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.png">
+
+</head>
+
+<body id="post">
+
+<div class="navbar bg-base-100 shadow-sm">
+	<div class="navbar-start">
+		<a class="text-xl">chinpen.net</a>
+	</div>
+	<div class="navbar-center hidden lg:flex">
+		<ul class="menu menu-horizontal px-1">
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net">Home</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/blog/">Blog</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/about/">About</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/feed.xml">Feed</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/search">Search</a>
+				
+			</li>
+			
+		</ul>
+	</div>
+</div>
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        
+          <h1 class="entry-title"></h1>
+        
+      </header>
+      <footer class="entry-meta">
+        <picture><source type="image/webp" srcset="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=webp&via=transform 180w"><img src="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=jpeg&via=transform" alt="Chinmay photo" class="author-photo" width="180" height="180"></picture>
+        <span class="author vcard">By <span class="fn"><a href="https://chinpen.net/blog/about/" title="About Chinmay">Chinmay</a></span></span>
+        <span class="entry-date date published"><time datetime="2011-04-07T08:00:00+08:00"><i class="icon-calendar-empty"></i> April 07, 2011</time></span>
+        
+        
+        <span><a href="https://chinpen.net/blog/constrained-optimization.html" rel="bookmark" title=""><i class="icon-link"></i> Permalink</a></span>
+        
+      </footer>
+      <div class="entry-content">
+        <p>For the resonator project, I am working on an 'semi-automated' method to 'design' a resonator.</p>
+<p>The idea is simple. The resonance frequency of each Helmholtz resonator depends on it's physical dimensions (neck length, nech witdh, cavity length, cavity width). The resonance frequency is determined by a the following formula.</p>
+<p>$$ f_{0} = \frac{c}{2\pi} \sqrt {\left( \frac{s_n}{Vx_{ln} + \frac{1}{3}x_{lb}^2 s_{n}} \right)} $$</p>
+<p>Now, for the application I am looking at, optimizing <em>q</em> which is the source strength of each resonator when mounted flush to the ground is something which helps to acheive the most effect of reduction. So we have to optimize the physical dimensions of the resonator for the largest value of <em>q</em>.</p>
+<p>$$ q = \frac {j \omega \rho x_{rn}^2}{2} \frac{1}{Z_{hr} - \rho c (1 - cos(kx_{rn}))} $$</p>
+<p>So this becomes a problem of constrained optimization. We have to optimize the physical dimensions <em>x</em> to optimize <em>q</em>, while still ensuring that the resonance frequency is kept the same.</p>
+<p>Thinking more, we can come up with a few more constraints from the physical perspective to narrow our search region.</p>
+<p>So, we ensure that the neck width is smaller (less than 0.5) of the cavity width. And a size limitation (we don't want to search for solution with really large size), so we can have the following constraints.</p>
+<p>$$ x_{rn} \leq \frac{x_{rb}}{2} $$</p>
+<p>$$ x_{lb} \leq 0.2m $$</p>
+<p>$$ x_{rb} \leq 0.05m $$</p>
+<p>So, this is a clasic problem of <a href="http://en.wikipedia.org/wiki/Constraint_optimization">Constrained Optimization</a>. The basis idea being classical Constrained Optimization techniques is that you generate 'cost functions' from the constraints and then subtract these 'costs' from the the value being optimized. The <a href="http://en.wikipedia.org/wiki/Lagrange_multiplier">Lagrangian Multiplier</a> method is one such method which is pretty straight forward. If you are interested in understanding the underlying theory and proofs behind these methods I recommend <a href="http://www.mit.edu/people/dimitrib/lagrmult.html">this ebook by Prof. Bertsekas</a>.</p>
+<p>For my case, I hit two problems. Firstly, I am not sure if the Lagrangian method would work on my functions, it's gurateed to work on convex functions, but the expression for <em>q</em> is pretty complex to analyze and know the form of. Secondly the basic Lagrangian method needs one to derivate over all the variables (both system variables and the lagrangian variables). Here it gets really messy and prone to bugs.</p>
+<p>Still I think it's interesting to anazlyse problems like these theoritically. A theoretical solution allows a simpler and more elegant implementation of such a design tool. Ofcourse the alternative is a numerical method, which will compromise accuracy and speed for ease of implmentation.</p>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<footer class="footer footer-center p-10 m-">
+	<nav>
+		<div class="bg-base-content/10 mx-1 mt-10 mb-5 w-full h-[var(--border)]"></div>
+		<h5 class="font-[volkhov]"><em>&copy; 2025 Chinmay. Powered by <a href="https://www.eleventy.dev/" target="_blank">Eleventy</a></em>.
+		<div class="grid grid-flow-col justify-center gap-4">
+			<a href="https://twitter.com/ntt" title="Chinmay on Twitter" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=jpeg&via=transform" alt="Twitter Icon" width="512" height="512"></picture>
+			</a>
+			<a href="https://github.com/notthetup" title="Chinmay on Github" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=jpeg&via=transform" alt="GitHub Icon" width="512" height="512"></picture>
+			</a>
+		</div>
+	</h5></nav>
+</footer>
+
+
+</body>
+</html>

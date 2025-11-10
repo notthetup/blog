@@ -1,0 +1,161 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Technology, Audio and other Geekery</title>
+<meta name="description" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://chinpen.net/blog/img/site-logo.png">
+<meta name="twitter:title" content="Technology, Audio and other Geekery">
+<meta name="twitter:description" content="">
+<meta name="twitter:creator" content="@ntt">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Technology, Audio and other Geekery">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://chinpen.net/blog/web-and-the-broken-promise.html">
+<meta property="og:site_name" content="Technology, Audio and other Geekery">
+
+
+
+
+
+<link rel="canonical" href="https://chinpen.net/blog/web-and-the-broken-promise.html">
+<link href="https://chinpen.net/blog/feed.xml" type="application/atom+xml" rel="alternate" title="Technology, Audio and other Geekery Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/styles/index.css">
+<!-- Webfonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<meta http-equiv="cleartype" content="on">
+
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.ico">
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.png">
+
+</head>
+
+<body id="post">
+
+<div class="navbar bg-base-100 shadow-sm">
+	<div class="navbar-start">
+		<a class="text-xl">chinpen.net</a>
+	</div>
+	<div class="navbar-center hidden lg:flex">
+		<ul class="menu menu-horizontal px-1">
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net">Home</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/blog/">Blog</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/about/">About</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/feed.xml">Feed</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/search">Search</a>
+				
+			</li>
+			
+		</ul>
+	</div>
+</div>
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        
+          <h1 class="entry-title"></h1>
+        
+      </header>
+      <footer class="entry-meta">
+        <picture><source type="image/webp" srcset="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=webp&via=transform 180w"><img src="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=jpeg&via=transform" alt="Chinmay photo" class="author-photo" width="180" height="180"></picture>
+        <span class="author vcard">By <span class="fn"><a href="https://chinpen.net/blog/about/" title="About Chinmay">Chinmay</a></span></span>
+        <span class="entry-date date published"><time datetime="2013-07-15T08:00:00+08:00"><i class="icon-calendar-empty"></i> July 15, 2013</time></span>
+        
+        
+        <span><a href="https://chinpen.net/blog/web-and-the-broken-promise.html" rel="bookmark" title=""><i class="icon-link"></i> Permalink</a></span>
+        
+      </footer>
+      <div class="entry-content">
+        <p>I'll start by saying I'm a Web noob. In the sense that I tried my best to stay away from Web technologies as long as I could. The Web seemed too cliche and didn't really attract my curiosity.</p>
+<p>Recent developments with <a href="http://www.html5rocks.com/en/">HTML5</a> and specifically <a href="https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html">WebAudio</a> stuff has made me take a serious look at Web Technologies. And I'm pretty disappointed by what I see.</p>
+<p>To me, the Web (at least in it's current form) has two great features, or promises. Firstly the ability to make great looking, usable, User Interfaces, quickly, easily and effectively. Secondly the cross-platform promise of '<strong>Write once, run anywhere</strong>'. But just like Java, I am only disappointed to see the plethora of issues that come up when trying to write even a simple web application which can run across various browsers.</p>
+<p>The more and delve into Web technologies the more I see why both features aren't as rosy as painted by the public.</p>
+<p><strong>UI</strong></p>
+<p>Making a Web based UI right is HARD! And more often than not, I've seen developers 'trial-error' their way out of making stuff look the way you want it. The <a href="http://www.w3.org/TR/CSS21/propidx.html">colossal number of CSS properties available</a> for use doesn't really help to have a concrete understanding of view rendering and what really happens when you apply specific properties to an Element.</p>
+<p>For someone who's never doing any kind of UI work before, I'm surprised at lack of defined ways to arrive at the UI you have in your mind. Unlike when you're writing software, where there are (usually) a handful of ways you can do something and if you follow tried and tested patterns, you'll arrive there sooner or later. Not so with UI in my experience.</p>
+<p>To be fair I'm yet to find a system/framework on any platform (not only the web) that developers don't have to struggle to make the UI look exactly as they want, across various devices and platforms. I would love to know if you have any. But Web seems like what everyone is going towards and it surely isn't optimal.</p>
+<p><strong>Platforms</strong></p>
+<p>We've all known about Browser wars. But it's terrifying how many differences there are in the way browsers differ in implementing basic functionality. Take for example audio codec support in the new HTML5 <em>&lt;audio&gt;</em> tag.</p>
+<p>![audio codec support](../img/2013/07/Screen-Shot-2013-07-15-at-12.01.56-PM.png)</p>
+<p>Yes, there are political reason for codec support, etc. But I'm sure there is no political reason to not support plain old PCM WAV files IE and Opera. So there isn't a single format that's support across all browsers. <em>(Yes. Hopefully now that <a href="http://blog.pearce.org.nz/2013/02/h264aacmp3-support-now-enabled-by.html">Firefox has agreed to support mp3</a>, we might be able to get around it, but for now in Firefox 22 on OSX 10.7 I still can't play mp3s)</em></p>
+<p>Developing on the Web platforms, I feel I'm spending more time and effort dealing with browser quirks than actually building an application that I want to build. And these aren't even old versions of browsers. Everything from Events that are thrown to Errors that are returned differ in browsers.</p>
+<p>Yes, I can imagine there would be libraries that would save me from all the trouble by dealing with all these quirks, but to me that's a failure of the Web platform. Having a library which needs to check which browser you're on and then adjust how things are done shouldn't need to happen.</p>
+<p>There are web standards that have been defined. So why don't browsers just work? I'm guessing it's the disparity between committees at W3C which write these standards (which tend to be vague) and the actual developers at the browser vendors who make the browsers (who tend to have an opinion).</p>
+<p>Looking at the way the various parties (W3C, Browser Vendors and Developer) interact, it seems we still have a long way to go before we'll see Web as a platform where a developer can ignore the platform and focus on the application.</p>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<footer class="footer footer-center p-10 m-">
+	<nav>
+		<div class="bg-base-content/10 mx-1 mt-10 mb-5 w-full h-[var(--border)]"></div>
+		<h5 class="font-[volkhov]"><em>&copy; 2025 Chinmay. Powered by <a href="https://www.eleventy.dev/" target="_blank">Eleventy</a></em>.
+		<div class="grid grid-flow-col justify-center gap-4">
+			<a href="https://twitter.com/ntt" title="Chinmay on Twitter" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=jpeg&via=transform" alt="Twitter Icon" width="512" height="512"></picture>
+			</a>
+			<a href="https://github.com/notthetup" title="Chinmay on Github" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=jpeg&via=transform" alt="GitHub Icon" width="512" height="512"></picture>
+			</a>
+		</div>
+	</h5></nav>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+<div class="navbar bg-base-100 shadow-sm">
+	<div class="navbar-start">
+		<a class="text-xl">{{site.name}}</a>
+	</div>
+	<div class="navbar-center hidden lg:flex">
+		<ul class="menu menu-horizontal px-1">
+			{% for link in site.links %}
+			<li class="text-xl">
+				{% if link.external %}
+				<a href="{{ link.url }}">{{ link.title }}</a>
+				{% else %}
+				<a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+				{% endif %}
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>

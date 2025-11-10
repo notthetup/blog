@@ -1,0 +1,157 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Technology, Audio and other Geekery</title>
+<meta name="description" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://chinpen.net/blog/img/site-logo.png">
+<meta name="twitter:title" content="Technology, Audio and other Geekery">
+<meta name="twitter:description" content="">
+<meta name="twitter:creator" content="@ntt">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Technology, Audio and other Geekery">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://chinpen.net/blog/tesseract-automator-dragndrop-ocr.html">
+<meta property="og:site_name" content="Technology, Audio and other Geekery">
+
+
+
+
+
+<link rel="canonical" href="https://chinpen.net/blog/tesseract-automator-dragndrop-ocr.html">
+<link href="https://chinpen.net/blog/feed.xml" type="application/atom+xml" rel="alternate" title="Technology, Audio and other Geekery Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/styles/index.css">
+<!-- Webfonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<meta http-equiv="cleartype" content="on">
+
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.ico">
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.png">
+
+</head>
+
+<body id="post">
+
+<div class="navbar bg-base-100 shadow-sm">
+	<div class="navbar-start">
+		<a class="text-xl">chinpen.net</a>
+	</div>
+	<div class="navbar-center hidden lg:flex">
+		<ul class="menu menu-horizontal px-1">
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net">Home</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/blog/">Blog</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/about/">About</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/feed.xml">Feed</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/search">Search</a>
+				
+			</li>
+			
+		</ul>
+	</div>
+</div>
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        
+          <h1 class="entry-title"></h1>
+        
+      </header>
+      <footer class="entry-meta">
+        <picture><source type="image/webp" srcset="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=webp&via=transform 180w"><img src="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=jpeg&via=transform" alt="Chinmay photo" class="author-photo" width="180" height="180"></picture>
+        <span class="author vcard">By <span class="fn"><a href="https://chinpen.net/blog/about/" title="About Chinmay">Chinmay</a></span></span>
+        <span class="entry-date date published"><time datetime="2009-09-26T08:00:00+08:00"><i class="icon-calendar-empty"></i> September 26, 2009</time></span>
+        
+        
+        <span><a href="https://chinpen.net/blog/tesseract-automator-dragndrop-ocr.html" rel="bookmark" title=""><i class="icon-link"></i> Permalink</a></span>
+        
+      </footer>
+      <div class="entry-content">
+        <p>Necessity is the mother of invention it is said.. And sometimes it just takes an annoying repetitive task to push someone to do something..</p>
+<p>I've always been interested in <a href="http://www.macosxautomation.com/applescript/index.html">Applescript</a> and <a href="http://www.macosxautomation.com/automator/">Automator</a>. These are Apple's scripting/automating/batch processing frameworks. Applescript is basically a scripting language which allows you to command many OSX apps. The amount of control you have exert over the running of the apps depends on how the app was made (if they put in the hooks for apple script or not), but most Apple apps are pretty 'scriptable'. Automator is automation for <em>noobs</em>. Instead of writing a script, you just drag and drop &quot;actions&quot; and create a &quot;<a href="http://www.macosxautomation.com/automator/examples/workflows.html">workflow</a>&quot;, which lets you pass outputs of one action to another and process them. It seems pretty lame at first, but once you start making your own droplets and 'workflows' it's great fun!</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2F2009%2F09%2Fpicture-3.jpg&width=561&format=webp&via=transform 561w"><img src="/.11ty/image/?src=src%2Fimg%2F2009%2F09%2Fpicture-3.jpg&width=561&format=jpeg&via=transform" alt="Picture 3" width="561" height="310"></picture></p>
+<p>So, during one of my labs, the analyzer we were using was unable to store/save the data we captured during the experiment. It was an old analyzer which used 3.5&quot; floppy disks, but the disk drive has stopped working. So we decided to take photos of the small screen of the analyzer when it displayed the data, and the transcribe them later.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2F2009%2F09%2Fdsc_4634_23.jpg&width=3008&format=webp&via=transform 3008w"><img src="/.11ty/image/?src=src%2Fimg%2F2009%2F09%2Fdsc_4634_23.jpg&width=3008&format=jpeg&via=transform" alt="DSC_4634_23" width="3008" height="2000"></picture></p>
+<p>When I saw the sheer number of file which needed to be transcribed (and also my entire evening gone doing that), I thought of doing some OCR (Optical Character Recognition). Google helped me to find <a href="http://code.google.com/p/tesseract-ocr/">Tesseract</a>, a *nix utility which does OCR. Great. I managed to find a <a href="http://www.macports.org/">MacPort</a> for it and got it to <a href="https://trac.macports.org/browser/trunk/dports/textproc/tesseract/Portfile">run on OSX</a>.</p>
+<p>OK.So far so good, but Tesseract only accepts 1 file as an input and requires that file to be in .tiff format. Now I could have written a bash (or perl :P) script to convert all the files to .tiff and then loop over all the files and call Tesseract but that's too much work and surely not the 'Apple way'. So, I called on Automator.</p>
+<p>After a bit of tweaking and testing, here is my final workflow which creates a <a href="http://macscripter.net/viewtopic.php?id=24775">droplet</a>. Any jpg file dropped on this droplet is duplicated, coverted to .tif and OCRed through Tesseract and the output is stored in a file with a suffix .txt</p>
+<p>![Picture 2](../img/2009/09/picture-21.jpg)</p>
+<p>The OCR output was not the best. I had to massage (crop, rotate, gray-scale, etc) the images to get a good output.</p>
+<p>You can download it <a href="http://dl.getdropbox.com/u/957/ocrJpg2tiff.zip">here</a>, but you'll need Tesseract to make it work. Yay!</p>
+<p>Btw, if you're interested in Automator, check out the <a href="http://feeds.pixelcorps.com/feeds/macbreakipod.xml">videocast Macbreak </a> Ep235-238. And also Ep4-13 of <a href="http://www.pixelcorps.tv/macbreak_dev?p=3">MacBreak Dev</a></p>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<footer class="footer footer-center p-10 m-">
+	<nav>
+		<div class="bg-base-content/10 mx-1 mt-10 mb-5 w-full h-[var(--border)]"></div>
+		<h5 class="font-[volkhov]"><em>&copy; 2025 Chinmay. Powered by <a href="https://www.eleventy.dev/" target="_blank">Eleventy</a></em>.
+		<div class="grid grid-flow-col justify-center gap-4">
+			<a href="https://twitter.com/ntt" title="Chinmay on Twitter" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=jpeg&via=transform" alt="Twitter Icon" width="512" height="512"></picture>
+			</a>
+			<a href="https://github.com/notthetup" title="Chinmay on Github" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=jpeg&via=transform" alt="GitHub Icon" width="512" height="512"></picture>
+			</a>
+		</div>
+	</h5></nav>
+</footer>
+
+
+</body>
+</html>

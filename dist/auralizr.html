@@ -1,0 +1,211 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Technology, Audio and other Geekery</title>
+<meta name="description" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://chinpen.net/blog/img/site-logo.png">
+<meta name="twitter:title" content="Technology, Audio and other Geekery">
+<meta name="twitter:description" content="">
+<meta name="twitter:creator" content="@ntt">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Technology, Audio and other Geekery">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://chinpen.net/blog/auralizr.html">
+<meta property="og:site_name" content="Technology, Audio and other Geekery">
+
+
+
+
+
+<link rel="canonical" href="https://chinpen.net/blog/auralizr.html">
+<link href="https://chinpen.net/blog/feed.xml" type="application/atom+xml" rel="alternate" title="Technology, Audio and other Geekery Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/styles/index.css">
+<!-- Webfonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<meta http-equiv="cleartype" content="on">
+
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.ico">
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.png">
+
+</head>
+
+<body id="post">
+
+<div class="navbar bg-base-100 shadow-sm">
+	<div class="navbar-start">
+		<a class="text-xl">chinpen.net</a>
+	</div>
+	<div class="navbar-center hidden lg:flex">
+		<ul class="menu menu-horizontal px-1">
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net">Home</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/blog/">Blog</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/about/">About</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/feed.xml">Feed</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/search">Search</a>
+				
+			</li>
+			
+		</ul>
+	</div>
+</div>
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        
+          <h1 class="entry-title"></h1>
+        
+      </header>
+      <footer class="entry-meta">
+        <picture><source type="image/webp" srcset="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=webp&via=transform 180w"><img src="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=jpeg&via=transform" alt="Chinmay photo" class="author-photo" width="180" height="180"></picture>
+        <span class="author vcard">By <span class="fn"><a href="https://chinpen.net/blog/about/" title="About Chinmay">Chinmay</a></span></span>
+        <span class="entry-date date published"><time datetime="2014-06-18T08:00:00+08:00"><i class="icon-calendar-empty"></i> June 18, 2014</time></span>
+        
+        
+        <span><a href="https://chinpen.net/blog/auralizr.html" rel="bookmark" title=""><i class="icon-link"></i> Permalink</a></span>
+        
+      </footer>
+      <div class="entry-content">
+        <h2>Real-time Acoustic Room Auralization</h2>
+<p>Earlier this year, an Acoustician friend from <a href="where-is-acoustics-used">Chalmers days</a> visited, leading to many discussions on real-time Auralization of Acoustic spaces which was her thesis and current work.</p>
+<h3>auralization</h3>
+<p>Auralization is..</p>
+<blockquote>
+<p>the process of rendering audible, by physical or mathematical modeling, the sound ﬁeld of a source in a space, in such a way as to simulate the binaural listening experience at a given position in the modeled space.</p>
+<p>The ability to recreate listening environments has always been one of the aims of acoustics and audio engineering. The goal has been not only to recreate the sensation of the speech or music, but also allow the recreation of the aural impression of the acoustic characteristics of a space, be it outdoors or indoors.</p>
+</blockquote>
+<p>(<a href="https://github.com/notthetup/mastersthesis/blob/master/thesis.pdf">source</a>)</p>
+<p>In short, the idea is to simulate an aural experience of a space (a room, a church, a hallway, a garden, etc). It could be as simple as recording that space and then playing it back to a person wearing headphones, or as complicated as having a multi-loudspeaker setup in <a href="http://en.wikipedia.org/wiki/Anechoic_chamber">anaechoic chambers</a>.</p>
+<p>My Acoustician friend though, was looking at a newer idea of having this done real-time, such that you can interact with this simulated aural experience, by speaking. And you will hear the result of your voice interacting with this simulated space. Such interactivity has been shown to make the simulation feel more realistic.</p>
+<h3>browsers and webaudio</h3>
+<p>My friend's setup to do real-time auralization was complex, having deal with echos and feedback. I wondered if this could be acheived, albeit with much reduced functionality, on modern mobile platforms.</p>
+<p>I took <a href="https://github.com/notthetup/Auralize">a stab at it on iOS</a> since <a href="https://developer.apple.com/library/ios/documentation/MusicAudio/Conceptual/AudioUnitHostingGuide_iOS/ConstructingAudioUnitApps/ConstructingAudioUnitApps.html#///apple_ref/doc/uid/TP40009492-CH16-SW3">CoreAudio</a> is pretty decent at doing real-time processing. It seemed promising, but I was lazy to deal with the complexity of making a decent UI for it.</p>
+<p>That's when I remembered that Chrome had announced that they were adding a <a href="http://updates.html5rocks.com/2012/09/Live-Web-Audio-Input-Enabled">bridge between WebAudio and getUserMedia/Stream</a>. This would allow audio from microphone (getUserMedia) to be piped into WebAudio. WebAudio is a low latency real-time audio processing API in the browser. So theoratically, I would be able to do some kind of real-time Auralization in the browser.</p>
+<p>Also, being in the browser meant I could publish it easily and skinning it with a nice UI would only require me to annoy/impress <a href="http://sayan.ee/">some friends</a>.</p>
+<h3>auralizr</h3>
+<p>After a weekend of hacking out the internals, creating a nice UI and interactions, and finding good source material, we put out a <a href="http://notthetup.github.io/auralizr">real-time auralization demo called Auralizr</a>.</p>
+<p>The demo showcases the flexibility of modern Web Platform as well as show that real-time auralization can be implemented (to a certain extent) on the Web.</p>
+<p>Since all the audio processing is done in the browser, this could happily be hosted on <a href="https://pages.github.com/">Github Pages</a>.</p>
+<h3>how does it work?</h3>
+<p>The <a href="http://caniuse.com/#search=getusermedia">getUserMedia/Stream</a> API allows browsers to access audio/video streams from the underlying OS. Of course, the browser will ask for user permission to use the microphone.</p>
+<p><em>Currently <code>getUserMedia</code> is only supported by Chrome and Firefox.</em></p>
+<p>The <a href="http://dev.w3.org/2011/webrtc/editor/getusermedia.html#dom-navigator-getusermedia"><code>navigator.getUserMedia</code></a> call with the constraints <a href="http://dev.w3.org/2011/webrtc/editor/getusermedia.html#idl-def-MediaStreamConstraints"><code>{audio:true}</code></a> returns a <a href="http://dev.w3.org/2011/webrtc/editor/getusermedia.html#idl-def-MediaStream"><code>MediaStream</code></a></p>
+<p>Here is a quick demo of getting some audio from your microphone and adding it to a volume meter.</p>
+<script src="../js/volume-meter.js"></script>
+<div id="volumedemo">
+<button class="btn" id="enable" style="vertical-align: top;">Enable Volume Meter</button></div>
+<div style="width:640px; height:50px; border:2px solid; border-color:black">
+<canvas id="meter" style="margin-top:3px; width: 640px; height:46px;"> </canvas>
+</div>
+<p><em>Don't forget to allow your browser to use your microphone</em></p>
+<p>(<a href="https://github.com/cwilso/volume-meter/">source</a>)</p>
+<p>The WebAudio API has a <a href="http://webaudio.github.io/web-audio-api/#widl-AudioContext-createMediaStreamSource-MediaStreamAudioSourceNode-MediaStream-mediaStream"><code>audioContext.createMediaStreamSource</code></a> method which wraps this <code>MediaStream</code> and exposes a standard Web Audio <a href="http://webaudio.github.io/web-audio-api/#idl-def-AudioNode">AudioNode</a> called <a href="http://webaudio.github.io/web-audio-api/#idl-def-MediaStreamAudioSourceNode"><code>MediaStreamAudioSourceNode</code></a>.</p>
+<pre><code class="language-js">navigator.getUserMedia( {audio:true}, function (stream) {
+	mediaStreamSource = audioContext.createMediaStreamSource( stream );
+} , function(){
+	console.log(&quot;Error getting audio stream from getUserMedia&quot;);
+});
+</code></pre>
+<p>Once the audio from the microphone is in WebAudio, it's a simple task of passing it through a <a href="http://webaudio.github.io/web-audio-api/#the-convolvernode-interface"><code>ConvolverNode</code></a> to the output.</p>
+<pre><code class="language-js">convolver = audioContext.createConvolver();
+mediaStreamSource.connect(convolver);
+convolver.connect(audioContext.desitination);
+</code></pre>
+<p>Here is a quick overview of the connections.</p>
+<p>![auralizr schematic](../img/2014/06/auralizr.jpg)</p>
+<h3>convolution and impulse responses</h3>
+<p>The real magic happens in the ConvolverNode. <a href="http://en.wikipedia.org/wiki/Convolution#Derivations">Convolution</a> allows a signal to undergo elaborate processing based on model of a given system. The model of this system (an <strong>impulse response</strong>) is used to define the how the system affects the signal.</p>
+<p>Here is a nice gif which tries to explain the math behind Convolution.</p>
+<p>![convolution](../img/2014/06/convolution.gif)</p>
+<p>(<a href="http://en.wikipedia.org/wiki/Convolution#mediaviewer/File:Convolution_of_spiky_function_with_box2.gif">source</a>)</p>
+<p>These impulse responses can be considered as mathematical models of the system, and affect a given signal similarly as the system would have affect it. So given the impulse responses of the aural spaces we want to recreate(for eg, a hall, church, etc) you could easily convolve that with the audio from the microphone and out comes the audio as if you were speaking in the space.</p>
+<p>I created a simple demo that showcases how convolution can affect an given audio. The original sound of a gunshot played in a loop. If you pass it through a Convolver with various impulse responses, it sounds as if you're listening to the gunshot sound in a different space.</p>
+<script src="../js/convolve-demo.js"></script>
+<div id="convolvedemo">
+	<input type="button" class="btn" id="original" style="vertical-align: top;" value="Play Original" disabled="true">
+	<input type="button" class="btn" id="hall" style="vertical-align: top;" value="Play Convolved with Hall" disabled="true">
+	<input type="button" class="btn" id="stairwell" style="vertical-align: top;" value="Play Convolved with Stairwell" disabled="true">
+	<input type="button" class="btn" id="stop" style="vertical-align: top;" value="Stop" disabled="true">
+</div>
+<p><em>Use headphones while listening to these sounds. Also, sounds are loud.</em></p>
+<p>For the Auralizr demo the users would be listening on headphones, so I needed <a href="http://en.wikipedia.org/wiki/Binaural_recording">binaural</a> impulses responses of various types of spaces. I found <a href="http://www.openairlib.net/">OpenAirLib</a> which has a ton of good quality impulse response recordings licensed under Creative Commons. The responses are avilable as wav files which can be loaded and decoded using WebAudio API. The returned AudioBuffer can be used as an impulse response in a Convolver Node.</p>
+<p>Putting everything together we created Auralizr. Auralizr is open source and you can look at <a href="https://github.com/notthetup/auralizr">how everything was hooked up on GitHub</a>.</p>
+<hr>
+<p><em>Note: There seems to be a latency issue on Firefox (Nightly 32.0a1) and even with Chrome (35.0.1961) on Android with getUserMedia-WebAudio bridge. Hence the simulation of being in another space is lost. I am working on an experiment to measure this delay.</em></p>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<footer class="footer footer-center p-10 m-">
+	<nav>
+		<div class="bg-base-content/10 mx-1 mt-10 mb-5 w-full h-[var(--border)]"></div>
+		<h5 class="font-[volkhov]"><em>&copy; 2025 Chinmay. Powered by <a href="https://www.eleventy.dev/" target="_blank">Eleventy</a></em>.
+		<div class="grid grid-flow-col justify-center gap-4">
+			<a href="https://twitter.com/ntt" title="Chinmay on Twitter" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=jpeg&via=transform" alt="Twitter Icon" width="512" height="512"></picture>
+			</a>
+			<a href="https://github.com/notthetup" title="Chinmay on Github" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=jpeg&via=transform" alt="GitHub Icon" width="512" height="512"></picture>
+			</a>
+		</div>
+	</h5></nav>
+</footer>
+
+
+</body>
+</html>

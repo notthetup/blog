@@ -1,0 +1,41 @@
+{
+    "name":         "chinpen.net",
+    "title":        "Technology, Audio and other Geekery",
+    "logo":         "site-logo.png",
+    "url":          "https://chinpen.net/blog",
+
+    "owner": {
+        "name":       "Chinmay",
+        "avatar":     "chinpen.jpg",
+        "email":      "chinpen@chinpen.net",
+        "twitter":    "ntt",
+        "facebook":   "chinpen",
+        "github":     "notthetup"
+    },
+    "links": [
+        {
+            "title": "Home",
+            "url": "https://chinpen.net",
+            "external": true
+        },
+        {
+            "title": "Blog",
+            "url": "/blog/",
+            "external": false
+        },
+        {
+            "title": "About",
+            "url": "/about/",
+            "external": false
+        },
+        {
+            "title": "Feed",
+            "url": "/feed.xml",
+            "external": false
+        },{
+            "title": "Search",
+            "url": "/search",
+            "external": false
+        }
+    ]
+}

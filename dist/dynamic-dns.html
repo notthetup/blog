@@ -1,0 +1,184 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Technology, Audio and other Geekery</title>
+<meta name="description" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://chinpen.net/blog/img/site-logo.png">
+<meta name="twitter:title" content="Technology, Audio and other Geekery">
+<meta name="twitter:description" content="">
+<meta name="twitter:creator" content="@ntt">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Technology, Audio and other Geekery">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://chinpen.net/blog/dynamic-dns.html">
+<meta property="og:site_name" content="Technology, Audio and other Geekery">
+
+
+
+
+
+<link rel="canonical" href="https://chinpen.net/blog/dynamic-dns.html">
+<link href="https://chinpen.net/blog/feed.xml" type="application/atom+xml" rel="alternate" title="Technology, Audio and other Geekery Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/styles/index.css">
+<!-- Webfonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<meta http-equiv="cleartype" content="on">
+
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.ico">
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.png">
+
+</head>
+
+<body id="post">
+
+<div class="navbar bg-base-100 shadow-sm">
+	<div class="navbar-start">
+		<a class="text-xl">chinpen.net</a>
+	</div>
+	<div class="navbar-center hidden lg:flex">
+		<ul class="menu menu-horizontal px-1">
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net">Home</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/blog/">Blog</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/about/">About</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/feed.xml">Feed</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/search">Search</a>
+				
+			</li>
+			
+		</ul>
+	</div>
+</div>
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        
+          <h1 class="entry-title"></h1>
+        
+      </header>
+      <footer class="entry-meta">
+        <picture><source type="image/webp" srcset="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=webp&via=transform 180w"><img src="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=jpeg&via=transform" alt="Chinmay photo" class="author-photo" width="180" height="180"></picture>
+        <span class="author vcard">By <span class="fn"><a href="https://chinpen.net/blog/about/" title="About Chinmay">Chinmay</a></span></span>
+        <span class="entry-date date published"><time datetime="2016-10-26T08:00:00+08:00"><i class="icon-calendar-empty"></i> October 26, 2016</time></span>
+        
+        
+        <span><a href="https://chinpen.net/blog/dynamic-dns.html" rel="bookmark" title=""><i class="icon-link"></i> Permalink</a></span>
+        
+      </footer>
+      <div class="entry-content">
+        <p>I run a small headless Linux server at home. It has come in handy for running a VPN server, IRC bouncer, downloading server and other quick trick and hacks. Since I rarely need it to do any significant computation, I run it on an old <a href="https://www.raspberrypi.org/">Raspberry Pi</a> (the original one).</p>
+<p>One of the question I always get is how I manage to access the server from outside. While static IP addresses are an option for many telcos in Singapore, mine doesn't provide that service for an affordable price, so I decided to roll my own <a href="https://en.wikipedia.org/wiki/Dynamic_DNS">Dynamic DNS</a> system to let me access this server from outside the home network.</p>
+<h2>Logging the IP address</h2>
+<p>I first started to experiment by logging the IP address assigned to the edge router by the ISP every 5 minutes. It was a simple <code>curl</code> script on a <code>cron</code> job that checked an online public IP service like <a href="https://www.ipify.org/">ipify</a> or <a href="https://diagnostic.opendns.com/myip">OpenDNS</a> and logged it to a file.</p>
+<p><code>{ date ; echo &quot; - &quot;; curl -s 'https://api.ipify.org?format=text'\;} | tr &quot;\n&quot; &quot; &quot;</code></p>
+<p>With this I was able to see that my ISP didn't change the IP addresses assigned to me for months. That means this DIY Dynamic DNS system would work without too much down time.</p>
+<pre><code>Tue Oct 26 09:00:07 SGT 2015  -  210.23.20.192
+Tue Oct 26 10:00:06 SGT 2015  -  210.23.20.192
+Tue Oct 26 11:00:05 SGT 2015  -  210.23.20.192
+...
+Sun Nov 22 11:00:07 SGT 2015  -  210.23.20.192
+Sun Nov 22 11:00:06 SGT 2015  -  210.23.20.192
+Sun Nov 22 11:00:06 SGT 2015  -  210.23.20.192
+</code></pre>
+<h2>Updating DNS records</h2>
+<p>There are online service like <a href="https://dyn.com/dns/">DynDNS</a> but I found them too clunky to use. But I did figure that Cloudflare (whom I use for DNS anyway) also support <a href="https://api.cloudflare.com/#dns-records-for-a-zone-update-dns-record">updating DNS records over an API call</a>.</p>
+<p>So the basic idea would be to fetch the IP address assigned to the edge router by the ISP and send it to Cloudflare periodically. I found that <a href="https://sourceforge.net/p/ddclient/wiki/Home/">ddclient</a> is a Perl script written to do exactly this. It runs as a daemon, periodically fetches the local IP address, check if it is the same one as previously sent to the DNS server otherwise updates the DNS server.</p>
+<p>You can install <code>ddclient</code> with your favorite package manager. For eg. on Ubuntu/Debian :</p>
+<p><code>sudo apt-get install ddclient</code></p>
+<p>Newer version of <code>ddclient</code> work directly with Cloudflare, but older versions need a small patch. This <a href="https://jenssegers.com/84/dynamic-dns-for-cloudflare-with-ddclient">post from Jens Segers explains it </a> well.</p>
+<p><code>ddclient</code> has a config file <code>ddclient.conf</code> usually located in <code>/etc</code> that allows you to configure it</p>
+<p>You have to provide <code>ddclient</code> a script to get the local IP address. I use OpenDNS like this :</p>
+<p><code>dig +short myip.opendns.com @resolver1.opendns.com</code></p>
+<p>Here is an example of the <code>ddclient.conf</code> for my setup. <code>getIP.sh</code> basically runs the <code>dig</code> command above.</p>
+<pre><code>daemon=300
+pid=/var/run/ddclient.pid
+ssl=yes                                                   \
+use=cmd, cmd=getIP.sh                                     \
+protocol=cloudflare,                                      \
+zone=chinpen.net,                                         \
+login=login@email.com,                                    \
+password=password                                         \
+dynamic.chinpen.net
+</code></pre>
+<p>On the Cloudflare side, I created an A record, which pointed the desired URL (dynamic.chinpen.net) to the the local IP address. This record would then get automatically updated by <code>ddclient</code> when it sees the local IP address changing.</p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2F2016%2F10%2Fdns.jpg&width=1942&format=webp&via=transform 1942w"><img src="/.11ty/image/?src=src%2Fimg%2F2016%2F10%2Fdns.jpg&width=1942&format=jpeg&via=transform" alt="" width="1942" height="126"></picture></p>
+<h2>Running ddclient</h2>
+<p>I run <code>ddclient</code> on the Raspberry Pi itself, but you could always run it on any linux box. In fact that's another great use for an old Raspberry Pi.</p>
+<p>The main reason this technique works for me is that I don't really need very very high availability. With this current setup there is a possibility the server would be unaccessible for five minutes (300 seconds) in the worst case scenario, and that's a chance I am comfortable with.</p>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<footer class="footer footer-center p-10 m-">
+	<nav>
+		<div class="bg-base-content/10 mx-1 mt-10 mb-5 w-full h-[var(--border)]"></div>
+		<h5 class="font-[volkhov]"><em>&copy; 2025 Chinmay. Powered by <a href="https://www.eleventy.dev/" target="_blank">Eleventy</a></em>.
+		<div class="grid grid-flow-col justify-center gap-4">
+			<a href="https://twitter.com/ntt" title="Chinmay on Twitter" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=jpeg&via=transform" alt="Twitter Icon" width="512" height="512"></picture>
+			</a>
+			<a href="https://github.com/notthetup" title="Chinmay on Github" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=jpeg&via=transform" alt="GitHub Icon" width="512" height="512"></picture>
+			</a>
+		</div>
+	</h5></nav>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Technology, Audio and other Geekery</title>
+<meta name="description" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://chinpen.net/blog/img/site-logo.png">
+<meta name="twitter:title" content="Technology, Audio and other Geekery">
+<meta name="twitter:description" content="">
+<meta name="twitter:creator" content="@ntt">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Technology, Audio and other Geekery">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://chinpen.net/blog/optimization-in-matlab.html">
+<meta property="og:site_name" content="Technology, Audio and other Geekery">
+
+
+
+
+
+<link rel="canonical" href="https://chinpen.net/blog/optimization-in-matlab.html">
+<link href="https://chinpen.net/blog/feed.xml" type="application/atom+xml" rel="alternate" title="Technology, Audio and other Geekery Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/styles/index.css">
+<!-- Webfonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<meta http-equiv="cleartype" content="on">
+
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.ico">
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.png">
+
+</head>
+
+<body id="post">
+
+<div class="navbar bg-base-100 shadow-sm">
+	<div class="navbar-start">
+		<a class="text-xl">chinpen.net</a>
+	</div>
+	<div class="navbar-center hidden lg:flex">
+		<ul class="menu menu-horizontal px-1">
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net">Home</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/blog/">Blog</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/about/">About</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/feed.xml">Feed</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/search">Search</a>
+				
+			</li>
+			
+		</ul>
+	</div>
+</div>
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        
+          <h1 class="entry-title"></h1>
+        
+      </header>
+      <footer class="entry-meta">
+        <picture><source type="image/webp" srcset="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=webp&via=transform 180w"><img src="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=jpeg&via=transform" alt="Chinmay photo" class="author-photo" width="180" height="180"></picture>
+        <span class="author vcard">By <span class="fn"><a href="https://chinpen.net/blog/about/" title="About Chinmay">Chinmay</a></span></span>
+        <span class="entry-date date published"><time datetime="2011-04-08T08:00:00+08:00"><i class="icon-calendar-empty"></i> April 08, 2011</time></span>
+        
+        
+        <span><a href="https://chinpen.net/blog/optimization-in-matlab.html" rel="bookmark" title=""><i class="icon-link"></i> Permalink</a></span>
+        
+      </footer>
+      <div class="entry-content">
+        <p>Continuing on the Optimization problem from <a href="constrained-optimization/">the last post</a>. I remembered having read about the MATLAB Numerical Optimization Toolbox. Since the license of MATLAB I have has all tool boxes, I decided to explore it.</p>
+<p>The quickest way to to learn about <a href="http://www.mathworks.com/products/optimization/">this Toolbox </a>is to use the GUI based tool. The command <em>optimtool</em> will get you the tool. The basic premise of this tool is that you create a function (<a href="http://www.mathworks.com/help/optim/write-objective-function.html">ObjectFunction</a>) which when given the variables as arguments, will yield the value being optimized (in most cases minimized). Then by calling this function with various combination of inputs, the optimzation tool will decide the optimum values of the input. This might be a very simplistic view, but that's the foundation.</p>
+<p>From here, we get more complicated. You can choose more complicated problem structures (max min problem to find the maximum output value for minumum arguments, etc), you are define linear and non-linear constraints, a multitude of algorithms to solve the problem, and so on. As always the help files and <a href="http://www.mathworks.com/products/optimization/demos.html">demos</a> are <a href="http://www.mathworks.com/help/optim/index.html#optimization-problem-setup">great support</a> to decide what you need and chose the correct solvers,stop conditions, etc.</p>
+<p>I won't say I totally understand how the tool work, especially since I am still unclear about how the solvers actually work, but the tool gives enough data for you to use it to generate some useful results.</p>
+<p>Some interesting points I picked up using this tool.</p>
+<ol>
+<li>Linear Equality and Inequality <a href="http://www.mathworks.com/help/optim/write-constraints.html">Constraints</a> are defined in a matrix form with the equation <em>A<strong>x</strong> = b</em> catptures the constraint. Matrix is a <em>n x m</em> matrix, where <em>n</em> is the number of constraints of that tye (equality or inequality) and <em>m</em> is the number of variables, <strong>x</strong> is the vector of input variables and <em>b</em> is residual factor.</li>
+<li>Stop conditions are useful not only to decide when to stop iterating but also to add physical constraints. The stop conditions for <strong>x</strong> allow the minimum accuracy of change of the input variables to be defined. In my case, the variables indicate phsyical dimensionsm, so setting the accuracy to a value which defines the lower limit of manufacturing, ensure that the solution is manufacturable (no 0.333118m radius of body required)</li>
+<li>Various solvers yield different solutions. Since I don't really get the solving schemes, I tried all of them and found one which gives the best solution</li>
+<li>Starting points matters. It's possible that your problem gives different solutions depending on the starting point used. The tool requires you to submit a starting point. Changing it around your bound range helps to 'look' for other solutions which the solver might not be able to find. It's a little like global vs local minima issue.</li>
+<li>Most problems are defined as minimization. Since my problem was a <a href="http://www.mathworks.com/help/optim/ug/choosing-a-solver.html#brhkghv-21">maximization</a> problem, I had to invert the metric which was being maximized.</li>
+<li>Vizualization of the solving schemes (Constraint Errors, Step sizes, Object Function evaluations) help to see what's going on with the solver.</li>
+</ol>
+<p>Finally, I don't think my system really needs such complicated optimization 'firepower'. But it was a good excuse to learn a new tool, and think of approaches to a problem which is quite common in design/research work.</p>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<footer class="footer footer-center p-10 m-">
+	<nav>
+		<div class="bg-base-content/10 mx-1 mt-10 mb-5 w-full h-[var(--border)]"></div>
+		<h5 class="font-[volkhov]"><em>&copy; 2025 Chinmay. Powered by <a href="https://www.eleventy.dev/" target="_blank">Eleventy</a></em>.
+		<div class="grid grid-flow-col justify-center gap-4">
+			<a href="https://twitter.com/ntt" title="Chinmay on Twitter" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=jpeg&via=transform" alt="Twitter Icon" width="512" height="512"></picture>
+			</a>
+			<a href="https://github.com/notthetup" title="Chinmay on Github" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=jpeg&via=transform" alt="GitHub Icon" width="512" height="512"></picture>
+			</a>
+		</div>
+	</h5></nav>
+</footer>
+
+
+</body>
+</html>

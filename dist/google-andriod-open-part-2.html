@@ -1,0 +1,155 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Technology, Audio and other Geekery</title>
+<meta name="description" content="">
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://chinpen.net/blog/img/site-logo.png">
+<meta name="twitter:title" content="Technology, Audio and other Geekery">
+<meta name="twitter:description" content="">
+<meta name="twitter:creator" content="@ntt">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Technology, Audio and other Geekery">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://chinpen.net/blog/google-andriod-open-part-2.html">
+<meta property="og:site_name" content="Technology, Audio and other Geekery">
+
+
+
+
+
+<link rel="canonical" href="https://chinpen.net/blog/google-andriod-open-part-2.html">
+<link href="https://chinpen.net/blog/feed.xml" type="application/atom+xml" rel="alternate" title="Technology, Audio and other Geekery Feed">
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/styles/index.css">
+<!-- Webfonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+<meta http-equiv="cleartype" content="on">
+
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.ico">
+<link rel="shortcut icon" href="https://chinpen.net/blog/favicon.png">
+
+</head>
+
+<body id="post">
+
+<div class="navbar bg-base-100 shadow-sm">
+	<div class="navbar-start">
+		<a class="text-xl">chinpen.net</a>
+	</div>
+	<div class="navbar-center hidden lg:flex">
+		<ul class="menu menu-horizontal px-1">
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net">Home</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/blog/">Blog</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/about/">About</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/feed.xml">Feed</a>
+				
+			</li>
+			
+			<li class="text-xl">
+				
+				<a href="https://chinpen.net/blog/search">Search</a>
+				
+			</li>
+			
+		</ul>
+	</div>
+</div>
+
+<div id="main" role="main">
+  <article class="hentry">
+    
+    <div class="entry-wrapper">
+      <header class="entry-header">
+        <span class="entry-tags"></span>
+        
+          <h1 class="entry-title"></h1>
+        
+      </header>
+      <footer class="entry-meta">
+        <picture><source type="image/webp" srcset="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=webp&via=transform 180w"><img src="/.11ty/image/?src=https%3A%2F%2Fchinpen.net%2Fblog%2Fimages%2Fchinpen.jpg&width=180&format=jpeg&via=transform" alt="Chinmay photo" class="author-photo" width="180" height="180"></picture>
+        <span class="author vcard">By <span class="fn"><a href="https://chinpen.net/blog/about/" title="About Chinmay">Chinmay</a></span></span>
+        <span class="entry-date date published"><time datetime="2008-10-23T08:00:00+08:00"><i class="icon-calendar-empty"></i> October 23, 2008</time></span>
+        
+        
+        <span><a href="https://chinpen.net/blog/google-andriod-open-part-2.html" rel="bookmark" title=""><i class="icon-link"></i> Permalink</a></span>
+        
+      </footer>
+      <div class="entry-content">
+        <p><em>This is a continuation of the <a href="google-andriod-open-part-1/">Part 1 of discussion</a> on Google Android.</em></p>
+<p><picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2F2008%2F10%2Fandroid.png&width=872&format=webp&via=transform 872w"><img src="/.11ty/image/?src=src%2Fimg%2F2008%2F10%2Fandroid.png&width=872&format=jpeg&via=transform" alt="android-logo" width="872" height="1024"></picture></p>
+<p>So will we be able see Android on the iPhone, the Nokia N95, or even the Motorola RAZR cellphones? Herein lies the biggest misconception about Open OSs.</p>
+<p>Open-source really means that the source code of the OS is available for ALL to be used. So we can read it, port it, re-compile it, program it on some device and do whatever we want with it. But it doesn't mean we can run it on ANY cellphone. The restriction is not the SW but on the HW. To understand this, we have to look at how Cellphones work.</p>
+<p>Cellular networks, on which all cellphones run, require a specific signaling protocol to be used to talk to them (Baseband communications). These protocols include layers of security, error correction, and meta-information to ensure usable communication quality for all. There are also many security mechanisms built into these devices so that users will not be able to spoof as other, or Hijack a signal, or spam the cell tower, etc. And thus, many cellphone OSs (more on this later) till this date have been Closed. That way nobody will be able to &quot;hack&quot; their way into the phone by reading the code and do something nefarious.</p>
+<p>With hackers getting better equipped, many cellphone manufacturers started having heavy &quot;chain-of-trust&quot; security mechanism in the cellphone to ensure that nothing else except their own, valid, (and hence not doing anything nefarious) code runs on it. The idea here was to have each component validate and ensure that the next component can be trusted before handing control to it. And this whole chain is &quot;anchored&quot; in some HW, so that every time the cellphone powers on, HW will ensure that the 1st component (say like a BIOS) is valid before start it, and the BIOS will ensure the validity of the OS and so on and so forth. Hence it's very difficult to run any code on modern day cellphones other than what has been &quot;blessed&quot; by the manufacturer.</p>
+<p>Furthermore, these signaling protocols have a strict real-time requirements, and thus need an OS which support Real-Time scheduling to handle this signaling. Linux inherently does not support Real-Time scheduling (There are variants of it which do, like RTLinux, etc) and so it can't be used to do the Baseband communications. And thus most cellphones will have multiple OSes running together. An Baseband OS (or a Modem) and your usual &quot;SmartPhone OS&quot;. And these two need to talk to each other in order to work and place and receive calls, data, etc. So the &quot;SmartPhone OS&quot; needs to know how to talk to the &quot;Baseband OS&quot;. This is not as easy as it seems, as many times the Baseband OS is propriety and generally Closed to prevent any tampering by the user, especially since many security mechanisms (like Subsidy Lock in the case of the iPhone) are implemented by the Baseband OS.</p>
+<p>Hence, there are two problems in getting Android running on any generic phone. 1. Does the HW even allow some other OS image to be programmed and run on the phone? 2. Can Android talk to the Baseband OS and use the phone side of things.</p>
+<p>In most phones the HW will only allow the original OS to boot, and no one knows what/how the Baseband OS works and how one can communicate with it. And this is why I feel it will be very difficult to see Android running on other phones, without the HW manufacturer themselves supporting it explicitly.</p>
+<p>So is Google Android Open? Surely! But that doesn't mean you'll see it running on an iPhone close to you anytimes soon.</p>
+
+        
+      </div><!-- /.entry-content -->
+    </div><!-- /.entry-wrapper -->
+    <nav class="pagination" role="navigation">
+      
+      
+    </nav><!-- /.pagination -->
+  </article>
+</div><!-- /#main -->
+
+<footer class="footer footer-center p-10 m-">
+	<nav>
+		<div class="bg-base-content/10 mx-1 mt-10 mb-5 w-full h-[var(--border)]"></div>
+		<h5 class="font-[volkhov]"><em>&copy; 2025 Chinmay. Powered by <a href="https://www.eleventy.dev/" target="_blank">Eleventy</a></em>.
+		<div class="grid grid-flow-col justify-center gap-4">
+			<a href="https://twitter.com/ntt" title="Chinmay on Twitter" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Ftwitter.png&width=512&format=jpeg&via=transform" alt="Twitter Icon" width="512" height="512"></picture>
+			</a>
+			<a href="https://github.com/notthetup" title="Chinmay on Github" target="_blank">
+				<picture><source type="image/webp" srcset="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=webp&via=transform 512w"><img class="max-w-[50px]" src="/.11ty/image/?src=src%2Fimg%2Fsocial%2Fgithub.png&width=512&format=jpeg&via=transform" alt="GitHub Icon" width="512" height="512"></picture>
+			</a>
+		</div>
+	</h5></nav>
+</footer>
+
+
+</body>
+</html>

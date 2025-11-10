@@ -1,0 +1,3 @@
+<script>
+  document.location = '/floto';
+</script>
