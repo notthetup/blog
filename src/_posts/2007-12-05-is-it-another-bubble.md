@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Is it another bubble?
-tags:
- - Technology
+^tags: post
 ---
 
 The question which is on everyone's mind these days.

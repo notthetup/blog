@@ -2,9 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Reducing background noise
-tags:
-- Audio
-- Technology
+tags: post
 ---
 
 ### the recording

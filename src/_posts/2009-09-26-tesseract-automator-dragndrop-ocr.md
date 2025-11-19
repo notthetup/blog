@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Tesseract + Automator = DragnDrop OCR!
-tags:
- - Technology
+^tags: post
 ---
 
 Necessity is the mother of invention it is said.. And sometimes it just takes an annoying repetitive task to push someone to do something..

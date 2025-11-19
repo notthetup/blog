@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Trust your technolust!
-tags:
- - Technology
+tags: post
 ---
 
 Either I am really bored, or I am gone totally crazy. Or Both..

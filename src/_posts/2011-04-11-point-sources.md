@@ -2,10 +2,9 @@
 layout: _layouts/post
 comments: true
 title: Point Sources
-tags:
- - Acoustics
- - Audio
- - Technology
+tags: post
+
+
 ---
 
 As Acoustician, we get excited when we hear the word 'Point Source'. It's something many engineers would relate to. Just like in other fields of Engineering, Point Sources in acoutics are a simplified model (almost as simple as it can get) of Acoutic Energy sources.

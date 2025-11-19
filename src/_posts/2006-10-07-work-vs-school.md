@@ -2,9 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Work vs School
-tags:
- - NUS
- - Technology
+tags: post
 ---
 
 How many times have you heard,

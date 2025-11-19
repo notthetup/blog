@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Binaural recordings
-tags:
- - Audio
+tags: post
 ---
 
 I knew about binaural recordings for a long time. Never knew the tech behind them. I was looking at [Holophonic sound ][0]when I remembered about binaural recordings. It seems that its quite simple.

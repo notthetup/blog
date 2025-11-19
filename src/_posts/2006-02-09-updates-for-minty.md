@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Updates for Minty
-tags:
- - Audio
+tags: post
 ---
 
 Alright.

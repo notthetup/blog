@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Nature knows no Borders
-tags:
- - Travel
+tags: post
 ---
 
 I am really saddened by the recent *earthquake* in Northern India and Pakistan. It's really a tragic thing.

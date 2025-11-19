@@ -2,9 +2,7 @@
 layout: _layouts/post
 comments: true
 title: "RaspberryPi Soundboard – Update #1"
-tags:
- - Audio
- - Technology
+^tags: post
 ---
 
 I spent the last couple of days working on the [RaspberryPi Soundboard][0], and I must say I'm kind of frustrated with Linux Audio. It seems much harder to get stuff working when you want to keep things simpler and not use a GUI.

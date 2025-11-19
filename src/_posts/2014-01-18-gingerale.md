@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Gingerale
-tags:
- - Food
+tags: post
 ---
 
 I've been dabbling with simple fermentation for a few years now. [Kefir (an awesome probiotic)][0], and yeast and do wonders to sugar in it's various forms.

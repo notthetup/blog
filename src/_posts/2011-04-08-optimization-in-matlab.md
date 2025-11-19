@@ -2,10 +2,9 @@
 layout: _layouts/post
 comments: true
 title: Optimization in MATLAB
-tags:
- - Acoustics
- - Audio
- - Technology
+tags: post
+
+
 ---
 
 Continuing on the Optimization problem from [the last post][0]. I remembered having read about the MATLAB Numerical Optimization Toolbox. Since the license of MATLAB I have has all tool boxes, I decided to explore it.

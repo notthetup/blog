@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Unboxing the Zoom H4!
-tags:
- - Audio
+^tags: post
 ---
 
 Behold my newest Toy!!

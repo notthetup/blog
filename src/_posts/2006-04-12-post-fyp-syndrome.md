@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Post FYP Syndrome
-tags:
- - NUS
+tags: post
 ---
 
 I have been suffering from what I term as the **Post FYP Syndrome** (PFS).

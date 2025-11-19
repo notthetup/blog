@@ -2,10 +2,10 @@
 layout: _layouts/post
 comments: true
 title: Electric Sitar and a Robotic Tabla!
-tags:
- - Audio
- - Music
- - NUS
+tags: post
+
+
+
 ---
 
 Let's start form the basics. [_Sitar_][0] and [_Tabla_][1] are both Indian musical instruments, widely used in Indian Classical Music. So what has **Electronics** and **Robotics** has got to do with it?

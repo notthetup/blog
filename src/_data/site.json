@@ -1,6 +1,6 @@
 {
     "name":         "chinpen.net",
-    "title":        "Technology, Audio and other Geekery",
+    "title":        "Audio, Electronics and Software",
     "logo":         "site-logo.png",
     "url":          "https://chinpen.net/blog",
 
@@ -31,10 +31,6 @@
         {
             "title": "Feed",
             "url": "/feed.xml",
-            "external": false
-        },{
-            "title": "Search",
-            "url": "/search",
             "external": false
         }
     ]

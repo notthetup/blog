@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: The 3G-4G confusion
-tags:
- - Technology
+^tags: post
 ---
 
 I've been hearing this confusion for many days, and decided this needs to be addressed.

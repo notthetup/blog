@@ -2,9 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Control Strategies in Real-Time Interactive Digital Sound Synthesis
-tags:
- - Audio
- - NUS
+tags: post
 ---
 
 **WoooHooo!! It's finally done!!**

@@ -2,6 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Dynamic DNS
+tags: post
 ---
 
 I run a small headless Linux server at home. It has come in handy for running a VPN server, IRC bouncer, downloading server and other quick trick and hacks. Since I rarely need it to do any significant computation, I run it on an old [Raspberry Pi](https://www.raspberrypi.org/) (the original one).

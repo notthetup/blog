@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Womad Singapore 2007
-tags:
- - Music
+^tags: post
 ---
 
 It's [THAT][0] time of the year again, and I am excited!!

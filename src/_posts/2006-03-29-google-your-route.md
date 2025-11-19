@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Google your route
-tags:
- - Travel
+tags: post
 ---
 
 I was watching [CommandN][0], and they mentioned about this...

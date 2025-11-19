@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Confessions of a soon to be engineer
-tags:
- - NUS
+tags: post
 ---
 
 So I am almost an engineer. Am I happy? Well kinda. I always wanted this in my life. But then, the journey has not been easy. It was fun, and then some. The most difficult part though was the final few weeks. And trust me it was not the late nights and the _caffine_ withdrawl symptoms. It was something deeper, something that **shook my beliefs**.

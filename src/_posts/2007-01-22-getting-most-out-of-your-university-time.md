@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Getting most out of your University time
-tags:
- - NUS
+tags: post
 ---
 
 Having gone through 4 years of undergraduate studies in NUS (I believe it applies for NTU), I realized that most students approach their university studies incorrectly.

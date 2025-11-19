@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: What is sound?
-tags:
- - Audio
+tags: post
 ---
 
 What is sound?

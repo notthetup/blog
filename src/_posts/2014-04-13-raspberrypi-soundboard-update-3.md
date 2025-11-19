@@ -2,9 +2,7 @@
 layout: _layouts/post
 comments: true
 title: "RaspberryPi Soundboard – Update #3"
-tags:
- - Audio
- - Technology
+tags: post
 ---
 
 Finally found more time to spend on the [RaspberryPi Soundboard Project][0].

@@ -2,9 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Audio Spotlight
-tags:
- - Audio
- - NUS
+tags: post
 ---
 
 There was a lecture/seminar by [Prof. Barry Vercoe][0] in NUS today. It was organized by [ACM SIGCHI ][1]Singapore and [SCS][2] SIG on Entertainment Computing and ECE. Basically, it was under the initiative to promote digital media in Singapore.

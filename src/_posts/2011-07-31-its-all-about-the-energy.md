@@ -2,10 +2,7 @@
 layout: _layouts/post
 comments: true
 title: It's all about the Energy
-tags:
- - Acoustics
- - Audio
- - Technology
+tags: post
 ---
 
 Energy tracking and analysis, is the tracking of energy content of a certain signal through the various processing it goes through. The idea is to see how the various processes affect the energy content of a signal and ensure that energy from the critical part of the signal is not lost somewhere in the processing chain.

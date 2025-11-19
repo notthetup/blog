@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: And the Penguins will rule the world!
-tags:
- - Technology
+tags: post
 ---
 
 Personally, I see this to be the future. **Penguins will rule the world!**

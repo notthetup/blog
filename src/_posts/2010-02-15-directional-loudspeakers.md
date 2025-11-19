@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Directional Loudspeakers
-tags:
- - Audio
+^tags: post
 ---
 
 I had talked about [this looong time ago][0]. And finally, I got a chance to study and work on some ideas about Directional Loudpseakers.

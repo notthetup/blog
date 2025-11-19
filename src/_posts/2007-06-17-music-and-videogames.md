@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Music and Video Games
-tags:
- - Music
+^tags: post
 ---
 
 Day before yesterday, I attended the [Play! A Video Game Symphony][0] concert.

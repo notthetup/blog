@@ -1,13 +1,12 @@
-<footer class="footer footer-center p-10 m-">
+<footer class="my-[2em] mx-auto text-center border-t border-stone-200 pt-4" role="contentinfo">
 	<nav>
-		<div class="bg-base-content/10 mx-1 mt-10 mb-5 w-full h-[var(--border)]"></div>
-		<h5 class="font-[volkhov]"><em>&copy; {{ utils.generated_year }} {{ site.owner.name }}. Powered by <a href="https://www.eleventy.dev/" target="_blank">Eleventy</a></em>.</h6>
+		<h5 class="font-[volkhov] text-sm italic text-stone-500"><em>&copy; {{ utils.generated_year }} {{ site.owner.name }}. Powered by <a href="https://www.eleventy.dev/" target="_blank">Eleventy</a></em>.</h6>
 		<div class="grid grid-flow-col justify-center gap-4">
 			<a href="https://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name}} on Twitter" target="_blank">
-				<img class="max-w-[50px]" src="/img/social/twitter.png" alt="Twitter Icon">
+				<span class="icon-[tabler--brand-twitter-filled]" style="width: 48px; height: 48px; color: var(--color-stone-700);"></span>
 			</a>
 			<a href="https://github.com/{{ site.owner.github }}" title="{{ site.owner.name}} on Github" target="_blank">
-				<img class="max-w-[50px]" src="/img/social/github.png" alt="GitHub Icon">
+				<span class="icon-[tabler--brand-github-filled]" style="width: 48px; height: 48px; color: var(--color-stone-700);"></span>
 			</a>
 		</div>
 	</nav>

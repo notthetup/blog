@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: My Obsession with Sound
-tags:
- - Audio
+tags: post
 ---
 
 I am obsessed with **sound**. Its crazy, everywhere I go, I hear sound. Haha..

@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: "iPhone - The Jack of all trades"
-tags:
- - Technology
+tags: post
 ---
 
 Yay! Bangwagon. Let me jump on it.

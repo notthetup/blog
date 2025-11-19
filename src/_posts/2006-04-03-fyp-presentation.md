@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: FYP Presentation!
-tags:
- - NUS
+tags: post
 ---
 
 Update:

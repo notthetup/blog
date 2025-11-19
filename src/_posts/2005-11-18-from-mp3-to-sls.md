@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: From MP3 to SLS
-tags:
- - Audio
+tags: post
 ---
 
 Now for some **techie stuff**.

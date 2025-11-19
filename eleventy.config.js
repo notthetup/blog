@@ -4,8 +4,10 @@ import postcss from 'postcss';
 import tailwindcss from '@tailwindcss/postcss';
 import { Liquid } from "liquidjs";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+import MarkdownIt from "markdown-it";
+import Shiki from "@shikijs/markdown-it";
 
-export default function (eleventyConfig) {
+export default async function (eleventyConfig) {
   eleventyConfig.on('eleventy.before', async () => {
     const tailwindInputPath = path.resolve('./src/styles/index.css');
     const tailwindOutputPath = './dist/styles/index.css';
@@ -42,6 +44,14 @@ export default function (eleventyConfig) {
     root: ["src/_includes"],
   }));
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+
+  let markdownLib = MarkdownIt({}).use(
+		await Shiki({
+			theme: "snazzy-light",
+		}),
+	);
+
+  eleventyConfig.setLibrary("md", markdownLib);
 
   return {
     dir: { input: 'src', output: 'dist' },

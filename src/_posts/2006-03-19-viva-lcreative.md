@@ -2,9 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Viva L'Creative
-tags:
- - Audio
- - Technology
+tags: post
 ---
 
 So I went the latest **Creative Warehouse Sale** last Friday. And I was so excited! All the cool technology for me to touch and feel and listen to! Lemme do a summary of the stuff I saw there.

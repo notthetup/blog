@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: iPhone Mania
-tags:
- - Technology
+^tags: post
 ---
 
 On Tuesday, I got to play with the iPhone. Thanks to [Paddy from Bak2u][0]!

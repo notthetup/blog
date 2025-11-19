@@ -4,8 +4,8 @@ comments: true
 title: Constrained Optimization
 hasjax: true
 tag:
- - Acoustics
- - Audio
+
+
  - Tech
 ---
 

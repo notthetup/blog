@@ -1,3 +1,39 @@
 @import 'tailwindcss';
 @plugin "@tailwindcss/typography";
-@plugin "daisyui";
+@plugin "@iconify/tailwind4";
+
+@theme {
+    --animate-drop: drop 1s both;
+    @keyframes drop {
+        0%{
+            transform: translateY(-500px);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+}
+
+.content > p {
+    @apply mb-6;
+}
+
+.content > h1 {
+    @apply text-4xl font-bold mt-12 mb-6;
+}
+
+.content > h2 {
+    @apply text-3xl font-semibold mt-10 mb-5;
+}
+
+.content > h3 {
+    @apply text-2xl font-semibold mt-8 mb-4;
+}
+
+.content > p > code {
+    @apply bg-gray-100 dark:bg-gray-800 px-1 rounded;
+}
+
+.content > pre {
+    @apply mb-6 rounded-lg overflow-x-auto bg-gray-900;
+}

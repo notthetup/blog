@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: "WOMAD – A review"
-tags:
- - Music
+tags: post
 ---
 
 _If you have met me in the past 3 days, or seen my MSN nick, you probabaly know how this is gonna start! :p_

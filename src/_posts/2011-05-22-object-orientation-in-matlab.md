@@ -2,10 +2,9 @@
 layout: _layouts/post
 comments: true
 title: Object Orientation in MATLAB
-tags:
- - Acoustics
- - Audio
- - Technology
+tags: post
+
+
 ---
 
 In the world of scientific computing, [MATLAB][0] is pretty much a standard. There are ofcourse many other tools, but MATLAB remains the major tool of choice for many Engineering Computations and especially Signal Processing type of work. Since I am doing most of my working in Acoustical Modeling and Signal Processing, MATLAB is my tool of choice.

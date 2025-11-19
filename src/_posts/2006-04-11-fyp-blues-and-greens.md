@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: FYP Blues and Greens
-tags:
- - NUS
+tags: post
 ---
 
 Just finished the graded part of my FYP today. What a ride! Its rightfully 12MCs. Trust me!

@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Where Creative fails
-tags:
- - Audio
+tags: post
 ---
 
 I have always been a fan of [Creative Labs][0]. They have come up with great audio related products aimed at the general consumer, and at very affordable prices. I have always owned Creative sound cards and other PC sound stuff and recently added the [Zen Vision:M][1].

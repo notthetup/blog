@@ -2,9 +2,9 @@
 layout: _layouts/post
 comments: true
 title: Creative Commons (Singapore) Day 2011
-tags:
- - Audio
- - Music
+tags: post
+
+
 ---
 
 So I'm back in Singapore. And when I found out that there was Creative Commons Day in Singapore, I was stoked. I have always believed in Open Source / Creative Commons and other forms of community based IP licensing concepts. While I believe private licensing still has some use in this world, and innovative business models around both shares and private licensing schemes are the way forward, I am pretty sure that there's tonnes of content in the world, which can easily be given a shared license without ANY loss of value to the original owner. Take for example all the private concerts that Indian Classical Musicians do. Their compositions are original (mostly improvised on the spot) and hence attract Copyright. If such content is recorded and shared under Creative Commons, the community around this music would benefit so much from it. But I digress.. [![Creative Commons Singapore](http://farm4.staticflickr.com/3240/2871752489_1b844b3018.jpg)][0]

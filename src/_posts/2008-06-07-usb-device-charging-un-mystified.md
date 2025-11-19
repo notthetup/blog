@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: USB device Charging de-mystified
-tags:
- - Technology
+^tags: post
 ---
 
 _Warning : Super technical, geeky post ahead!_

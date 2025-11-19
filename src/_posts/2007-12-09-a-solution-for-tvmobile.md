@@ -2,9 +2,7 @@
 layout: _layouts/post
 comments: true
 title: A solution for TVMobile
-tags:
- - Audio
- - Technology
+^tags: post
 ---
 
 > "Find me one sbs-transit regular who acually likes TVMobile and I will pay for your dinner"

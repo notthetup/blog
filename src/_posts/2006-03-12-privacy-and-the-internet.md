@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Privacy and the Internet
-tags:
- - Technology
+tags: post
 ---
 
 Recently there has been a lot of 'hoohaa' about Internet. The _myspace.com saga_, the whole _Tammy thingy_ in Singapore. People blaming technology for being evil, or allowing evil people to do more evil things. Probably spawn more evil people. OK enough **evil**, back to my point..

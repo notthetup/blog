@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Google Calendar
-tags:
- - Technology
+tags: post
 ---
 
 Not that it's new, but [**Google Calendar Beta** ][0]is out. Check it out. Really cool. Some nice features including the ability to share with people; Creating calendars and saving them as files; multiple viewing styles.

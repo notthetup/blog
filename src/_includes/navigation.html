@@ -1,9 +1,6 @@
-<div class="navbar bg-base-100 shadow-sm">
-	<div class="navbar-start">
-		<a class="text-xl">{{site.name}}</a>
-	</div>
-	<div class="navbar-center hidden lg:flex">
-		<ul class="menu menu-horizontal px-1">
+<div class="text-center">
+	<nav role="navigation" class="animate-drop">
+		<ul class="inline-flex gap-6 px-4 py-1 bg-black rounded-b-md text-white text-sm">
 			{% for link in site.links %}
 			<li class="text-xl">
 				{% if link.external %}
@@ -14,5 +11,5 @@
 			</li>
 			{% endfor %}
 		</ul>
-	</div>
+	</nav>
 </div>

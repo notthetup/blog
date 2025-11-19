@@ -2,8 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Open Sound Control
-tags:
- - Audio
+tags: post
 ---
 
 Now for some more _geeky_ stuff.
