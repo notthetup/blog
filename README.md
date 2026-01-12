@@ -1,6 +1,21 @@
-Blog
-====
+# chinpen.net/blog
 
-This is my blog which uses [jekyll](http://jekyllrb.com/) and [github pages](https://pages.github.com/).
+Personal blog about technology, audio, and other geekery.
 
-You can find the landing page at [chinpen.net](http://chinpen.net) and the blog at [chinpen.net/blog](http://chinpen.net/blog).
+## Development
+
+```bash
+pnpm install    # Install dependencies
+pnpm run dev    # Start dev server at localhost:8080
+pnpm run build  # Build for production
+```
+
+## Stack
+
+- [Eleventy](https://www.11ty.dev/) - Static site generator
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [Shiki](https://shiki.style/) - Syntax highlighting
+
+## Deployment
+
+Automatically deployed to GitHub Pages on push to `eleventy` branch.
