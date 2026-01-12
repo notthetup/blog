@@ -17,7 +17,7 @@ Here's a standard recipe for a Hackathon.
 
 Sounds familiar?
 
-[![image](http://imgs.xkcd.com/comics/ballmer_peak.png)][0]
+[![image](http://imgs.xkcd.com/comics/ballmer_peak.png)](http://xkcd.com/323/)
 
 ---
 
@@ -45,7 +45,7 @@ Junk food isn't much of a help to that. I am not even going to touch on long-ter
 
 #### Sedentary lifestyle
 
-More and more research is showing a link between a [sitting lifestyle and health issues][2]. Developers are unfortunate to have a job which is inherently sedentary. Hackthons again make it worse by inciting developers to sit at the same place for 24hrs. "I'm sure your back will thank you at the end of that!".
+More and more research is showing a link between a [sitting lifestyle and health issues](http://en.wikipedia.org/wiki/Sedentary_lifestyle#Health_effects). Developers are unfortunate to have a job which is inherently sedentary. Hackthons again make it worse by inciting developers to sit at the same place for 24hrs. "I'm sure your back will thank you at the end of that!".
 
 And what's worse is since most Hackathon are held on weekends, the one day you usually get to be active is also spent being sedentary.
 
@@ -60,7 +60,3 @@ I'm pretty sure there are better ways to organize hackthons. Having them over 2 
 But in the end, I really feel that Hackathons are beneficial less as a place and time to code out your next big idea, but more of a time to mingle and bond with the community. It's like a gathering of the tribe. And personally, there is more value in that than actually developing anything.
 
 **TL;DR; :** Hackthons promote unhealthy lifestyle. If you're organizing one, urge your participants to hydrate regularly, eat healthy meals and take regular breaks where they do some type of physical activities.
-
-
-[0]: http://xkcd.com/323/
-[2]: http://en.wikipedia.org/wiki/Sedentary_lifestyle#Health_effects

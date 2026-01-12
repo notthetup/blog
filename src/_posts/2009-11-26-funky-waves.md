@@ -5,11 +5,11 @@ title: Funky Waves
 ^tags: post
 ---
 
-We were trying to animate a _mode_ which we measured on a beam for one of the labs at school. Ofcourse, [Matlab][0] it was for all the data processing and animation. We used the '[patch][1]' command to generate a surface with many elements and then moved them individually as per the measurements.
+We were trying to animate a _mode_ which we measured on a beam for one of the labs at school. Ofcourse, [Matlab](http://en.wikipedia.org/wiki/Matlab) it was for all the data processing and animation. We used the '[patch](http://www.mathworks.com/help/techdoc/ref/patch.html)' command to generate a surface with many elements and then moved them individually as per the measurements.
 
-Now of course Matlab let's you save each plot as a bitmap and play them back as a movie, but then it's stuck in Matlab. So how do you render it to a 'standard' file? Well, there is [mpgwrite][2]. You can find it at [Matlab Central][3] which is a really cool community where you can get tonnes of Matlab help and pre-written scripts and libraries which help you do lots of things.
+Now of course Matlab let's you save each plot as a bitmap and play them back as a movie, but then it's stuck in Matlab. So how do you render it to a 'standard' file? Well, there is [mpgwrite](http://www.mathworks.com/matlabcentral/fileexchange/309-mpgwrite). You can find it at [Matlab Central](http://www.mathworks.com/matlabcentral/index.html) which is a really cool community where you can get tonnes of Matlab help and pre-written scripts and libraries which help you do lots of things.
 
-Now, that's all cool, but mpgwrite uses a [Matlab executable][4](.mex) to do all the heavy lifting in C. So that mean I had to compile it myself. Not a problem I thought. With [macports][5], I should have all the things I need. So we '[make][6]'. But I had some errors. Looking at the forum for mpgwrite, I saw this solution.
+Now, that's all cool, but mpgwrite uses a [Matlab executable](http://www.instructables.com/id/SEE8PONF8DOSUKF/)(.mex) to do all the heavy lifting in C. So that mean I had to compile it myself. Not a problem I thought. With [macports](http://www.macports.org/), I should have all the things I need. So we '[make](http://en.wikipedia.org/wiki/Make_%28software%29)'. But I had some errors. Looking at the forum for mpgwrite, I saw this solution.
 
 > A few hints on how to compile would be nice. I see others have had the same problem, so I'll share how I managed to compile it under Mac OS X 10.4.8 running on an Intel Mac Pro.
 >
@@ -35,12 +35,3 @@ And Voila! It compiled. So I continued to export the matlab animation and made a
 <iframe id="ytplayer" type="text/html" width="640" height="390" src="http://www.youtube.com/embed/R1hfdUpSXaU?&origin=http://chinpen.net"  frameborder="0"/></iframe>
 
 For those who are interested. This is a mixed mode with some part torsional and some part bending wave.
-
-
-[0]: http://en.wikipedia.org/wiki/Matlab
-[1]: http://www.mathworks.com/help/techdoc/ref/patch.html
-[2]: http://www.mathworks.com/matlabcentral/fileexchange/309-mpgwrite
-[3]: http://www.mathworks.com/matlabcentral/index.html
-[4]: http://www.instructables.com/id/SEE8PONF8DOSUKF/
-[5]: http://www.macports.org/
-[6]: http://en.wikipedia.org/wiki/Make_%28software%29

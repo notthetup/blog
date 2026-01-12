@@ -21,6 +21,5 @@ Here are the details.
 Venue: Interactive & Digital Media Lab, E4-06-21, NUS.
 Time: 10:30am**
 
-[Here is an abstract ][0]of what my project was about. Take a look and see if it interests you. And come down to hear more about the project! **Its open to all and all are invited**!
+[Here is an abstract ](img/2010/04/Abstract.pdf)of what my project was about. Take a look and see if it interests you. And come down to hear more about the project! **Its open to all and all are invited**!
 
-[0]: img/2010/04/Abstract.pdf

@@ -7,7 +7,7 @@ tags: post
 
 Having gone through 4 years of undergraduate studies in NUS (I believe it applies for NTU), I realized that most students approach their university studies incorrectly.
 
-[Xsmatters][0] had a [very well written article][1] about this. While the article is specifically directed at entrepreneurship it also applies generally.
+[Xsmatters](http://www.xsmatter.com/) had a [very well written article](http://www.xsmatter.com/why-singaporean-students-are-not-cut-out-to-be-entrepreneurs/) about this. While the article is specifically directed at entrepreneurship it also applies generally.
 
 Universities are great places for youths to learn, grow and do something worthwhile. They provide a lot of resources, both physical and psychological for students to use. But how many people actually take full advantage of it? Do You?
 
@@ -40,7 +40,3 @@ I have seen so many students, which great ideas or contents for their presentati
 ---
 
 While these three points are not the mantra for getting into dean's list every semester, I found them very useful in achieving a fulfilling experience during the final year. I did take many risks by challenging the norms, going beyond my comfort zone in many instances, and trying out different things. In the end, I had lots of fun, learned many things, made many new friends, and still managed to graduate at the end.
-
-
-[0]: http://www.xsmatter.com/
-[1]: http://www.xsmatter.com/why-singaporean-students-are-not-cut-out-to-be-entrepreneurs/

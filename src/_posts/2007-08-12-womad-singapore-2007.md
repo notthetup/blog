@@ -5,7 +5,7 @@ title: Womad Singapore 2007
 ^tags: post
 ---
 
-It's [THAT][0] time of the year again, and I am excited!!
+It's [THAT](http://www.chinpen.net/blog/womad-singapore-2006/) time of the year again, and I am excited!!
 
 So Womad 2007 is happening on the 24-26th August at Fort Canning Park.
 
@@ -31,18 +31,12 @@ Here is a short list of who's gonna perform.
 * Shooglenifty
 * _Youssou N'Dour and the Super Etoile de Dakar_
 
-Once again, to help people with slower connections or without flash support, I have created a [pdf document][1] of the line up and schedule. You can print it out and bring it to Womad as well.
+Once again, to help people with slower connections or without flash support, I have created a [pdf document](img/2007/08/womad.pdf) of the line up and schedule. You can print it out and bring it to Womad as well.
 
-However, you will have to go back to the [website][2] for other stuff like details about the artists and other information.
+However, you will have to go back to the [website](http://www.womadsingapore.com/home.htm) for other stuff like details about the artists and other information.
 
 The prices have gone up this year. It's S$58 at the gate, but if you are a student, you can get student's discount at $35. I still feel it's totally worth it for the amount and quality of entertainment one can get at Womad.
 
-As I wrote in [my review last year][3], the Atmosphere, Music and Spirit come togather to create a hell of an event.
+As I wrote in [my review last year](http://www.chinpen.net/blog/womad-a-review/), the Atmosphere, Music and Spirit come togather to create a hell of an event.
 
 So who else is going?
-
-
-[0]: http://www.chinpen.net/blog/womad-singapore-2006/
-[1]: img/2007/08/womad.pdf "Womad"
-[2]: http://www.womadsingapore.com/home.htm
-[3]: http://www.chinpen.net/blog/womad-a-review/

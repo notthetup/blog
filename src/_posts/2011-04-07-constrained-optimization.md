@@ -31,13 +31,8 @@ $$ x_{lb} \leq 0.2m $$
 
 $$ x_{rb} \leq 0.05m $$
 
-So, this is a clasic problem of [Constrained Optimization][0]. The basis idea being classical Constrained Optimization techniques is that you generate 'cost functions' from the constraints and then subtract these 'costs' from the the value being optimized. The [Lagrangian Multiplier][1] method is one such method which is pretty straight forward. If you are interested in understanding the underlying theory and proofs behind these methods I recommend [this ebook by Prof. Bertsekas][2].
+So, this is a clasic problem of [Constrained Optimization](http://en.wikipedia.org/wiki/Constraint_optimization). The basis idea being classical Constrained Optimization techniques is that you generate 'cost functions' from the constraints and then subtract these 'costs' from the the value being optimized. The [Lagrangian Multiplier](http://en.wikipedia.org/wiki/Lagrange_multiplier) method is one such method which is pretty straight forward. If you are interested in understanding the underlying theory and proofs behind these methods I recommend [this ebook by Prof. Bertsekas](http://www.mit.edu/people/dimitrib/lagrmult.html).
 
 For my case, I hit two problems. Firstly, I am not sure if the Lagrangian method would work on my functions, it's gurateed to work on convex functions, but the expression for _q_ is pretty complex to analyze and know the form of. Secondly the basic Lagrangian method needs one to derivate over all the variables (both system variables and the lagrangian variables). Here it gets really messy and prone to bugs.
 
 Still I think it's interesting to anazlyse problems like these theoritically. A theoretical solution allows a simpler and more elegant implementation of such a design tool. Ofcourse the alternative is a numerical method, which will compromise accuracy and speed for ease of implmentation.
-
-
-[0]: http://en.wikipedia.org/wiki/Constraint_optimization
-[1]: http://en.wikipedia.org/wiki/Lagrange_multiplier
-[2]: http://www.mit.edu/people/dimitrib/lagrmult.html

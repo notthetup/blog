@@ -7,7 +7,7 @@ title: Unboxing the Zoom H4!
 
 Behold my newest Toy!!
 
-This is [the Zoom H4][0]. It's a portable stereo audio recorder.
+This is [the Zoom H4](http://www.zoom.co.jp/english/products/h4/). It's a portable stereo audio recorder.
 
 I had ordered it for almost a month, and it arrived last week. Took me 3 days before I could un-box it. So here is goes.
 
@@ -41,6 +41,3 @@ I had ordered it for almost a month, and it arrived last week. Took me 3 days be
 ![IMG_0018](../img/2007/07/IMG_0018.jpg)
 ![IMG_0020](../img/2007/07/IMG_0020.jpg)
 ![IMG_0021](../img/2007/07/IMG_0021.jpg)
-
-
-[0]: http://www.zoom.co.jp/english/products/h4/

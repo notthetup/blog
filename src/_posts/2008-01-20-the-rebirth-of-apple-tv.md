@@ -7,7 +7,7 @@ title: The rebirth of Apple TV.
 
 During the last Apple keynote at MacWorld. Among the many other things, Steve Jobs announced "**Apple TV take 2**".
 
-Everyone was of course looking at the wonderfully thin MacBook air to actually notice the amazing improvements done to [AppleTV][0].
+Everyone was of course looking at the wonderfully thin MacBook air to actually notice the amazing improvements done to [AppleTV](http://www.apple.com/appletv).
 
 Let's go from basics, AppleTV was basically a DVR /Set-top box kinda device that Apple started selling since last year. Something that you attach to your TV, and watch Media content off. It was like an extension of your Mac into your living room. But it's major weakness was that you had to have another Mac (or PC) with iTunes, and the AppleTV would stream stuff from it. In the Take 2, all this changed.
 
@@ -21,4 +21,3 @@ Maybe it is time to get an HD TV, and **trash** that Starhub Cable Vision Box.
 
 Oh, but the movie/TV rental doesn't work in Singapore yet.. **ARGH APPLE!!**
 
-[0]: http://www.apple.com/appletv

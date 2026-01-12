@@ -5,7 +5,7 @@ title: "Google Andriod : Open? - Part 2"
 ^tags: post
 ---
 
-_This is a continuation of the [Part 1 of discussion][0] on Google Android._
+_This is a continuation of the [Part 1 of discussion](google-andriod-open-part-1/) on Google Android._
 
 ![android-logo](../img/2008/10/android.png)
 
@@ -24,6 +24,3 @@ Hence, there are two problems in getting Android running on any generic phone. 1
 In most phones the HW will only allow the original OS to boot, and no one knows what/how the Baseband OS works and how one can communicate with it. And this is why I feel it will be very difficult to see Android running on other phones, without the HW manufacturer themselves supporting it explicitly.
 
 So is Google Android Open? Surely! But that doesn't mean you'll see it running on an iPhone close to you anytimes soon.
-
-
-[0]: google-andriod-open-part-1/

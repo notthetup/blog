@@ -5,7 +5,7 @@ title: What's this Zii about?
 ^tags: post
 ---
 
-Creative technologies, yes yes. our [DEAR Creative][0] announced a couple of weeks ago, their new initiative. It's called [Creative Zii][1]. with the subtitle "Stemcell Computing" (which they seem to have trademarked). and the tagline "Everything you know is about to change".
+Creative technologies, yes yes. our [DEAR Creative](http://web.archive.org/web/20121115120756/http://epizenter.net/news.php?extend.420) announced a couple of weeks ago, their new initiative. It's called [Creative Zii](http://www.zii.com/). with the subtitle "Stemcell Computing" (which they seem to have trademarked). and the tagline "Everything you know is about to change".
 
 ![creative-zii](../img/2009/03/creative-zii.jpg)
 
@@ -15,13 +15,13 @@ There were a few more details/speculation which floated around the internet. The
 >
 > _To find out more about Zii and how it can change your life, visit our booth (booth \#30651) at CES 2009, or go to Zii.com from 8 January 2009 for updates._
 
-And the next was a [US Trademark Office search][2] for the term "Zii", which seemed to be registered under Creative for a very generic usage. It listed almost all the various fields which Creative has every dabbled with.
+And the next was a [US Trademark Office search](http://gizmodo.com/5118501/what-is-creative-zii-stemcell-computing-your-guess-is-as-bad-as-mine) for the term "Zii", which seemed to be registered under Creative for a very generic usage. It listed almost all the various fields which Creative has every dabbled with.
 
 **So what is this Zii?**
 
 Knowing Creative's love of playing with words, especially during their "viral marketing" campaigns, I looked at the big picture, to look for more clues with regards to what they were actually doing.
 
-The HW geek in me caught on to "_a stem cell-like silicon that is able to grow and multiply into different solutions_". It reminds me of dynamically reconfigurable [SoCs][3] or [ECAs][4].
+The HW geek in me caught on to "_a stem cell-like silicon that is able to grow and multiply into different solutions_". It reminds me of dynamically reconfigurable [SoCs](http://www.eetasia.com/ART_8800365638_499485_NP_609ece44.HTM) or [ECAs](http://www.eetimes.com/document.asp?doc_id=1274610).
 
 The idea is very simple. Instead of have 1 super-fast and super-powerful core in a PC. We can have 1000 not-so-fast and not-so-powerful cores such that, working together the 1000 will be the same at the 1 super core. But, if we can have the connections between them made dynamically reconfigurable; which is, they can be changed by the software, while the software is running; these 1000 cores can be used very efficiently.
 
@@ -36,10 +36,3 @@ And also if Creative has really been doing this for 10 years, they must have tax
 While my analysis is surely not sound, it's something that would be really be fun to see from Creative. The concept has been looked at by various companies all over the world, but no one has put such a system into commercial applications. With Creative's reach into the Sound Card market, it might be able to launch this technology into the Commercial market.
 
 Well, we can never really tell. All we can do is to wait and wander around booth \#30651 at CES 2009.
-
-
-[0]: http://web.archive.org/web/20121115120756/http://epizenter.net/news.php?extend.420
-[1]: http://www.zii.com/
-[2]: http://gizmodo.com/5118501/what-is-creative-zii-stemcell-computing-your-guess-is-as-bad-as-mine
-[3]: http://www.eetasia.com/ART_8800365638_499485_NP_609ece44.HTM
-[4]: http://www.eetimes.com/document.asp?doc_id=1274610

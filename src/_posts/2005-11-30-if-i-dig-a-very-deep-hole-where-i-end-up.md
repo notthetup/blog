@@ -7,10 +7,9 @@ tags: post
 
 I always wondered this.
 
-[http://www.digtootherside.cjb.net/][0]
+[http://www.digtootherside.cjb.net/](http://www.digtootherside.cjb.net/)
 
 Now I know, somewhere in Equador, in the middle of a forest.
 
 Nice way to travel to South America huh?
 
-[0]: http://www.digtootherside.cjb.net/

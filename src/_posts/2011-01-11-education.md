@@ -19,7 +19,4 @@ I don't mean to say that everyone has to understand everything they use from the
 
 The world of tomorrow doesn't need more factor manufactured graduates who are able to solve complex mathematical problems or design the exact same piece of work as the next person, but still can't explain where and how it can be used in real life. We need people who can solve real life problems, create useful and practical things with the tools and techniques picked up during education. A deep understanding can lead to a elegant and effective application.
 
-So what of grades. Like [TheWheat][0] used to say in the old days, "Ignore them, grades don't matter".
-
-
-[0]: http://blog.thewheatfield.org/
+So what of grades. Like [TheWheat](http://blog.thewheatfield.org/) used to say in the old days, "Ignore them, grades don't matter".
