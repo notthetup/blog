@@ -1,14 +1,13 @@
-<footer class="my-[2em] mx-auto text-center border-t border-stone-200 pt-4" role="contentinfo">
-	<nav>
-		<h5 class="font-[volkhov] text-sm italic text-stone-500"><em>&copy; {{ utils.generated_year }} {{ site.owner.name }}. Powered by <a href="https://www.eleventy.dev/" target="_blank">Eleventy</a></em>.</h6>
-		<div class="grid grid-flow-col justify-center gap-4">
-			<a href="https://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name}} on Twitter" target="_blank">
-				<span class="icon-[tabler--brand-twitter-filled]" style="width: 48px; height: 48px; color: var(--color-stone-700);"></span>
-			</a>
-			<a href="https://github.com/{{ site.owner.github }}" title="{{ site.owner.name}} on Github" target="_blank">
-				<span class="icon-[tabler--brand-github-filled]" style="width: 48px; height: 48px; color: var(--color-stone-700);"></span>
-			</a>
-		</div>
-	</nav>
+<footer class="my-8 mx-auto text-center border-t border-stone-200 pt-8 max-w-2xl px-4" role="contentinfo">
+  <nav>
+    <p class="font-serif text-sm italic text-stone-500 mb-4">&copy; {{ utils.generated_year }} {{ site.owner.name }}. Powered by <a href="https://www.eleventy.dev/" target="_blank" class="hover:text-stone-700">Eleventy</a>.</p>
+    <div class="flex justify-center gap-6">
+      <a href="https://twitter.com/{{ site.owner.twitter }}" title="{{ site.owner.name}} on Twitter" target="_blank" class="text-stone-500 hover:text-stone-700">
+        <span class="icon-[tabler--brand-twitter-filled] size-8"></span>
+      </a>
+      <a href="https://github.com/{{ site.owner.github }}" title="{{ site.owner.name}} on Github" target="_blank" class="text-stone-500 hover:text-stone-700">
+        <span class="icon-[tabler--brand-github-filled] size-8"></span>
+      </a>
+    </div>
+  </nav>
 </footer>
-

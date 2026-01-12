@@ -1,17 +1,17 @@
 ---
-layout: _layouts/page
-title: Articles
-tags: [audio, acoustics, technology, media, music, embedded, blog]
+layout: _layouts/home
 comments: false
 ---
 
-<ul class="max-w-3xl mx-auto list-none p-0">
+<ul class="article-list">
   {% for post in collections.post reversed %}
-    <li class="border-b-1 border-gray-300 py-2 text-lg">
-      <article>
-        <a href="{{ site.url }}{{ post.url }}"> {{ post.data.title }} <span class="float-right"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>
-        </a>
-      </article>
-    </li>
+  <li class="article-item">
+    <a href="{{ post.url }}" class="article-link">
+      <span class="article-title">{{ post.data.title }}</span>
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}" class="article-date">
+        {{ post.date | date: "%b %Y" }}
+      </time>
+    </a>
+  </li>
   {% endfor %}
 </ul>

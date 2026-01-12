@@ -18,7 +18,7 @@ But the positioning of the mic and the ambience yielded a pretty noisy recording
 Here's a small clip from the original recording...
 
 <audio controls="controls" preload="none">
-	<source src="../audio/2014/06/orig.wav" type="audio/wav">
+	<source src="/audio/2014/06/orig.wav" type="audio/wav">
 </audio>
 
 _All the recordings here are 44.1/16 WAV files, normalized to 0dBFS for the entire recording_
@@ -39,7 +39,7 @@ I listened my way to the values for low pass filter shown above. Too high a cut 
 At the end of that I had something that sounded like this..
 
 <audio controls="controls" preload="none">
-	<source src="../audio/2014/06/prelevel.wav" type="audio/wav">
+	<source src="/audio/2014/06/prelevel.wav" type="audio/wav">
 </audio>
 
 
@@ -70,7 +70,7 @@ Sadly when [The Conversation Networks ](http://web.archive.org/web/2013072920034
 
 Also, Doug and gang never open sourced the Levelator, so as much as I wished for a command line version or even to jump in and maintain it myself, I can't. _(Boo for non-open software)_
 
-Having used and loved The Levalator before, I decided to give it a try. I was blow away by the results.
+Having used and loved The Levalator before, I decided to give it a try. I was blown away by the results.
 
 ![](../img/2014/06/spectrum.png)
 
@@ -79,7 +79,7 @@ Here's a comparison of the spectrums. Look the difference between the bright bit
 Take a listen...
 
 <audio controls="controls" preload="none">
-	<source src="../audio/2014/06/postlevel.wav" type="audio/wav">
+	<source src="/audio/2014/06/postlevel.wav" type="audio/wav">
 </audio>
 
 
@@ -90,7 +90,7 @@ Finally the Levelator had managed to bring up some of the that low frequency noi
 Here is what the final audio sounded like...
 
 <audio controls="controls" preload="none">
-	<source src="../audio/2014/06/postfilter.wav" type="audio/wav">
+	<source src="/audio/2014/06/postfilter.wav" type="audio/wav">
 </audio>
 
 Levelator saved the day once more. I'm amazed by how well it works all the time. I would [love to understand the inner workings of the Levelator](http://web.archive.org/web/20130729204708id_/http://www.conversationsnetwork.org/levelatorAlgorithm) and hopefully make a open source command line version of it someday.

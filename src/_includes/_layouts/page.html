@@ -1,30 +1,78 @@
 <!doctype html>
+<html lang="en">
 <head>
-{% include head.html %}
+  {% include head.html %}
 </head>
 
-<body id="page" class="bt-5 border-stone-900">
+<body class="min-h-screen flex flex-col">
 
-{% include navigation.html %}
+  <!-- Navigation -->
+  <nav class="px-6 py-6">
+    <div class="max-w-2xl mx-auto flex items-center justify-between">
+      <a href="/" class="group" title="Home">
+        <span class="icon-[tabler--headphones-filled] text-2xl text-accent group-hover:opacity-70 transition-opacity"></span>
+      </a>
 
-{% include hero.html %}
-
-<div id="main" role="main">
-  <article class="entry">
-    {% if page.image.feature %}<img src="{{ site.url }}/images/{{ page.image.feature }}" class="entry-feature-image" alt="{{ page.title }}" {% if site.logo == null %}style="margin-top:0;"{% endif %}>{% if page.image.credit %}<p class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a>{% endif %}{% endif %}
-    <div class="entry-wrapper">
-      <header class="text-center mb-12">
-        <h1 class="text-7xl font-['serif'] italic tracking-tight mb-6 mt-6">{{ title }}</h1>
-      </header>
-      <div class="entry-content">
-        {{ content }}
+      <div class="flex items-center gap-2">
+        <a href="https://twitter.com/{{ site.owner.twitter }}" class="icon-btn !w-9 !h-9" title="Twitter">
+          <span class="icon-[tabler--brand-twitter-filled] text-base"></span>
+        </a>
+        <a href="https://github.com/{{ site.owner.github }}" class="icon-btn !w-9 !h-9" title="GitHub">
+          <span class="icon-[tabler--brand-github-filled] text-base"></span>
+        </a>
+        <a href="/about/" class="icon-btn !w-9 !h-9" title="About">
+          <span class="icon-[tabler--user] text-base"></span>
+        </a>
       </div>
     </div>
-  </article>
-</div>
+  </nav>
 
+  <!-- Main Content -->
+  <main class="flex-1 px-6 py-8">
+    <div class="max-w-2xl mx-auto">
+      <article class="animate-fade-in">
+        {% if page.image.feature %}
+        <img src="/img/{{ page.image.feature }}" class="w-full rounded-lg mb-8" alt="{{ page.title }}">
+        {% if page.image.credit %}
+        <p class="text-sm text-text-muted mb-8">Photo: <a href="{{ page.image.creditlink }}" class="hover:text-accent">{{ page.image.credit }}</a></p>
+        {% endif %}
+        {% endif %}
 
-{% include footer.html %}
+        <header class="mb-12">
+          <h1 class="text-4xl md:text-5xl font-display tracking-tight">{{ title }}</h1>
+        </header>
+
+        <div class="prose prose-lg max-w-none">
+          {{ content }}
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="px-6 py-12 border-t border-surface-raised">
+    <div class="max-w-2xl mx-auto">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+        <!-- Social Links -->
+        <div class="flex items-center gap-3">
+          <a href="https://twitter.com/{{ site.owner.twitter }}" class="icon-btn" title="Twitter">
+            <span class="icon-[tabler--brand-twitter-filled] text-lg"></span>
+          </a>
+          <a href="https://github.com/{{ site.owner.github }}" class="icon-btn" title="GitHub">
+            <span class="icon-[tabler--brand-github-filled] text-lg"></span>
+          </a>
+          <a href="/about/" class="icon-btn" title="About">
+            <span class="icon-[tabler--user] text-lg"></span>
+          </a>
+        </div>
+
+        <!-- Copyright -->
+        <p class="meta-text">
+          &copy; {{ utils.generated_year }} {{ site.owner.name }}
+        </p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>

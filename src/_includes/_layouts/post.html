@@ -3,71 +3,119 @@ permalink: "/{{ page.fileSlug }}.html"
 ---
 
 <!doctype html>
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
   {% include head.html %}
   {% if page.hasjax %}
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   {% endif %}
 </head>
 
-<body id="page" class="border-t-5 border-solid border-stone-900">
+<body class="min-h-screen flex flex-col">
 
-  {% include navigation.html %}
+  <!-- Navigation -->
+  <nav class="px-6 py-6">
+    <div class="max-w-2xl mx-auto flex items-center justify-between">
+      <a href="/" class="group" title="Home">
+        <span class="icon-[tabler--headphones-filled] text-2xl text-accent group-hover:opacity-70 transition-opacity"></span>
+      </a>
 
-  {% include hero.html %}
+      <div class="flex items-center gap-2">
+        <a href="https://twitter.com/{{ site.owner.twitter }}" class="icon-btn !w-9 !h-9" title="Twitter">
+          <span class="icon-[tabler--brand-twitter-filled] text-base"></span>
+        </a>
+        <a href="https://github.com/{{ site.owner.github }}" class="icon-btn !w-9 !h-9" title="GitHub">
+          <span class="icon-[tabler--brand-github-filled] text-base"></span>
+        </a>
+        <a href="/about/" class="icon-btn !w-9 !h-9" title="About">
+          <span class="icon-[tabler--user] text-base"></span>
+        </a>
+      </div>
+    </div>
+  </nav>
 
-  <div>
-    <article>
-      <div class="max-w-5xl mx-auto pt-8">
-        <header>
-          <h1 class="text-7xl font-['serif'] italic tracking-tight mb-6 mt-6">{{ title }}</h1>
-        </header>
-        <div class="flex">
-          <div class="px-4 flex flex-col gap-2">
-            <img src="{{ site.url }}/images/{{ site.owner.avatar }}" alt="{{ site.owner.name }} photo" class="rounded-full">
-            <span class="border-b-1 border-stone-200">
-                By <a href="{{ site.url }}/about/" title="About {{ site.owner.name }}">{{ site.owner.name }}</a>
-            </span>
-            </span>
-            <span class="border-b-1 border-stone-200">
-              <time datetime="{{ page.date | date_to_xmlschema }}">
-                <i class="icon-calendar-empty"></i> {{ page.date | date: "%B %d, %Y" }}
-              </time>
-            </span>
-            {% if site.disqus_shortname and page.comments %}
-            <span class="border-b-1 border-stone-200">
-              <i class="icon-comment-alt"></i>
-              <a href="#disqus_thread">Comment</a>
-            </span>
-            {% endif %}
-            <span class="border-b-1 border-stone-200">
-              <a href="{{ site.url }}{{ page.url }}" rel="bookmark" title="{{ page.title }}">
-                <i class="icon-link"></i> Permalink
-              </a>
-            </span>
-          </div>
-          <div class="flex-1">
-            <div class="w-full text-xl content">
-              {{ content }}
-            </div>
-            {% if site.disqus_shortname and page.comments %}
-              <div id="disqus_thread"></div>
-            {% endif %}
+  <!-- Main Content -->
+  <main class="flex-1 px-6 py-8">
+    <article class="max-w-2xl mx-auto">
+      <!-- Article Header -->
+      <header class="mb-12 animate-fade-in">
+        <!-- Title -->
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-display tracking-tight mb-6 leading-tight">{{ title }}</h1>
+
+        <!-- Meta -->
+        <div class="flex items-center gap-4">
+          <img src="/img/{{ site.owner.avatar }}" alt="{{ site.owner.name }}" class="w-10 h-10 rounded-full opacity-80">
+          <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4">
+            <span class="text-text-secondary text-sm">{{ site.owner.name }}</span>
+            <span class="hidden sm:inline text-text-muted">/</span>
+            <time datetime="{{ page.date | date: '%Y-%m-%d' }}" class="meta-text">
+              {{ page.date | date: "%B %d, %Y" }}
+            </time>
           </div>
         </div>
-      </div>
-      <nav class="pagination" role="navigation">
-        {% if page.previous %}
-        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
-        {% endif %}
-        {% if page.next %}
-        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-        {% endif %}
-      </nav><!-- /.pagination -->
-    </article>
-  </div><!-- /#main -->
+      </header>
 
-  {% include footer.html %}
+      <!-- Signal Line -->
+      <div class="signal-line animate-fade-in-delay-1"></div>
+
+      <!-- Article Content -->
+      <div class="prose prose-lg max-w-none animate-fade-in-delay-2">
+        {{ content }}
+      </div>
+
+      <!-- Article Footer -->
+      <footer class="mt-16 pt-8 border-t border-surface-raised">
+        <!-- Previous / Next Navigation -->
+        <nav class="flex justify-between items-center text-sm">
+          {% if page.previous %}
+          <a href="{{ page.previous.url }}" class="group flex items-center gap-2 text-text-muted hover:text-accent transition-colors max-w-[45%]">
+            <span class="icon-[tabler--arrow-left] text-base flex-shrink-0"></span>
+            <span class="truncate">{{ page.previous.title }}</span>
+          </a>
+          {% else %}
+          <span></span>
+          {% endif %}
+
+          {% if page.next %}
+          <a href="{{ page.next.url }}" class="group flex items-center gap-2 text-text-muted hover:text-accent transition-colors ml-auto text-right max-w-[45%]">
+            <span class="truncate">{{ page.next.title }}</span>
+            <span class="icon-[tabler--arrow-right] text-base flex-shrink-0"></span>
+          </a>
+          {% endif %}
+        </nav>
+      </footer>
+
+      {% if site.disqus_shortname and page.comments %}
+      <div id="disqus_thread" class="mt-16 pt-8 border-t border-surface-raised"></div>
+      {% include disqus_comments.html %}
+      {% endif %}
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="px-6 py-12 border-t border-surface-raised">
+    <div class="max-w-2xl mx-auto">
+      <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
+        <!-- Social Links -->
+        <div class="flex items-center gap-3">
+          <a href="https://twitter.com/{{ site.owner.twitter }}" class="icon-btn" title="Twitter">
+            <span class="icon-[tabler--brand-twitter-filled] text-lg"></span>
+          </a>
+          <a href="https://github.com/{{ site.owner.github }}" class="icon-btn" title="GitHub">
+            <span class="icon-[tabler--brand-github-filled] text-lg"></span>
+          </a>
+          <a href="/about/" class="icon-btn" title="About">
+            <span class="icon-[tabler--user] text-lg"></span>
+          </a>
+        </div>
+
+        <!-- Copyright -->
+        <p class="meta-text">
+          &copy; {{ utils.generated_year }} {{ site.owner.name }}
+        </p>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>

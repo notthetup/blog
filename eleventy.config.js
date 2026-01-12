@@ -36,7 +36,11 @@ export default async function (eleventyConfig) {
       return false;
     }
   });
-  eleventyConfig.addPassthroughCopy("img");
+  // Copy images - both /img/ and /images/ paths for compatibility
+  eleventyConfig.addPassthroughCopy({ "src/img": "img" });
+  eleventyConfig.addPassthroughCopy({ "src/img": "images" });
+  eleventyConfig.addPassthroughCopy({ "src/audio": "audio" });
+  eleventyConfig.addPassthroughCopy({ "src/favicon.ico": "favicon.ico" });
   eleventyConfig.setLibrary("liquid", new Liquid({
     extname: ".liquid",
     dynamicPartials: false,
@@ -45,7 +49,7 @@ export default async function (eleventyConfig) {
   }));
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);
 
-  let markdownLib = MarkdownIt({}).use(
+  let markdownLib = MarkdownIt({ html: true }).use(
 		await Shiki({
 			theme: "snazzy-light",
 		}),
