@@ -37,6 +37,7 @@
     "@tailwindcss/postcss": "^4.1.17",
     "@tailwindcss/typography": "^0.5.19",
     "liquidjs": "^10.24.0",
+    "markdown-it": "^14.1.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.17"
   }
