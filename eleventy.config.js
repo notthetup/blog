@@ -48,7 +48,7 @@ export default async function (eleventyConfig) {
     root: ["src/_includes"],
   }));
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    urlPath: "/img/",
+    urlPath: "img/",
   });
 
   let markdownLib = MarkdownIt({ html: true }).use(
