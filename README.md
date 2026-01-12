@@ -15,7 +15,3 @@ pnpm run build  # Build for production
 - [Eleventy](https://www.11ty.dev/) - Static site generator
 - [Tailwind CSS](https://tailwindcss.com/) - Styling
 - [Shiki](https://shiki.style/) - Syntax highlighting
-
-## Deployment
-
-Automatically deployed to GitHub Pages on push to `eleventy` branch.
