@@ -10,7 +10,7 @@ Most telcos don't want to get stuck as a cellular service provider, and they try
 
 And this is where the evil bit comes up. My first bout with this was a good 15yrs ago when a non-technical family member got a new mobile handset from their telco. It was a Samsung X640 (or something similar).
 
-![Samsung X640](../img/2023/SGH-X640.jpg)
+![Samsung X640](/img/2023/SGH-X640.jpg)
 <p style="font-size: 0.5em"> Source : <a href="">https://commons.wikimedia.org/wiki/File:SGH-X640.jpg</a></p>
 
 Note the BIG Blue Button in the center with the `𝒊` symbol. That button was officially defined as a "WAP access key" by the manual, but with the telco in question, that would automatically subscribe the user to its WAP "value-added service", as soon as that button was pressed. So we saw monthly subscription charges on the telephone service bills soon after we got this new mobile handset. I called the telco and I was told, the service was requested by "clicking on the `𝒊` button".
@@ -21,7 +21,7 @@ And coupled with non-technical users, this enables the telcos to effectively sca
 
 The more recent experience with this was even more infuriating. Again a non-technical family member saw a charge for a "value-added service" called "VedeTV". A quick google showed, that [I wasn't the only one at the receiving end of this](https://www.reddit.com/r/singapore/comments/zjr1js/vedetv_is_this_a_scam/). The telco claimed that it was triggered by an SMS that was clicked on and an account with the merchant that was created by the telco subscriber. But I verified that never happened.
 
-![VedeTV charge](../img/2023/vede.png)
+![VedeTV charge](/img/2023/vede.png)
 
 From what I can gather based on my call with the telco, these "3rd party merchants" can enable subscriptions for their service using your telco account. They claim to do "2-factor authentication", But one can easily imagine, these smaller providers likely don't have great security, and can their ability to charge a user through the telco can be exploited by someone else, even if they're not being evil.
 
@@ -29,4 +29,4 @@ To me though, the real issue is having the mechanism for a 3rd party vendor to b
 
 Now for the PSA: all telcos in Singapore (and likely many around the world), have some internal switch to turn off that mechanism. Singtel, for example, calls it ["Premium Rate Service (PRS) Barring Service"](https://www.singtel.com/personal/i/premium-rate-service-prs-barring-service/faq) and Singtel (thankfully) allows it to be enabled from their apps. Please enable this for yourself and your friends and family if you don't want nasty surprises. If it's not easily accessible, please call your telco and ask.
 
-![PRS Barring Service](../img/2023/prs.jpg)
+![PRS Barring Service](/img/2023/prs.jpg)

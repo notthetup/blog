@@ -7,7 +7,7 @@ title: "Google Andriod : Open? - Part 2"
 
 _This is a continuation of the [Part 1 of discussion](google-andriod-open-part-1/) on Google Android._
 
-![android-logo](../img/2008/10/android.png)
+![android-logo](/img/2008/10/android.png)
 
 So will we be able see Android on the iPhone, the Nokia N95, or even the Motorola RAZR cellphones? Herein lies the biggest misconception about Open OSs.
 

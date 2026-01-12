@@ -9,4 +9,4 @@ I had talked about [this looong time ago](audio-spotlight/). And finally, I got 
 
 This was a poster we made for a course at school. _(It was for educational purposes)_
 
-[![](../img/2010/02/dsc_7452.jpg)](img/2010/02/dsc_7452.jpg) [![](../img/2010/02/dsc_7457.jpg)](img/2010/02/dsc_7457.jpg)
+[![](/img/2010/02/dsc_7452.jpg)](img/2010/02/dsc_7452.jpg) [![](/img/2010/02/dsc_7457.jpg)](img/2010/02/dsc_7457.jpg)

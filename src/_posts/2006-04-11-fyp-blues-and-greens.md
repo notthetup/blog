@@ -11,7 +11,7 @@ First, let me thank **sweska**, **jazz** and TheWeed for actually coming down to
 
 For those who missed it an image of my GUI!
 
-![FYPGUI.jpg](../img/2006/04/FYPGUI.jpg)
+![FYPGUI.jpg](/img/2006/04/FYPGUI.jpg)
 
 I was thinking of bloging abt FYP before. and not in a positive way. But I realised that I got to learn a lot. And not only about academic matters but life in general.
 

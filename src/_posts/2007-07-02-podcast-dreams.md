@@ -11,7 +11,7 @@ I always wanted to do one, since I got hooked to podcasts last year. But, as usu
 
 Thanks to a chance Google search and my new "Do it now" initiative, I am **a semi-regular host** at [65bits](http://www.tech65.org/shows/). It's a podcast by [Tech65](http://www.tech65.org), about technology with a Singaporean perspective.
 
-[![](../img/2007/07/album-art144.jpg)](img/2007/07/album-art144.jpg)
+[![](/img/2007/07/album-art144.jpg)](img/2007/07/album-art144.jpg)
 
 Whatever it is, do give it a listen and subscribe to 65bits feed or [on itunes.](http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=207640508)
 

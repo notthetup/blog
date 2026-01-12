@@ -7,7 +7,7 @@ title: "Google Andriod : Open? - Part 1"
 
 _This is a two post discussion on the Google's Android OS._
 
-![android-logo](../img/2008/10/android.png)
+![android-logo](/img/2008/10/android.png)
 
 There has been much furor recently, about Google's new Embedded Operating System "[Android](http://code.google.com/android/)". The biggest reasons for the attention are the clout of Google as a player in the IT industry, and the fact that the Operating System (OS) is completely Open-sourced. So let's look at this "Open"ness of Android and a few misinterpretation people have about it.
 

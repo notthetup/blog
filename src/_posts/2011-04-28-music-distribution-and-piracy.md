@@ -13,7 +13,7 @@ tags: post
 
 Recently, a Marathi movie about a very famous Marathi Musical Theatre personality of old, was announced.. [Balgandharva](http://en.wikipedia.org/wiki/Bal_Gandharva). The movie had many 'up and coming' names attached to it, including the famous Art Director [Nitin Chandrakant Desai](http://en.wikipedia.org/wiki/Nitin_Chandrakant_Desai) (NCD) of [Devdas](http://en.wikipedia.org/wiki/Devdas_(2002_film)) fame producing it.
 
-[![](../img/2011/04/photo_gallery_images_1.png)](img/2011/04/photo_gallery_images_1.jpg)
+[![](/img/2011/04/photo_gallery_images_1.png)](img/2011/04/photo_gallery_images_1.jpg)
 
 A few things really struck me about this movie, when I watch the [first trailer](http://www.youtube.com/watch?v=CyQxlzWS3Jc&hd=1) (be sure to watch it in HD)..
 
@@ -25,7 +25,7 @@ The fact that such effort was showcased in the trailer tells a lot about the und
 
 The other thought came after reading some comments on the [Facebook page of the movie](https://www.facebook.com/pages/Balgandharva-%E0%A4%AC%E0%A4%BE%E0%A4%B2%E0%A4%97%E0%A4%82%E0%A4%A7%E0%A4%B0%E0%A5%8D%E0%A4%B5-Marathi-Movie/172188729473450) (esp. the last comment).
 
-[![](../img/2011/04/Screen-shot-2011-04-28-at-11.16.10-AM.png)](img/2011/04/Screen-shot-2011-04-28-at-11.16.10-AM.png)
+[![](/img/2011/04/Screen-shot-2011-04-28-at-11.16.10-AM.png)](img/2011/04/Screen-shot-2011-04-28-at-11.16.10-AM.png)
 
 For a movie with a theme, which has so much do with music, and furthermore in a market like India, **what strategy of music distribution should be adopted?**
 

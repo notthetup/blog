@@ -19,39 +19,39 @@ Finally I have converged to a recipe which is closer to beer brewing techniques 
 
 	I try to use young ginger, it's a little more 'fruity' and intense (I like my gingerale intense).  The amount of ginger can be varied for how 'gingery' you want the final gingerale. I used about 4 teaspoons here.
 
-	![IMG_20140111_160803](../img/2014/01/IMG_20140111_160803.jpg)
+	![IMG_20140111_160803](/img/2014/01/IMG_20140111_160803.jpg)
 
 3. Measure the total amount of liquid you will be able to fit in your fermentation jars. I use 2 [IKEA Burken jars](http://www.ikea.com/sg/en/catalog/products/40179816/) to ferment, they fill about 1liter each.
 
-	![IMG_20140111_161349](../img/2014/01/IMG_20140111_161349.jpg)
+	![IMG_20140111_161349](/img/2014/01/IMG_20140111_161349.jpg)
 
 4. Add that amount of tap water to a pot and put it on the heat. Next, add the grated ginger, and let it boil for . This is similar to making a [wort during brewing](http://en.wikipedia.org/wiki/Wort).
 
 5. Optionally you can drop in a small stick of cinnamon to the boiling wort for added flavour.
 
-	![IMG_20140111_162538](../img/2014/01/IMG_20140111_162538.jpg)
+	![IMG_20140111_162538](/img/2014/01/IMG_20140111_162538.jpg)
 
 	Boiling achieves a couple of things. [Tap water (atleast in Singapore) is fluorinated](http://en.wikipedia.org/wiki/Fluoridation_by_country), which is not very conducive for our probiotics. So boiling should get rid of all the fluorine and other additives(_Correction based on comments below :_ Fluorides in the water are salts and hence will not evaporate by boiling. [Chlorine which is also added to tap water](http://www.pub.gov.sg/general/watersupply/Pages/WaterTreatment.aspx) is the one which evaporates away when boiled.) It also extracts the flavour from the ginger into the water.
 
 6. Let the hot wort cool down by leaving the pot open. This will also enable the fluorine to evaporate off.
 
-	![IMG_20140111_164731](../img/2014/01/IMG_20140111_164731.jpg)
+	![IMG_20140111_164731](/img/2014/01/IMG_20140111_164731.jpg)
 
 7. Once the wort is cooled, we can filter the ginger and cinnamon out of it and add the yeast.
 
-	![IMG_20140111_182348](../img/2014/01/IMG_20140111_182348.jpg)
+	![IMG_20140111_182348](/img/2014/01/IMG_20140111_182348.jpg)
 
 8. You may want to leave some of the ginger in the wort to make the ginger ale more intense, but some people might not like bits of ginger when they drink their gingerale (I love it).
 
-	![IMG_20140111_182905](../img/2014/01/IMG_20140111_182905.jpg)
+	![IMG_20140111_182905](/img/2014/01/IMG_20140111_182905.jpg)
 
 9. I really would have loved to use [champagne yeast](http://www.amazon.com/Champagne-Yeast-10-Packs-Dried/dp/B00434CB74), but I didn't have any handy. Bakers yeast (as I used here) gives it a slight 'yeasty' taste, but does the trick. I have also done this with Kefir.
 
-	![IMG_20140111_182737](../img/2014/01/IMG_20140111_182737.jpg)
+	![IMG_20140111_182737](/img/2014/01/IMG_20140111_182737.jpg)
 
 10. Add sugar to the wort. I usually start with 4 teaspoons of brown sugar (gives it a nice body). In Singapore we get something called Gula Merah (Red Sugar), which I tend to use. Through out the fermenting process, I might add more sugar if it starts tasting sourish (too much sugar has been consumed by the yeast).
 
-	![IMG_20140111_182936](../img/2014/01/IMG_20140111_182936.jpg)
+	![IMG_20140111_182936](/img/2014/01/IMG_20140111_182936.jpg)
 
 11. Optionally, Add some raisins to the mixture. [Grape skin are known to have natural yeast (which ferment the wine)](http://en.wikipedia.org/wiki/Yeast_in_winemaking), so raisins help to add a bit of kick to the gingerale. This idea came from [my friend Stephan](http://blog.werkswinkel.net/) talking about how his grandma used to make gingerale with raisins. Theoretically, I think you might be able to pull it off just using raisins without yeast, but I haven't tried that yet.
 
@@ -63,17 +63,17 @@ Finally I have converged to a recipe which is closer to beer brewing techniques 
 
 13. After 3 days I transfer the gingerale to airtight bottles to carbonate. Once again I use [IKEA KORKEN bottles with a stopper](http://www.ikea.com/sg/en/catalog/products/00213558/).
 
-	![IMG_20140115_084056](../img/2014/01/IMG_20140115_084056.jpg)
+	![IMG_20140115_084056](/img/2014/01/IMG_20140115_084056.jpg)
 
 	In this stage you have to carefully control the carbonation by controlling the temperature of the gingerale. Leaving it at room temperature will cause it to carbonate quickly, and you might have spillage when you open the bottle.
 
 	I prefer to leave the gingerale in the fridge for a 3-4 days, and let it slowly carbonate ([water does carbonate better when it's cold](http://chemwiki.ucdavis.edu/Physical_Chemistry/Physical_Properties_of_Matter/Solutions/Solubilty/Solubility_and_Factors_Affecting_Solubility)). But if it doesn't carbonate in your fridge, you can try leave it out for a 5-6 hours and then putting in fridge.
 
-	![IMG_20140115_084546](../img/2014/01/IMG_20140115_084546.jpg)
+	![IMG_20140115_084546](/img/2014/01/IMG_20140115_084546.jpg)
 
 14. I do check every few days incase I need to top up the sugar if it has all been consumed by the yeast. Ensure if you add water at this stage to the gingerale, you add distilled water (without fluorine chlorine/fluoride).
 
-	![IMG_20140118_112205](../img/2014/01/IMG_20140118_112205.jpg)
+	![IMG_20140118_112205](/img/2014/01/IMG_20140118_112205.jpg)
 
 15. When I have achieved your target carbonation, I add juice of a quarter lemon per bottle. This reduces the fermentation and also adds a nice flavour. You're now ready to enjoy the gingerale.
 

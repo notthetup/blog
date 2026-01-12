@@ -4,7 +4,7 @@ comments: true
 title: Where is acoustics used?
 ---
 
-![Where is acoustics used?](../img/2009/08/wheelof.scaled1000.gif)
+![Where is acoustics used?](/img/2009/08/wheelof.scaled1000.gif)
 
 via [ta.chalmers.se](http://www.ta.chalmers.se/education.php?page=mst_role)
 

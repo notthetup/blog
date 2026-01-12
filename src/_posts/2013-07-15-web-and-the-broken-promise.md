@@ -25,7 +25,7 @@ To be fair I'm yet to find a system/framework on any platform (not only the web)
 
 We've all known about Browser wars. But it's terrifying how many differences there are in the way browsers differ in implementing basic functionality. Take for example audio codec support in the new HTML5 _<audio\>_ tag.
 
-!\[audio codec support\]\(../img/2013/07/Screen-Shot-2013-07-15-at-12.01.56-PM.png)
+!\[audio codec support\]\(/img/2013/07/Screen-Shot-2013-07-15-at-12.01.56-PM.png)
 
 Yes, there are political reason for codec support, etc. But I'm sure there is no political reason to not support plain old PCM WAV files IE and Opera. So there isn't a single format that's support across all browsers. _(Yes. Hopefully now that [Firefox has agreed to support mp3](http://blog.pearce.org.nz/2013/02/h264aacmp3-support-now-enabled-by.html), we might be able to get around it, but for now in Firefox 22 on OSX 10.7 I still can't play mp3s)_
 

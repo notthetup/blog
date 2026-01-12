@@ -9,7 +9,7 @@ Yay! Bangwagon. Let me jump on it.
 
 So the long awaited [iPhone](http://www.apple.com/iphone/) is out. The last post will give you a clue as to how I found out about it. Let me start by saying, I was only reading the Engadget coverage, and boy was I excited!! Apple knows how to create that insane excitement among people.
 
-![iphone](../img/2007/01/iphone.jpg)
+![iphone](/img/2007/01/iphone.jpg)
 
  Jobs started by saying that its a **iPod**, a **cellphone** and a **PDA** in one. And it is exactly that. While he did say, that the iPhone would be able to seamlessly integrate all three into one device, I am not impressed. The reason being, it takes the basic versions of each of the 3 devices and merges into one. Thus, a Jack.
 

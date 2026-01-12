@@ -19,7 +19,7 @@ And I also found Eagle3D. [Eagle ](http://www.cadsoft.de/)is a really great circ
 
 This is the board layout of Minty.
 
-[![](../img/2006/02/minty.jpg)](img/2006/02/minty.jpeg)
+[![](/img/2006/02/minty.jpg)](img/2006/02/minty.jpeg)
 
 And this is the 3D version. Cool huh?
 
