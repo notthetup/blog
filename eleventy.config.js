@@ -47,7 +47,9 @@ export default async function (eleventyConfig) {
     strictFilters: false, // renamed from `strict_filters` in Eleventy 1.0
     root: ["src/_includes"],
   }));
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin);
+  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+    urlPath: "/img/",
+  });
 
   let markdownLib = MarkdownIt({ html: true }).use(
 		await Shiki({

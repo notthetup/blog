@@ -4,7 +4,7 @@ on:
   # Trigger on push to the eleventy branch
   push:
     branches:
-      - eleventy
+      - master
   # Allow manual trigger
   workflow_dispatch:
 
