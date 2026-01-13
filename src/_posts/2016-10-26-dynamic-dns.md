@@ -61,7 +61,7 @@ dynamic.chinpen.net
 
 On the Cloudflare side, I created an A record, which pointed the desired URL (dynamic.chinpen.net) to the the local IP address. This record would then get automatically updated by `ddclient` when it sees the local IP address changing.
 
-![](/img/2016/10/dns.jpg)
+![](../img/2016/10/dns.jpg)
 
 ## Running ddclient
 
