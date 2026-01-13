@@ -21,7 +21,7 @@ OK.So far so good, but Tesseract only accepts 1 file as an input and requires th
 
 After a bit of tweaking and testing, here is my final workflow which creates a [droplet](http://macscripter.net/viewtopic.php?id=24775). Any jpg file dropped on this droplet is duplicated, coverted to .tif and OCRed through Tesseract and the output is stored in a file with a suffix .txt
 
-!\[Picture 2\]\(/img/2009/09/picture-21.jpg)
+![Picture 2]\(/img/2009/09/picture-21.jpg)
 
 The OCR output was not the best. I had to massage (crop, rotate, gray-scale, etc) the images to get a good output.
 

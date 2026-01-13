@@ -5,8 +5,7 @@ title: Why YOU should care about SOPA?
 tags: post
 ---
 
-> The Stop Online Piracy Act (SOPA), also known as H.R. 3261, is a bill that was introduced in the United States House of Representatives on October 26, 2011, by House Judiciary Committee Chair Representative Lamar Smith (R-TX) and a bipartisan group of 12 initial co-sponsors. The bill expands the ability of U.S. law enforcement and copyright holders to fight online trafficking in copyrighted intellectual property and counterfeit goods.\[2\] Now before the House Judiciary Committee, it builds on the similar PRO-IP Act of 2008 and the corresponding Senate bill, the PROTECT IP Act.\[3\]
->
+> The Stop Online Piracy Act (SOPA), also known as H.R. 3261, is a bill that was introduced in the United States House of Representatives on October 26, 2011, by House Judiciary Committee Chair Representative Lamar Smith (R-TX) and a bipartisan group of 12 initial co-sponsors. The bill expands the ability of U.S. law enforcement and copyright holders to fight online trafficking in copyrighted intellectual property and counterfeit goods. Now before the House Judiciary Committee, it builds on the similar PRO-IP Act of 2008 and the corresponding Senate bill, the PROTECT IP Act.
 >
 
 -Source [Wikipedia](http://en.wikipedia.org/wiki/SOPA)

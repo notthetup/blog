@@ -9,7 +9,7 @@ For my [new (it's almost 3 months old already) podcast](http://live.webuild.sg) 
 
 So I setup a spare box (Pentium(R) Dual-Core E6300, 4GB) to run [Archlinux](https://www.archlinux.org/) (which turned out to be kind of a bad idea in the end). I am lucky to get a pseudo-static IP from my ISP but I got [Dynamic DNS ](https://wiki.archlinux.org/index.php/Dynamic_DNS)setup using [ddclient](http://sourceforge.net/p/ddclient/wiki/Home/) just incase.
 
-!\[server\]\(/img/2013/11/server.jpg)
+![server]\(/img/2013/11/server.jpg)
 
 Next was to run a [Mumble server (Murmur)](http://mumble.sourceforge.net/Running_Murmur). It's pretty easy to setup and usually has been downstreamed to the most distro repos. I setup a single "room" on the server and ensured the server was password protected. With that I was able to connect using the Mumble clients inside and outside my network and have a proper podcast recording at high quality. With some port forwarding on my router I had the server accessible from outside. [iptables](https://wiki.archlinux.org/index.php/iptables) were of course necessary to keep the naughty people away.
 
@@ -29,7 +29,7 @@ The couple of hoops one has to be jump through to get this work. Firstly we need
 
 Next was getting the DarkIce to work. I got a lot of help from [this post on doing something similar](http://www.skyehaven.net/blog/2011/03/14/mumble-icecast/). DarkIce can pipe any Pulse Audio Stream to an IceCast server. So I created a dummy(null) Pulse Audio Stream which can be set as the audio output (System : Pulse Audio & Device : Null Output) in the Mumble client and on the other end used to feed DarkIce using the ".monitor" functionality of Pulse Audio Streams. The DarkIce config in the repo has the relevant config setup.
 
-!\[mumble\]\(/img/2013/11/mumble1.png)
+![mumble]\(/img/2013/11/mumble1.png)
 
 With that setup in DarkIce and in the Mumble Client, we had the audio from the Mumble conversation happily being streamed out over Icecast. DarkIce also supported transcoding and streaming multiple streams (mp3 and ogg) to the Icecast server (Yay!).
 
@@ -39,7 +39,7 @@ I was cheap and lazy and ran all the servers on a single machine, but you can of
 
 With everything setup, I could enable/disable radio and Mumble streaming from command line. I had to do a final hack to allow the Arch to run GNOME even when no monitor was attached. I could do a VNC virtual display, but I did a [more hardware hack](http://blog.zorinaq.com/?e=11) by making a "Fake Display" using some resistors on a VGA connector. This way I could connect a monitor anytime I wanted.
 
-!\[monitor\]\(/img/2013/11/monitor.jpg)
+![monitor]\(/img/2013/11/monitor.jpg)
 
 I have uploaded all [my config scripts to a github repo ](https://github.com/notthetup/webuildliveserver)here. Feel free to ask any questions
 

@@ -13,7 +13,7 @@ Jack is perfect for [such 'piping'](http://qjackctl.sourceforge.net/qjackctl-ss1
 
 Thankfully I found out about ALSA's [snd\_aloop module](http://www.alsa-project.org/main/index.php/Matrix:Module-aloop). This creates [a 'virtual card' with 2 device](http://plasmasturm.org/log/soundserverhack/)s. If you play audio into one, it comes out of the other. Exactly what I needed, and Mumble does query all the ALSA devices, so I can easily find my 'Loopback' device.
 
-!\[mumble\]\(/img/2014/04/IMG_20140413_220131.jpg)
+![mumble]\(/img/2014/04/IMG_20140413_220131.jpg)
 
 Next was playing the audio. Using simple '[aplay](http://alsa.opensrc.org/Aplay)', I could test if my setup was working. But to have better control over the audio (fade-in, fade-out), I would need a more programmatic approach.
 
