@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: iPhone Mania
-^tags: post
+tags: post
 ---
 
 On Tuesday, I got to play with the iPhone. Thanks to [Paddy from Bak2u](http://tomato75.blogspot.com/2007/07/iphone-gathering-geek-terminal.html)!

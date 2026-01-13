@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Womad Singapore 2007
-^tags: post
+tags: post
 ---
 
 It's [THAT](http://www.chinpen.net/blog/womad-singapore-2006/) time of the year again, and I am excited!!

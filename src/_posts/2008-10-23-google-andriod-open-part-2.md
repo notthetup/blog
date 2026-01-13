@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: "Google Andriod : Open? - Part 2"
-^tags: post
+tags: post
 ---
 
 _This is a continuation of the [Part 1 of discussion](google-andriod-open-part-1/) on Google Android._

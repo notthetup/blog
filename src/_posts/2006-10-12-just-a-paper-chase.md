@@ -2,6 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Just a paper chase?
+tags: post
 ---
 
 I was pointed to this forum by a small article in The Sunday Times.

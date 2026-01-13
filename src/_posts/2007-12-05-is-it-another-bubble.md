@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Is it another bubble?
-^tags: post
+tags: post
 ---
 
 The question which is on everyone's mind these days.

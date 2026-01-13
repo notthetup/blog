@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Passwords
-^tags: post
+tags: post
 ---
 
 With the recent spate of attacks by [LulzSec](http://www.engadget.com/2011/06/02/sony-pictures-hacked-by-lulz-security-1-000-000-passwords-claim/) and [Anonymous](http://www.bbc.co.uk/news/technology-13749181) and the subsequent password leaks, keeping your passwords safe and secure has become an extremely important part of doing anything online. Passwords are used to protect any and all information you put online, and hence are extremely important to ensure that only you are allowed to access and change that information. Of course we know this! And now we also know, that [we can't trust big players like Sony](http://www.washingtonpost.com/blogs/post-tech/post/lulzsec-releases-sony-usernames-passwords/2011/06/02/AGY4zWHH_blog.html) and [even some national agencies](http://www.theinquirer.net/inquirer/news/2086549/anonymous-hacks-turkish-government-web-sites) to do just that. Whatever the reasons might be, it seems mighty easy to allow access to your password database (and [sometimes even storing plain-text passwords there](http://www.reddit.com/r/PS3/comments/gyi7j/just_to_be_sure_was_sony_storing_passwords_in/)). So, finally, the responsibility of keeping our passwords safe lies on us. But sadly, the lazy bums that we are, almost everyone I know has at least one vulnerability in their password generation and management schemes.. Luckily for us (and thanks to the geeks) there are many simple ideas and tricks one can use to make your password much safer and secure. Here are a few.

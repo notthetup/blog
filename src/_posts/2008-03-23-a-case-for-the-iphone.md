@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: A case for the iPhone
-^tags: post
+tags: post
 ---
 
 As you might know, I have never been fond of the iPhone. Crazy as the geek community might be about this device from Apple, it never appealed to me. Even with all the fanbois saying that you have to touch it to feel how wonderful it is, [which I did](iphone-mania/), I was never attracted to it. It was just too much for the simple funtionality which I require from my cellphones, and required too many bananas to own one..

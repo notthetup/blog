@@ -3,10 +3,7 @@ layout: _layouts/post
 comments: true
 title: Constrained Optimization
 hasjax: true
-tag:
-
-
- - Tech
+tags: post
 ---
 
 For the resonator project, I am working on an 'semi-automated' method to 'design' a resonator.

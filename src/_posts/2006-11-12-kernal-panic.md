@@ -2,6 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Kernal Panic!
+tags: post
 ---
 
 [Foxtrot](http://www.foxtrot.com/) never ceases to amuse me. :D

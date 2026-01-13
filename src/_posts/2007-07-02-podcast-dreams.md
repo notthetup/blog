@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Podcast Dreams
-^tags: post
+tags: post
 ---
 
 Knowing how much I **blabber** , it will not be a surprise to many that I am dabbling into podcasting.

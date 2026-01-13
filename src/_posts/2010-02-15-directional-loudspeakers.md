@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Directional Loudspeakers
-^tags: post
+tags: post
 ---
 
 I had talked about [this looong time ago](audio-spotlight/). And finally, I got a chance to study and work on some ideas about Directional Loudpseakers.

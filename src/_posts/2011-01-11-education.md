@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Education
-^tags: post
+tags: post
 ---
 
 I had been meaning to take up the 'proverbial' pen for many days, but today something struck me that really made me want to say this

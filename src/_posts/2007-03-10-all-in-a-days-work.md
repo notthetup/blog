@@ -1,8 +1,8 @@
-
 ---
 layout: _layouts/post
 comments: true
 title: All in a day's work.
+tags: post
 ---
 
 Working in the technology industry has its fair share of benefits and burdens. And then, there are times when you just don't know what to say.

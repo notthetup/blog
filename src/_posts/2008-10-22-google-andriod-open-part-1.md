@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: "Google Andriod : Open? - Part 1"
-^tags: post
+tags: post
 ---
 
 _This is a two post discussion on the Google's Android OS._

@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: The rebirth of Apple TV.
-^tags: post
+tags: post
 ---
 
 During the last Apple keynote at MacWorld. Among the many other things, Steve Jobs announced "**Apple TV take 2**".

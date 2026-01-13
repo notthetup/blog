@@ -2,6 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Clearing your Cache.
+tags: post
 ---
 
 This is inspired by a conversation between the Tech65 crew a couple of weeks ago.

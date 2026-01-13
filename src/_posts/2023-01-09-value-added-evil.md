@@ -2,6 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Value Added Evil
+tags: post
 ---
 
 I recently experienced an infuriating experience with one of our local telcos, [Singtel](https://www.singtel.com/) that instigated me to blog about this evil practice that telcos tend to do.

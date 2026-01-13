@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Funky Waves
-^tags: post
+tags: post
 ---
 
 We were trying to animate a _mode_ which we measured on a beam for one of the labs at school. Ofcourse, [Matlab](http://en.wikipedia.org/wiki/Matlab) it was for all the data processing and animation. We used the '[patch](http://www.mathworks.com/help/techdoc/ref/patch.html)' command to generate a surface with many elements and then moved them individually as per the measurements.

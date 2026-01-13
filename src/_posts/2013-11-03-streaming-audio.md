@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Streaming Audio from Mumble using IceCast
-^tags: post
+tags: post
 ---
 
 For my [new (it's almost 3 months old already) podcast](http://live.webuild.sg) we had an idea of streaming the recording live. Also I had decided to leave Skype for [Mumble](http://mumble.sourceforge.net/). Skype was getting too unreliable and Mumble supported [separate channel recording](http://blog.mumble.info/for-the-record/) for each connected client, which would make post processing much simpler.

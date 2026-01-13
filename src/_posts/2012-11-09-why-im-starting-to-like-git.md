@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Why I'm starting to like git
-^tags: post
+tags: post
 ---
 
 Versioning systems is probably the thing that's argued about next most often after editors when it comes to developers. I remember the [CVS](http://en.wikipedia.org/wiki/Concurrent_Versions_System) vs [SVN](http://en.wikipedia.org/wiki/Apache_Subversion) [arguments](http://stackoverflow.com/questions/245290/subversion-vs-cvs) when I first started to know about versioning systems. As always the inertia makes it hard for people to move unless there is a feature which really makes their life easier.

@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: An afternoon at library@esplanade
-^tags: post
+tags: post
 ---
 
 I have always loved libraries. All the books, all the potential for learning, understanding new things, picking up new ideas, concepts and arts, never fails to make me excited. I used to read a lot when I was young, but as I got older, I started having lesser and lesser time to read, and so did my visits to libraries.

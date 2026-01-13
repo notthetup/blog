@@ -2,7 +2,7 @@
 layout: _layouts/post
 comments: true
 title: Raspberry Jam in Singapore
-^tags: post
+tags: post
 ---
 
 What's with product being named as fruits? Apple, Blackberry and now a [Raspberry](http://www.raspberrypi.org). I've been following the development of the Raspberry'Pi since it hit the inter-webs. The concept was really great. An open source low cost ($25) ARM based board which runs some flavor of linux. Targeted for education, it provided an affordable computer which students/kids could use to start experiencing computing, electronics and start programming easily. But the best part was response from the public. Basically what the originators [expected to be a few hundred units order became a few hundred thousand units](http://vr-zone.com/articles/rs-components-previews-raspberry-pi-in-singapore/15684.html). Everyone loved the concept and of course the price point. One could say that the "[One Laptop per Child](http://en.wikipedia.org/wiki/One_Laptop_per_Child)" premise could be finally fulfilled by this.
