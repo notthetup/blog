@@ -3,7 +3,7 @@ import path from 'path';
 import postcss from 'postcss';
 import tailwindcss from '@tailwindcss/postcss';
 import { Liquid } from "liquidjs";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
+// import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import MarkdownIt from "markdown-it";
 import Shiki from "@shikijs/markdown-it";
 
@@ -36,10 +36,43 @@ export default async function (eleventyConfig) {
       return false;
     }
   });
-  // Copy images - both /img/ and /images/ paths for compatibility
-  eleventyConfig.addPassthroughCopy({ "src/img": "img" });
-  eleventyConfig.addPassthroughCopy({ "src/img": "images" });
-  eleventyConfig.addPassthroughCopy({ "src/audio": "audio" });
+  // Copy site-wide images (avatar, about page, social meta)
+  eleventyConfig.addPassthroughCopy({ "src/img/chinpen.jpg": "img/chinpen.jpg" });
+  eleventyConfig.addPassthroughCopy({ "src/img/about_feature.jpg": "img/about_feature.jpg" });
+  eleventyConfig.addPassthroughCopy({ "src/img/pic.jpg": "img/pic.jpg" });
+  eleventyConfig.addPassthroughCopy({ "src/img/social": "img/social" });
+
+  // Copy post assets to their output directories (strips _posts prefix)
+  // e.g., src/_posts/auralizr/image.jpg -> dist/auralizr/image.jpg
+  eleventyConfig.on('eleventy.before', async () => {
+    const postsDir = path.resolve('./src/_posts');
+    const distDir = path.resolve('./dist');
+    const assetExts = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg', '.mp3', '.wav', '.js', '.pdf'];
+
+    const slugDirs = fs.readdirSync(postsDir).filter(f =>
+      fs.statSync(path.join(postsDir, f)).isDirectory()
+    );
+
+    for (const slug of slugDirs) {
+      const srcSlugDir = path.join(postsDir, slug);
+      const destSlugDir = path.join(distDir, slug);
+
+      const files = fs.readdirSync(srcSlugDir);
+      for (const file of files) {
+        const ext = path.extname(file).toLowerCase();
+        if (assetExts.includes(ext)) {
+          if (!fs.existsSync(destSlugDir)) {
+            fs.mkdirSync(destSlugDir, { recursive: true });
+          }
+          fs.copyFileSync(
+            path.join(srcSlugDir, file),
+            path.join(destSlugDir, file)
+          );
+        }
+      }
+    }
+  });
+
   eleventyConfig.addPassthroughCopy({ "src/favicon.ico": "favicon.ico" });
   eleventyConfig.setLibrary("liquid", new Liquid({
     extname: ".liquid",
@@ -47,9 +80,7 @@ export default async function (eleventyConfig) {
     strictFilters: false, // renamed from `strict_filters` in Eleventy 1.0
     root: ["src/_includes"],
   }));
-  eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-    urlPath: "img/",
-  });
+  // Note: Removed eleventyImageTransformPlugin - using raw images from post directories
 
   let markdownLib = MarkdownIt({ html: true }).use(
 		await Shiki({
