@@ -16,7 +16,7 @@ permalink: "/{{ page.fileSlug }}/"
   <!-- Navigation -->
   <nav class="px-6 py-6">
     <div class="max-w-2xl mx-auto flex items-center justify-between">
-      <a href="./" class="group" title="Home">
+      <a href="{{ '/' | url }}" class="group" title="Home">
         <span class="icon-[tabler--headphones-filled] text-2xl text-accent group-hover:opacity-70 transition-opacity"></span>
       </a>
 
@@ -27,7 +27,7 @@ permalink: "/{{ page.fileSlug }}/"
         <a href="https://github.com/{{ site.owner.github }}" class="icon-btn !w-9 !h-9" title="GitHub">
           <span class="icon-[tabler--brand-github-filled] text-base"></span>
         </a>
-        <a href="about.html" class="icon-btn !w-9 !h-9" title="About">
+        <a href="{{ '/about/' | url }}" class="icon-btn !w-9 !h-9" title="About">
           <span class="icon-[tabler--user] text-base"></span>
         </a>
       </div>
@@ -44,7 +44,7 @@ permalink: "/{{ page.fileSlug }}/"
 
         <!-- Meta -->
         <div class="flex items-center gap-4">
-          <img src="/img/{{ site.owner.avatar }}" alt="{{ site.owner.name }}" class="w-10 h-10 rounded-full opacity-80">
+          <img src="{{ '/img/' | url }}{{ site.owner.avatar }}" alt="{{ site.owner.name }}" class="w-10 h-10 rounded-full opacity-80">
           <div class="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4">
             <span class="text-text-secondary text-sm">{{ site.owner.name }}</span>
             <span class="hidden sm:inline text-text-muted">/</span>
@@ -104,7 +104,7 @@ permalink: "/{{ page.fileSlug }}/"
           <a href="https://github.com/{{ site.owner.github }}" class="icon-btn" title="GitHub">
             <span class="icon-[tabler--brand-github-filled] text-lg"></span>
           </a>
-          <a href="about.html" class="icon-btn" title="About">
+          <a href="{{ '/about/' | url }}" class="icon-btn" title="About">
             <span class="icon-[tabler--user] text-lg"></span>
           </a>
         </div>

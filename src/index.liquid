@@ -6,7 +6,7 @@ comments: false
 <ul class="article-list">
   {% for post in collections.post reversed %}
   <li class="article-item">
-    <a href=".{{ post.url }}" class="article-link">
+    <a href="{{ post.url | url }}" class="article-link">
       <span class="article-title">{{ post.data.title }}</span>
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}" class="article-date">
         {{ post.date | date: "%b %Y" }}

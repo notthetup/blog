@@ -90,8 +90,12 @@ export default async function (eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownLib);
 
+  // Get pathPrefix from environment variable (default to "/" for local dev)
+  const pathPrefix = process.env.PATH_PREFIX || "/";
+
   return {
     dir: { input: 'src', output: 'dist' },
+    pathPrefix: pathPrefix,
   };
 
 
